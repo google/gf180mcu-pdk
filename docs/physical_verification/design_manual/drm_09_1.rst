@@ -1,0 +1,10 @@
+9.1 Bond Pad Rules
+==================
+
+This section covers the design rules related to wire-bond and gold bump cases and for solder bump please refer to section 8.0
+
+.. csv-table:: Bond Pad Rules
+    :file: tables_clear/29_BondPad1_70.csv
+    :widths: 100, 400, 150, 150, 150
+    :align: center
+

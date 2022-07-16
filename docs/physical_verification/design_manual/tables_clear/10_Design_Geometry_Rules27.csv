@@ -1,0 +1,4 @@
+Rule No.,Description
+GRID,The design grid must be an integer multiple of 0.005μm.
+OFFGRID,All edge boundaries must be snapped to the grid defined above.
+ACUTE,All shapes must be orthogonal or on a 45° unless otherwise stated.

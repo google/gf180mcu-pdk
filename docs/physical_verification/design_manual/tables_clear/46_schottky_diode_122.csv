@@ -1,0 +1,40 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Definitions,"Anode COMP = (COMP AND Schottky_diode) NOT Nplus
+
+Cathode COMP = (COMP AND Schottky_diode) AND Nplus",
+Definitions,"Diode area = Anode area = (COMP AND Schottky_diode) NOT (Nplus
+
+OR Pplus)",Mainly for LVS
+SK.1,Min “Schottky_diode” marking layer width,0.6
+SK.2,Min “Schottky_diode” marking layer space,0.6
+SK.3,"Min “Schottky_diode” marking layer enclose schottky diode anode and
+
+cathode COMP",0.16
+SK.4,"Schottky diode shall need both cathode and anode
+
+a\) Only Cathode COMP or only Anode COMP under “Schottky_diode”
+
+Marking is not allowed
+
+B\) “Schottky_diode” without COMP is not allowed.",
+SK.5,Min/Max schottky diode's anode COMP to cathode COMP space,0.28
+SK.6,Min. Schottky diode Anode COMP to Nplus space,0.16
+SK.7,Min. Schottky diode Anode COMP to Pplus space,0.16
+SK.8,Min. Schottky diode outside DNWELL is not allowed,
+SK.9,Min. DNWELL enclose schottky diode Anode COMP,1.4
+SK.10,Min. “Schottky_diode” space to PCOMP,0.8
+SK.11,Min. “Schottky_diode” space to LVPWELL,0.9
+SK.12,Poly2 intersect with Schottky_diode mark layer is not allowed,
+SK.14,"a\) Two anode COMP area must be separated by cathode COMP in the
+
+anode width direction (two anode comp can not exist side by side without
+
+having cathode COMP in between).
+
+
+B\) Cathode COMP length cannot be shorter than that of anode COMP length.",
+SK.15,Min. Anode COMP to Nwell space,0.16
+SK.16,"Min/Max schottky diode anode width (shorter dimension of schottky
+
+diode anode COMP) (This is for model accuracy of schottky diode)",0.62
+SK.17,Each anode must have cathode on both sides of anode width direction,

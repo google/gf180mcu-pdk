@@ -1,0 +1,13 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Linear Threshold Voltage,,,,,,
+,VT0,NCH (NE2),W/L= 10/0.6,0.58,0.7,0.82,V
+,VT0,PCH (PE2),W/L= 10/0.5,-0.96,-0.83,-0.7,V
+2,Saturation Current,,,,,,
+,Idsat ( | Vds | = | Vgs | = 5V),NCH (NE2),W/L= 10/0.6,400,500,600,μA/um
+,Idsat ( | Vds | = | Vgs | = 5V),PCH (PE2),W/L= 10/0.5,-280,-240,-200,μA/um
+3,Subthreshold Current,,,,,,
+,Ioff ( | Vds | = 5.5V @ 25°C),NCH (NE2),W/L= 10/0.6,--,1,10,pA/μm
+,Ioff ( | Vds | = 5.5V @ 25°C),PCH (PE2),W/L= 10/0.5,-10,-1,--,pA/μm
+4,Punch-Through Voltage,,,,,,
+,BVDSS,NCH (NE2),W/L= 10/0.6,8.5,11,--,V
+,BVDSS,PCH (PE2),W/L= 10/0.5,--,-10.5,-8.5,V

@@ -1,0 +1,20 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Sheet Resistance,,,,,,
+,Wide N+ DIF (salicided),,5 um (measured @I=100uA),1,6.3,15,Ω/sq
+,Wide P+ DIF (salicided),,5 um (measured @I=100uA),1,7,15,Ω/sq
+,Wide N+ Poly (salicided),,5 um (measured @I=100uA),1,6.8,15,Ω/sq
+,Wide P+ Poly (salicided),,5 um (measured @I=100uA),1,7.3,15,Ω/sq
+,Wide N+ DIF (unsalicided),,5 um (measured @I=100uA),45,60,75,Ω/sq
+,Wide P+ DIF (unsalicided),,5 um (measured @I=100uA),145,185,225,Ω/sq
+,Wide N+ Poly (unsalicided),,5 um (measured @I=100uA),250,310,370,Ω/sq
+,Wide P+ Poly (unsalicided),,5 um (measured @I=100uA),280,350,420,Ω/sq
+,Wide Nwell (unsalicided),,5 um (measured @I=100uA),800,1000,1200,Ω/sq
+,Metal 1,,,76,90,104,mΩ/sq
+,Metal 2,,,76,90,104,mΩ/sq
+,Metal 3,,,76,90,104,mΩ/sq
+,Metal 4,,,76,90,104,mΩ/sq
+,Metal 5,,,76,90,104,mΩ/sq
+,Top metal (9kA),,,31,40,49,mΩ/sq
+,Top metal (6kA),,,50,60,70,mΩ/sq
+,Top metal (11kA),,,31,40,49,mΩ/sq
+,Top metal (30kA),,,6,9.5,14,mΩ/sq

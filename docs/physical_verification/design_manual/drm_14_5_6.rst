@@ -1,0 +1,15 @@
+14.5.6 ESD Performance from 5V/6V PMOS transistor
+=================================================
+
+ESD Performance from 5V/6V PMOS transistor is summarized in following table. The TLP data for 5V/6V grounded gate PMOS without ESD implant is showed in below.
+
+.. csv-table::
+    :file: tables_clear/65_ESD6_Performance_179.csv
+    :widths: 400, 300
+    :align: center
+
+.. image:: images/ESD_Characterization6.png
+    :width: 600
+    :align: center
+    :alt:  5V/6V NMOS transistor
+

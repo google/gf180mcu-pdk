@@ -1,0 +1,14 @@
+4.4. Topological Truth Table for 3.3V/(5V)6V Process
+====================================================
+
+The Topological Truth Table is created here to assist the designer in determining the relationship between GlobalFoundries defined topological layers and the layout of various discrete structures found in the integrated circuit. The table is generated based on GlobalFoundries generation rules “YI-141-GR065”. If other algorithms are used to generate implant layers, use this table to ensure that various discrete structures receive the specified implants.
+In this table, a “0” means that the topological level must not touch the structure. A “1” means that the topological level must either enclose or match the structure. An “X” means that the layer has no electrical impact on the structure. An “Op” means the layer is optional.
+
+.. csv-table:: Topological Truth Table
+    :file: tables_clear/08_Topological_Truth_Table15.csv
+    :widths: 500, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30,30,30
+
+.. note::
+    LVPWELL is generated layer in this process. NMOS should be drawn inside P-substrate and
+    LVPWELL is generated. For Native NMOS, LVPWELL implant will be clocked after generation.
+

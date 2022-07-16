@@ -1,0 +1,183 @@
+Rev,Description
+1A,"Model parameters extraction was done by ZCS ,LWC and MS.
+
+1. Released 3.3V NMOS and PMOS models by ZCS
+
+2. Released 6.0V NMOS model by WC
+
+3. Released 6.0V PMOS model by MS
+
+4. Released VPNP models by MS
+
+6. Release the following resistor models by WC
+
+Unsalicided n+ poly resistor model
+
+Unsalicided p+ poly resistor model
+
+Unsalicided n+ diff resistor model
+
+Unsalicided p+ diff resistor model
+
+Salicided n+ poly resistor model
+
+Salicided p+ poly resistor model
+
+Salicided n+ diff resistor model
+
+Salicided p+ diff resistor model
+
+Nwell resistor model
+
+Resistor models are based on 0.18un High Voltage green process CZ report(R-EZ-
+
+DC-020 Rev.1A)
+
+7. The following models are leverage from YI-150-SM051-Rev.1A
+
+Unsalicided 1k high Rs p+ poly resistor model
+
+Unsalicided 2k high Rs p+ poly resistor model
+
+mimcap models
+
+Tested wafer:
+
+GT3512K wf#02 (3.3V NMOS and 6.0V NMOS)
+
+GT3512K wf#06 (3.3V PMOS, 6.0V PMOS and BJT)
+
+Test Pattern:
+
+TERA testchip
+"
+2,"Model released by LWC.
+
+1. 6.0V native NMOS model added by LWC
+
+
+2. 3.3V and 6.0V NMOS in NWELL capacitor models added by LWC
+
+3. 3.3V and 6.0V PMOS in PWELL capacitor models added by LWC
+
+Tested wafer:
+
+GT3512K wf#02 (6.0V native NMOS and NMOSCAP)
+
+GT3512K wf#06 (PMOSCAP)
+
+Test Pattern:
+
+TERA testchip
+"
+3,"Released by ZZP on 13 Jan 2012.
+
+1. Add PWELL/DNWELL and DNWELL/Psub diode models
+
+Tested wafer:
+
+GT9755L wf#18
+
+Test Pattern:
+
+PETA testchip
+
+2. Add vertical NPN models
+
+Tested wafer:
+
+GT9755L wf#18
+
+Test Pattern:
+
+PETA testchip
+
+3. Updated sub-circuit of diode models in SPECTRE models only, to support
+
+both 'pj' & 'perim' as instance parameters
+
+4. Correct typo of diode models
+
+5. Update diode.va
+"
+4,"Released on 17 Jun 2013 by MS
+
+1. fine-tuned 6V NMOS to improve Gds fitting and narrow width current trend (W<5um)
+
+2. Lmin of 6V NMOS extend from 0.7um to 0.6um
+
+LotID: JT1042L01
+
+3. Lmin of 6V PMOS extend from 0.55um to 0.5um
+
+4. Updated temperature dependence of 3.3V PN diode & 6V NP diode capacitance to
+
+allow simulation up to 175C
+
+5. Updated 3.3V PMOS, 6V NMOS & 6V Native MOS-Diode temperature dependence of
+
+capacitance to correlate with the diode update
+
+6. Updated inversion capacitance for 6V NMOS (short channel)
+"
+5,"Released on 25 Apr 2014
+
+1. Updated leakage current for 6V PMOS
+
+2. Added paper model SAB devices nmos_3p3_sab, pmos_3p3_sab, nmos_6p0_sab,
+
+pmos_6p0_sab for 3.3V NMOS/PMOS and 6V NMOS/PMOS
+
+3. Added instance parameter ""s"" to allow defining resistors in series connection
+"
+6,"Release on 19th Apr 2014 by MS
+
+1. Added 3k HRES paper model
+
+2. Leveraged 2fF/um^2 single MIM from SM-BB-000014
+
+3. Leveraged 30k top-metal resistor from SM-BB-000014
+"
+7,"Released on Apr 21, 2015 by KPRC
+
+1. Added ‘efuse' model leveraging from ‘SM-BB-000014'
+
+2. Changed document title from “FAB3E SPICE MODEL FOR 0.18um 3.3V/6V High
+
+Voltage Process (Green Process)” to “FAB3E SPICE MODEL FOR 0.18um 3.3V/6V High
+
+Voltage MCU Process”
+"
+8,"Released on July 31 , 2017 by KPRC
+
+1. Added paper model for 11k top-metal resistor model - MS
+
+2. Added schottky diode model – KPRC
+
+3. Changed the default diode area parameter from 0 to 1 for all the diodes(spectre only) -KPRC
+
+4. Changed res.va and diode.va with newer version(spectre only) - KPRC"
+9,"Released on Jan 23 , 2018 by ZJ
+
+1. Converted all MOSFET and BJT models to sub-circuit models
+
+2. Added mismatch model for 3.3V N/P MOS, 6V N/P MOS, 3.3V N/P SAB MOS, 6V N/P
+
+SAB MOS
+
+3. Added global statistical model for  nplus_s/ pplus_s/ npolyf_s/ ppolyf_s/ nplus_u/
+
+pplus_u/ polyf_u/ ppolyf_u/ ppolyf_u_1k/ ppolyf_u_2k/ ppolyf_u_3k/ ppolyf_u_1k_6p0/
+
+ppolyf_u_2k_6p0
+
+4. Added mismatch model for pplus_u/npolyf_u/ppolyf_u/nplus_u
+
+5. Added global statistical model for mim_1p0fF/mim_1p5fF/mim_2p0fF
+
+6. Added global & mismatch model for vpnp_5x5/ vpnp_0p42x10/ vpnp_0p42x5/
+
+vpnp_10x10
+
+7. Added global statistical model for VNPN
+"

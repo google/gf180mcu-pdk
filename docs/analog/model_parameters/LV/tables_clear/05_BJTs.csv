@@ -1,0 +1,37 @@
+Model Name,Description,Scalable,"Corner
+
+Model","Global
+
+Statistical","Local
+
+Statistical"
+vpnp_10x10,"GP model for vertical PNP with
+
+emitter size of 10um x 10um",N,Y,Y,Y
+vpnp_5x5,"GP model for vertical PNP with
+
+emitter size of 5um x 5um",N,Y,Y,Y
+vpnp_0.42x10,"GP model for vertical PNP with
+
+emitter size of 0.42um x 10um",N,Y,Y,Y
+vpnp_0.42x5,"GP model for vertical PNP with
+
+Emitter size of 0.42um x 5um",N,Y,Y,Y
+vnpn_10x10,"GP model for vertical NPN with
+
+emitter size of 10umx10um",N,Y,Y,N
+vnpn_5x5,"GP model for vertical NPN with
+
+emitter size of 5umx5um",N,Y,Y,N
+vnpn_0p54x16,"GP model for VNPN with
+
+emitter size of 0.54umx16um",N,Y,Y,N
+vnpn_0p54x8,"GP model for VNPN with
+
+emitter size of 0.54umx8um",N,Y,Y,N
+vnpn_0p54x4,"GP model for VNPN with
+
+emitter size of 0.54umx4um",N,Y,Y,N
+vnpn_0p54x2,"GP model for VNPN with
+
+emitter size of 0.54umx2um",N,Y,Y,N

@@ -1,0 +1,12 @@
+Items,Layers or Logic operations for identifying the device and its nodes
+LDPMOS,"Device under LDMOS_XTOR with Dualgate and COMP, Poly2, MVPSD"
+LDPMOS Drain,MVPSD
+LDPMOS Source,"((Pplus AND COMP) Interact (((Poly2 AND Dualgate) AND LDMOS_XTOR) AND
+
+MVPSD)) NOT Poly2"
+"LDPMOS Channel
+Length",MVPSD space to POLY2 edge in COMP
+"LDPMOS Channel
+Width","LDPMOS COMP width intersecting with (((POLY2 AND Dualgate) AND
+
+(LDMOS_XTOR Interact MVPSD))"

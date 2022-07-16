@@ -1,0 +1,13 @@
+10.13 YMTP_MK Mark Layer Rules
+==============================
+
+This layer is used to mark YMTP cell only. MTP cells with this marking layer should follow below specific rules which is different from 3.3V/(5V)6V rules. This layer is strictly not to be use for other purpose.
+
+.. csv-table:: YMTP_MK
+    :file: tables_clear/45_YMTP_MK_Mark_121.csv
+    :widths: 100, 800, 150, 150
+    :align: center
+
+.. note::
+    \* Rules allowed minimum overlap and spacing are 0, so DRC deck will not check those rules
+

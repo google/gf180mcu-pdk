@@ -1,0 +1,7 @@
+Model Name,Device Description,BSIM Version,Scalable,"Corner Model 
+
+Available","Global
+
+Statistical",NF scaling
+nmos_10p0_asym,Asymmetrical LDNMOS (10V),4.6,Y,Y,Y,N
+pmos_10p0_asym,Asymmetrical LDPMOS (10V),4.6,Y,Y,Y,N

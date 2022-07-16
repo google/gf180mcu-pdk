@@ -1,0 +1,15 @@
+1.5.5 MIM Capacitor Instance parameters
+=======================================
+
+The resistor instance parameters shall be used in the netlist are described below with their default values: -
+
+- w : Width of MIM Capacitor (meter)
+
+- l : Length of MIM Capacitor (meter)
+
+- m : Device multiplicity factor
+
+.. csv-table::
+   :file: tables_clear/15_MIM_instance.csv
+
+

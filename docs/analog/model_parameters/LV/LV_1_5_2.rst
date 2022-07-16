@@ -1,0 +1,18 @@
+1.5.2 Diode Instance parameters
+===============================
+
+The Diode instance parameters shall be used in the netlist are described below with their default values: -
+
+- area : Junction area of diode
+
+- pj : Junction perimeter of diode
+
+- w : Width of diode (meter)
+
+- l: Length of diode (meter)
+
+User may use either area & pj or w&l to define diode junction geometries.
+
+.. csv-table::
+   :file: tables_clear/12_Diode_Instance.csv
+

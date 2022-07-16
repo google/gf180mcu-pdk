@@ -1,0 +1,6 @@
+12.1 Scribe Lines
+=================
+
+A continuous scribe line and scribe line guard ring is required on a1l sides of a chip that is intended for dicing and packaging. It is recommended that test patterns should have scribe line guard ring. The dimensions stated in this section are minimum.
+The dimensions of a shrunk circuit after shrink should comply with these rules. Refer to the Reticle specifications for the minimum horizontal and vertical widths.
+

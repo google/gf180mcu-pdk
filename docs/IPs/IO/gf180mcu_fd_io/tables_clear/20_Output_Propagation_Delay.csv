@@ -1,0 +1,25 @@
+Configuration,Input ,Output ,Transition,Cload,Min,Typ,Max,Unit
+"4mA Drive Strength
+
+At Slow Slew",A ,PAD,L to H,30pF,\-,\-,12,ns
+,A ,PAD,H to L,30pF,\-,\-,12,ns
+"4mA Drive Strength
+
+At Fast Slew",A ,PAD,L to H,30pF,\-,\-,11,ns
+,A ,PAD,H to L,30pF,\-,\-,11,ns
+"16mA Drive Strength
+
+At Slow Slew",A ,PAD,L to H,30pF,\-,\-,10,ns
+,A ,PAD,H to L,30pF,\-,\-,10,ns
+"16mA Drive Strength
+
+At Fast Slew",A ,PAD,L to H,30pF,\-,\-,7,ns
+,A ,PAD,H to L,30pF,\-,\-,7,ns
+"24mA Drive Strength
+
+At Slow Slew",A ,PAD,L to H,50pF,\-,\-,10,ns
+,A ,PAD,H to L,50pF,\-,\-,10,ns
+"24mA Drive Strength
+
+At Fast Slew",A ,PAD,L to H,50pF,\-,\-,7,ns
+,A ,PAD,H to L,50pF,\-,\-,7,ns

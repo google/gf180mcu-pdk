@@ -1,0 +1,9 @@
+1.2 Reference Document
+======================
+
+Other modeling information shall be found in the following sources:
+
+:ref:`ELECTRICAL SPECIFICATIONS`
+
+:ref:`DESIGN MANUAL`
+

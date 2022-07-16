@@ -1,0 +1,22 @@
+Resistor Model, Description
+npolyf_u, 3-T Model for unsalicided N+ poly resistor
+ppolyf_u, 3-T Model for unsalicided P+ poly resistor
+ppolyf_u_1k, 3-T Model for 1k ohm hi sheet rho P poly resistor (3.3V)
+ppolyf_u_2k, 3-T Model for 2k ohm hi sheet rho P poly resistor (3.3V)
+ppolyf_u_1k_6p0, 3-T Model for 1k ohm hi sheet rho P poly resistor (6.0V)
+ppolyf_u_2k_6p0, 3-T Model for 2k ohm hi sheet rho P poly resistor (6.0V)
+ppolyf_u_3k, 3-T Model for 3k ohm hi sheet rho P poly resistor (3.3V & 6V)
+nplus_u, 3-T Model for unsalicided N+ diffusion resistor
+pplus_u, 3-T Model for unsalicided P+ diffusion resistor
+npolyf_s, 3-T Model for salicided N+ poly resistor
+ppolyf_s, 3-T Model for salicided P+ poly resistor
+nplus_s, 3-T Model for salicided N+ diffusion resistor
+pplus_s, 3-T Model for salicided P+ diffusion resistor
+nwell, 3-T Model for Nwell resistor
+rm1, 2-T Model for metal 1 resistor
+rm2, 2-T Model for metal 2 resistor
+rm3, 2-T Model for metal 3 resistor
+tm6k, 2-T Model for top metal 6k resistor
+tm9k, 2-T Model for top metal 9k resistor
+tm30k, 2-T Model for top metal 30k resistor
+efuse, Model for 5V(6V) efuse

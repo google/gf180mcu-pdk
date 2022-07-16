@@ -1,0 +1,13 @@
+RULE NO.,DESCRIPTION,"LAYOUT RULE
+
+(5V)"
+S.DF.4c_MV,Min. (Nwell overlap of PCOMP) outside DNWELL,0.45
+S.DF.6_MV,Min. COMP extend beyond gate (it also means source/drain overhang),0.32
+S.DF.7_MV,Min. (LVPWELL Spacer to PCOMP) inside DNWELL,0.45
+S.DF.8_MV,Min. (LVPWELL overlap of NCOMP) Inside DNWELL,0.45
+S.DF.16_MV,Min. space from (Nwell outside DNWELL) to (NCOMP outside Nwell and  DNWELL).,0.45
+S.PL.5a_MV,"Space from field Poly2 to unrelated COMP
+
+Spacer from field Poly2 to Guard-ring",0.12
+S.PL.5b_MV,Space from field Poly2 to related COMP,0.12
+S.CO.4_MV,COMP overlap of contact,0.04

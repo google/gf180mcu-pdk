@@ -1,0 +1,22 @@
+Corner/Library Name,Definition Purpose
+typical,Nominal process/Estimate typical performance
+ff,"Bound EP specifications extreme Idsat and Vt for wide and narrow short
+
+channel FETs. Verify circuit robustness under extreme process condition
+
+with fast NFET and fast PFET"
+ss,"Bound EP specifications extreme Idsat and Vt for wide and narrow short
+
+channel FETs. Verify circuit robustness under extreme process condition
+
+with slow NFET and slow PFET"
+fs,"Match Idsat and Vt skew between NFETs and PFETs based on line data
+
+and EP specifications. Circuit operation under N to P mismatch, for fast
+
+NFET and slow PFET"
+sf,"Match Idsat and Vt skew between NFETs and PFETs based on line data
+
+and EP specifications. Circuit operation under N to P mismatch, for slow
+
+NFET and fast PFET"

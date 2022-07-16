@@ -1,0 +1,62 @@
+2.5 Model vs. EP Nominal Target
+===============================
+
+In the following sections, the comparison of the key device parameters between the models and EP targets (YI-141-EP059) are listed for each device. The values are for 25C unless specified otherwise.
+
+The measured and simulated results are obtained using the following bias conditions: Idsat @ Vbs = 0 and Vds = Vgs = Vdd (NMOS) / -Vdd (PMOS)
+
+where
+
+- Vdd = 3.3V for nmos_3p3
+
+- Vdd =-3.3V for pmos_3p3
+
+- Vdd = 6V for nmos_6p0
+
+- Vdd =-6V for pmos_6p0
+
+- Vdd = 6V for nmos_6p0_nat
+
+.. note::
+   Vth0 is the measured or simulated threshold voltage obtained using the max Gm method at Vd = 0.05V. For 6.0V native NMOS, Vth0 is measured and simulated at Vd=0.1V. Vth1 is the simulated threshold voltage obtained using the BSIM equation. These two values may have a difference.
+
+2.5.1 nmos_3p3 and pmos_3p3 (3.3V)
+..................................
+
+.. csv-table::
+   :file: tables_clear/19_mos_3p3.csv
+
+
+2.5.2 NMOS 3p3 SAB PMOS 3p3 SAB
+...............................
+
+.. csv-table::
+   :file: tables_clear/20_MOS_3p3_SAB.csv
+
+.. note::
+
+   - nmos_3p3_sab SAB Length on Drain side SAB DOP: 1.78um , Source Side SAB SOP: 0.48um
+
+   - pmos_3p3_sab SAB Length on Drain side SAB DOP: 1.78um, Source Side SAB SOP: 0.48um
+
+2.5.3 nmos_6p0 and pmos_6p0 (6V)
+................................
+
+.. csv-table::
+   :file: tables_clear/21_mos_6p0.csv
+
+.. note::
+
+   - nmos_6p0_sab Length of SAB on Drain side : 3.78um, Length of SAB on Source side: 0.28um
+
+   - pmos_6p0_sab Length of SAB on Drain side : 2.78um, Length of SAB on Source side: 0.28um
+
+2.5.4 nmos_6p0 and pmos_6p0 (5V)
+................................
+
+.. csv-table::
+   :file: tables_clear/22_mos_6p0_1.csv
+
+.. csv-table::
+   :file: tables_clear/22_mos_6p0_2.csv
+

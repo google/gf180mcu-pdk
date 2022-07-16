@@ -1,0 +1,15 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,Mn --- Metaln  (where n = 1 to 5),
+Mn.1,Width,"0.23 (n = 1)
+
+0.28 (2 <= n <= 5)"
+Mn.2a,Space,"0.23 (n = 1)
+
+0.28 (2 <= n <= 5)"
+Mn.2b,Space to wide Metaln (length & width > 10μm),0.3
+Mn.3,Minimum Metaln area,0.1444 um2
+Mn.4,"Metaln coverage over the entire die shall be >30% 
+
+(Refer to section 13.0 for Dummy Metal fill guidelines.
+
+Customer needs to ensure enough dummy metal to satisfy Metaln coverage)",

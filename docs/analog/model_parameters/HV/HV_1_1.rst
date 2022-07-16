@@ -1,0 +1,11 @@
+1.1 Scope
+=========
+
+This documentation contains the following types of information:
+
+- GlobalFoundries CMOS modeling methodology overview
+
+- Model features, limitations and/or restrictions
+
+- Conditions used for device characterization or model extraction
+

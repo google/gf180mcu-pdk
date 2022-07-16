@@ -1,0 +1,7 @@
+1.4.2 Diodes
+===============
+
+.. csv-table::
+   :file: tables_clear/04_Diodes.csv
+
+

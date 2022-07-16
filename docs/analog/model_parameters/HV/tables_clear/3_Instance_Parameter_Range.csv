@@ -1,0 +1,15 @@
+"Model Name &
+
+(BSIM Version)","Parameter
+
+Value",W (um),L (um),M,as (m^2),ad (m^2),ps(m),pd (m)
+"nmos_10p0_asym
+
+(BSIM 4.6)",Min,4,0.6,1,-,-,-,-
+,Max,50,20,100,-,-,-,-
+,Default,25,0.6,1,1.2E-11,3.7E-11,5.10E-05,5.30E-05
+"pmos_10p0_asym
+
+(BSIM 4.6)",Min,4,0.6,1,-,-,-,-
+,Max,50,20,100,-,-,-,-
+,Default,25,0.6,1,1.2E-11,4.45E-11,5.10E-05,5.36E-05

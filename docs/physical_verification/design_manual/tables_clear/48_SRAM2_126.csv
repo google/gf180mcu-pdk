@@ -1,0 +1,9 @@
+Cell name,13P5
+Cell horizontal ( X ) dimension,3
+Cell vertical ( Y ) dimension,4.5
+Cell area (mm2),13.5
+Grid,0.005
+Cell pull-up PMOS transistor (W/L) (2),0.6/0.6
+Cell pull-down NMOS transistor (W/L) (2),0.95/0.6
+Cell pass-gate NMOS transistor (W/L) (2),0.6/0.77
+Beta ratio (pull-down W/L over pass-gate W/L),2.03

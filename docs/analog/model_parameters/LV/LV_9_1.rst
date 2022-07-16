@@ -1,0 +1,7 @@
+9.1 Introduction
+================
+
+Uncertainties are inherent in the fabrication of transistors. The same transistor design can show different performance when fabricated using different equipment, at different locations, or during different times. In order to capture these variations of performance, a statistical model is necessary.
+
+The statistical models described here are based on the EP corner spec. Each MOSFET model is capable of generating global statistical variation.
+

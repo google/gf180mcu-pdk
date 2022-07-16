@@ -1,0 +1,15 @@
+14.6.3 Metal Slotting rules
+=============================
+
+Use Metal1_Slot, Metal2_Slot, Metal3_slot, Metal4_Slot, Metal5_Slot and MetalTop_Slot (slot mark layers) to identify respective metal layer slotting area. These layers will be used to create the slots automatically (by logic operation) and there is no need to create physical holes (slots) in the routing metal lines. Below rule shall be followed for metal slotting layout.
+
+.. csv-table:: Metal Slotting rules
+    :file: tables_clear/68_ESD8_Metal_Slotting_183.csv
+    :widths: 300, 800, 200
+    :align: center
+
+.. image:: images/Metal_Slotting.png
+    :width: 800
+    :align: center
+    :alt:  Die Corners Guidelines
+

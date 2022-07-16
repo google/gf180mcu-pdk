@@ -1,0 +1,19 @@
+Diode,CV Measurement,,IV Measurement,
+,Area(um^2) ,Perimeter(um),Area(um^2) Perimeter(um),
+3.3V N+/Psub Area diode,80000,1140,1600,160
+3.3V N+/Psub Peri diode,50000,25400,1600,3280
+3.3V P+/Nwell Area diode,80000,1140,1600,160
+3.3V  P+/Nwell Peri diode,50000,25400,1600,3280
+6V N+/Psub Area diode,80000,1140,1600,160
+6V N+/Psub Peri diode,50000,25400,1600,3280
+6V P+/Nwell Area diode,80000,1140,1600,160
+6V P+/Nwell Peri diode,50000,25400,1600,3280
+Pwell/Dnwell Area diode,10000,400,100,40
+Pwell/Dnwell Peri diode,1750,5070,2000,2080
+Dnwell/Psub Area diode,10000,400,100,40
+Dnwell/Psub Peri diode,4250,5170,5000,2200
+Schottky Diode/ Area diode,"Wf/L=0.62u/20u
+
+Nf=4",,"Wf/L=0.62u/20u
+
+Nf=4",

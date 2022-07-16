@@ -1,0 +1,8 @@
+,,Symbol,Description
+Cell Type,,GF,GF pad cell
+Power,,_dvdd,DVDD power cell
+,,_dvss,DVSS ground cell
+Corner,,_cor,Corner cell
+Filler,,_fillx,Filler cell with width = x μm
+Filler,,_fillnc,Filler cell for gap width less than 1μm
+Breaker,,_brkx,Breaker cell with width = x μm

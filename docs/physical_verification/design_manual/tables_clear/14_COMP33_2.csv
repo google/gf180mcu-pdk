@@ -1,0 +1,6 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE,
+Layer,DF = Diffusion / Active / Composite,3.3V ,5V/6V
+DF.16,Min. space from (Nwell outside DNWELL) to (NCOMP outside Nwell and DNWELL).,0.43,0.6
+DF.17,Min. space from (Nwell Outside DNWELL) to (PCOMP outside Nwell and DNWELL),0.12,0.16
+DF.18,Min. DNWELL space to (PCOMP outside Nwell and DNWELL),2.5,2.5
+DF.19,Min. DNWELL space to (NCOMP outside Nwell and DNWELL),3.2,3.28

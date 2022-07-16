@@ -1,0 +1,17 @@
+2.1 MOSFET Model Extraction
+---------------------------
+
+The models were extracted based on DC I-V data taken from a matrix of width and length devices at three temperatures, -40C, 25C, and 125C & verified up to 175C, under zero and different biases for body, gate and drain.
+
+The models were fitted to the hardware first, and then re-centered to match the design manual nominal target. During the model build, the devices' I-V was measured on both the isolated and the nested devices. Careful calibration of gate length was required to ensure correct relationship of device parameters (current, vt, gds, etc) to gate capacitance.
+
+The process tolerance, such as tox, delta L and delta W etc, based on the design manual specs were added to the models for process skew simulation.
+
+The Tox values used in this model file are based on the electrical measurements of the devices in inversion i.e. at Vgs = Vdd, Vds = Vbs = 0. This can result in the Tox values to be different from the EP specifications. Centering criteria have been used for matching design manual targets with the compact models. A large difference between the centered model and the design manual targets may indicate:
+
+1. A problem with running the model,
+2. A model that is not up to date with the design manual,
+3. Design manual update lags behind the model,
+4. Spec was not available during the model build,
+5. Hardware used in the model building is different for non-critical device dimension from ones used in the spec setting.
+

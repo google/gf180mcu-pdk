@@ -1,0 +1,5 @@
+PU,PD,Resistive Pulling
+0,0,Normal CMOS
+0,1,Pull Down
+1,0,Pull Up
+1,1,Normal CMOS

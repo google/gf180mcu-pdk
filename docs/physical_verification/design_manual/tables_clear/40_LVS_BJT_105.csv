@@ -1,0 +1,3 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,LVS_BJT,
+LVS_BJT.1,Minimum LVS_BJT enclosure of  NPN or PNP Emitter COMP layers,0

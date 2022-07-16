@@ -1,0 +1,13 @@
+Table 14.4 Maximum Contact/Via Current,,,
+,Current Per Contact (mA),,
+,85 deg C  ,110 deg C,125 deg C
+POLY2 Contact,,,
+• Unidirectional,0.43,0.21,0.14
+• Bi-directional,0.65,0.3,0.21
+COMP Contact,,,
+• Unidirectional,0.58,0.28,0.18
+• Bi-directional,0.87,0.42,0.28
+"Via1/2/3/4/5
+(Top via size = 0.26um)",,,
+• Unidirectional,0.58,0.28,0.18
+• Bi-directional,0.87,0.42,0.28

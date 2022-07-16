@@ -1,0 +1,18 @@
+10.14 Schottky Diode
+====================
+
+This section describes the schottky diode for this process. Schottky diode is formed by Co-salicidation and N-type silicon inside DNWELL. Its anode is the COMP under Schottky_diode marking but without Nplus. Its cathode is the NCOMP covered by
+Schottky_diode marking. Schottky_diode layer can exist both in LV or MV area.
+
+Multi finger devices should be used for lower forward series resistance. Fill whole of anode and cathode COMP with maximum number of contacts to minimize series resistance. Metal width for anode and cathode connections should be maximized.
+
+.. csv-table:: Schottky Diode
+    :file: tables_clear/46_schottky_diode_122.csv
+    :widths: 100, 800, 150
+    :align: center
+
+.. image:: images/Schottky_Diode.png
+    :width: 800
+    :align: center
+    :alt: Schottky Diode
+

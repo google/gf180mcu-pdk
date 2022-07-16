@@ -1,0 +1,7 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+5,Junction Breakdown Voltage,,,,,,
+,N+ / P- (3.3V NMOS),,,7,11,--,
+,P+ / N- (3.3V PMOS),,,--,-10.5,-6.5,
+,N+ / P- (6V NMOS),,,8.5,11,--,V
+,P+ / N- (6V PMOS),,,--,-10.5,-8.5,V
+,Nwell/P-Substrate,,,10,14,--,V

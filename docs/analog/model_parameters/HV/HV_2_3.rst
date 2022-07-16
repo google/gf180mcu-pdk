@@ -1,0 +1,17 @@
+2.3 Notes
+---------
+
+**Minimum & Maximum Channel Width and Length Allowed**
+
+The minimum and maximum channel width allowed in a design should be commanded by the design rule of the process. The parameters wmax, wmin, lmax & lmin are used to define SPICE models' extraction range only.
+
+**Device width and length in a FET call**
+
+During a FET netlist call, users should use design dimension for W and L, not effective width and length. In this release, the BSIM3 model parameter Lmin is set to the nominal drawn gate length. This may cause warnings to be generated during Monte Carlo and corner simulations when the biased gate length becomes less than Lmin. This warning has no effect on the simulation results.
+
+2.3.1 Recommened Instance Parameter Range
+.........................................
+
+.. csv-table::
+   :file: tables_clear/3_Instance_Parameter_Range.csv
+

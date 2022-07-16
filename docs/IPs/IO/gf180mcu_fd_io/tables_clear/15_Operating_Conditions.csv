@@ -1,0 +1,3 @@
+Parameter,Min,Typ,Max,Unit
+I/O DC Supply Voltage,4.5,5,5.5,V
+Junction Temperature,-40,25,125,°C

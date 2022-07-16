@@ -1,0 +1,41 @@
+1.2 Model Overview
+==================
+
+GlobalFoundries' models are physics-based, scalable compact models, in contrast to models based on fitting a discrete device. This allows the greatest amount of flexibility for designers and provides good model accuracy over a broad range of applications.
+
+Within the model files, a complete set of parameters for arbitrary device geometries is generated from a single set of technology specific electrical and process data. For this, each value of the required model elements is related to a function describing the dependence on the specific electrical data (such as capacitance per area, sheet resistivity), technology data (layout design rules), operating point and temperature. This type of physics- based model allows us to leverage the large volumes of in-line test data and provides a realistic approach to statistical modeling.
+
+Other important features:
+
+1. Electrical data is extracted using near-nominal process hardware
+2. Statistical variation is measured using either process split hardware or distributions from in-line data
+3. The electrical data comes from DC characterization (over voltage and temperature) and CV characterization.
+
+1.4 Device List
+---------------
+
+The following table lists the basic models and their corresponding names in the design manual.
+
+1.4.1 MOSFETs
+.............
+
+.. csv-table::
+   :file: tables_clear/1_MOSFETs.csv
+
+1.5 Instance Parameters List
+----------------------------
+
+This section describes the instance parameters to be used in the net list for all the devices
+
+1.5.1 MOSFET Instance parameters
+................................
+
+The MOSFET instance parameters shall be used in the netlist are described below with their default values: -
+
+.. csv-table::
+   :file: tables_clear/2_MOSFET_Instance.csv
+
+.. note::
+
+   All the instance parameters are case insensitive for HSPICE. For SPECTRE, the lower case should be used for the above parameters.
+

@@ -1,0 +1,14 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+7,TEMPERATURE COEFFICIENT,,,,,,
+,TC (Metal 1),,0.18um BEOL,0.28,0.33,0.38,%/degC
+,TC (Metal 2),,0.18um BEOL,0.28,0.33,0.38,%/degC
+,TC (Metal 3),,0.18um BEOL,0.28,0.33,0.38,%/degC
+,TC (Metal 4),,0.18um BEOL,0.28,0.33,0.38,%/degC
+,TC (Metal 5),,0.18um BEOL,0.28,0.33,0.38,%/degC
+,TC (Top Metal @ 6kA),,0.18um BEOL,0.3,0.35,0.4,%/degC
+,TC (Top Metal @ 9kA),,0.18um BEOL,0.31,0.37,0.43,%/degC
+,TC (Top Metal @ 11kA),,0.18um BEOL,0.31,0.37,0.43,%/degC
+,TC (Top Metal @ 30kA),,0.18um BEOL,0.33,0.39,0.45,%/degC
+,TC (Active Contact),,0.18um BEOL,0.062,0.073,0.084,%/degC
+,TC (Poly Contact),,0.18um BEOL,0.081,0.095,0.109,%/degC
+,"TC ( Via1, Via2, Via3, Via4, Via5)",,0.18um BEOL,0.091,0.107,0.123,%/degC

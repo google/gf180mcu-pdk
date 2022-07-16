@@ -1,0 +1,45 @@
+Rev.,Description of Changes
+1A,"New release of IA specification for 0.18um 3.3/6V high voltage CMOS
+
+technology. It includes following process options with 6KA or 9KA Top Metal
+
+(TM) layers and options with MIM capacitors
+
+
+1. 1P6M (with/without MIM, 6KA/9KA TM)"
+1B,"Add 1P3M,1P4M and 1P5M options:
+
+1. 1P3M (with/without MIM, 6KA/9KA TM)
+
+2. 1P4M (with/without MIM, 6KA/9KA TM)
+
+3. 1P5M (with/without MIM, 6KA/9KA TM)
+
+"
+1C,"Add MIN Option B (“Top metal” & “Top metal-1”) for 1P3M,1P4M,
+1P5M and 1P6M :
+
+1. 1P3M (with/without MIM, 6KA/9KA TM)
+
+2. 1P4M (with/without MIM, 6KA/9KA TM)
+
+3. 1P5M (with/without MIM, 6KA/9KA TM)
+
+4. 1P6M (with/without MIM, 6KA/9KA TM)"
+6,"File header to new logo and number YI-141-IA055-01 from YI-141-IA055
+
+Section 2 add notes on 30KA TM option
+
+Section 3.1&3.2 add 30KA TM option
+
+Section 4.23~4.33 add 30KA TM structure
+
+Section 5. Sheet Rho table, add 30KA TM"
+7,"Section 2 add notes on 11KA TM option
+
+Section 3.1&3.2 add 11KA TM option
+
+Section 4.34~4.44 add 11KA TM structure
+
+Section 5. Sheet Rho table, add 11KA TM"
+8,Section 4.45 Add 2 layers for 30k TM

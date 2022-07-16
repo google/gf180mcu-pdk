@@ -1,0 +1,97 @@
+Truth Table,3.3V/(5V)6V Process,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Device Drawn Layers,,,,,,,,,,,,,,Marking Layers,,,,,,,,,,,,,,,
+Layer Abbreviation =>,DNWELL,COMP,NWLL,LVPWELL,Dualgate,POLY2,Nplus,Pplus,Resistor ,ESD ,SAB ,FuseTop ,FuseWindow_D,POLYFUSE,RES_MK,V5_XTOR,CAP _MK&MIM_ L_MK,DIODE_MK,DRC_BJT,NAT,MOS_CAP_MK,ESD_MK,LVS_Source,WELL_DIODE_MK,EFUSE_MK,PLFUSE,MVSD,MVPSD,LDMOS_XTOR,Schottky _diode
+Digitized Area Polarity =>,CL,CH,CL,CH,CH,CH,CL,CL,CL,CL,CH,CH,CL,CL,-,-,-,-,-,-,-,-,-,-,-,,,,,
+(1) MOS Transistors:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3.3V NMOS (Outside DNWELL),0,1,0,X,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+3.3V NMOS (Inside DNWELL),1,1,0,1,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+3.3V PMOS (Outside DNWELL),0,1,1,0,0,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+3.3V PMOS (Inside DNWELL),1,1,X,0,0,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+3.3V native Vt NMOS,0,1,0,0,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,1,0,0,0,X,0,0,0,0,0,0
+6V NMOS (Outside DNWELL),0,1,0,X,1,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+6V  NMOS (Inside DNWELL),1,1,0,1,1,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+6V  PMOS (Outside DNWELL),0,1,1,0,1,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+6V PMOS (Inside DNWELL),1,1,X,0,1,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+6V  native Vt NMOS,0,1,0,0,1,1,1,0,0,0,0,X,0,0,0,0,X,0,0,1,0,0,0,X,0,0,0,0,0,0
+5V NMOS (Outside DNWELL),0,1,0,X,1,1,1,0,0,0,0,X,0,0,0,1,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+5V  NMOS (Inside DNWELL),1,1,0,1,1,1,1,0,0,0,0,X,0,0,0,1,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+5V  PMOS (Outside DNWELL),0,1,1,0,1,1,0,1,0,0,0,X,0,0,0,1,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+5V PMOS (Inside DNWELL),1,1,X,0,1,1,0,1,0,0,0,X,0,0,0,1,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+10V LDNMOS,0,1,0,0,1,1,1,0,0,0,0,X,0,0,0,0,X,X,0,0,0,0,0,X,0,0,1,0,1,0
+10V LDPMOS,1,1,0,0,1,1,0,1,0,0,0,X,0,0,0,0,X,X,0,0,0,0,0,X,0,0,0,1,1,0
+(2) BJT:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VPNP (Psub as collector),0,1,1,0,0,0,1,1,0,0,0,X,0,0,0,0,X,0,1,0,0,0,0,0,0,0,0,0,0,0
+VNPN (Isolated collector),1,1,0,1,0,0,1,1,0,0,0,X,0,0,0,0,X,0,1,0,0,0,0,0,0,0,0,0,0,0
+(3) Diodes:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+N+/LVPWELL (3.3V area),X,1,0,1,0,0,1,1,0,0,0,X,0,0,0,0,X,1,0,0,0,X,X,X,0,0,0,0,0,0
+N+/LVPWELL (5V/6V area),X,1,0,1,1,0,1,1,0,0,0,X,0,0,0,X,X,1,0,0,0,X,X,X,0,0,0,0,0,0
+P+/Nwell (3.3V area),X,1,1,0,0,0,1,1,0,0,0,X,0,0,0,0,X,1,0,0,0,X,X,X,0,0,0,0,0,0
+P+/Nwell (5V/6V  area),X,1,1,0,1,0,1,1,0,0,0,X,0,0,0,X,X,1,0,0,0,X,X,X,0,0,0,0,0,0
+Nwell/Psub (3.3V area),0,1,1,0,0,0,1,1,0,0,0,X,0,0,0,0,X,X,0,0,0,X,X,1,0,0,0,0,0,0
+Nwell/Psub (5V/6V  area),0,1,1,0,1,0,1,1,0,0,0,X,0,0,0,X,X,X,0,0,0,X,X,1,0,0,0,0,0,0
+LVPWELL/DNWELL (3.3V area),1,1,0,1,0,0,1,1,0,0,0,X,0,0,0,0,X,X,0,0,0,X,X,1,0,0,0,0,0,0
+LVPWELL/DNWELL (5V/6V area),1,1,0,1,1,0,1,1,0,0,0,X,0,0,0,X,X,X,0,0,0,X,X,1,0,0,0,0,0,0
+DNWELL/Psub (3.3V area),1,1,1,0,0,0,1,1,0,0,0,X,0,0,0,0,X,X,0,0,0,X,X,1,0,0,0,0,0,0
+DNWELL/Psub (5V/6V  area),1,1,1,0,1,0,1,1,0,0,0,X,0,0,0,X,X,X,0,0,0,X,X,1,0,0,0,0,0,X
+sc_diode,1,1,X,0,X,0,1,0,0,0,0,X,0,0,0,X,X,0,0,0,0,0,0,X,0,0,0,0,0,1
+(4) Resistors:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+N+ Diffusion Unsalicided Rs (Outside DNWELL),0,1,0,X,0,0,1,0,0,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+P+ Diffusion Unsalicided Rs (Outside DNWELL),0,1,1,0,0,0,0,1,0,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+N+ Diffusion Salicided Rs (Outside DNWELL),0,1,0,X,0,0,1,0,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+P+ Diffusion Salicided Rs (Outside DNWELL),0,1,1,0,0,0,0,1,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+N+ Diffusion Unsalicided Rs (Intside DNWELL),1,1,0,1,0,0,1,0,0,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+P+ Diffusion Unsalicided Rs (Intside DNWELL),1,1,X,0,0,0,0,1,0,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+N+ Diffusion Salicided Rs (Intside DNWELL),1,1,0,1,0,0,1,0,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+P+ Diffusion Salicided Rs (Intside DNWELL),1,1,X,0,0,0,0,1,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+N+ Poly Unsalicided Rs,X,0,X,X,X,1,1,0,0,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+P+ Poly Unsalicided Rs,X,0,X,X,X,1,0,1,0,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+P+ Poly Salicided Rs,X,0,X,X,X,1,0,1,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+N+ Poly Salicided Rs,X,0,X,X,X,1,1,0,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+1K P+ HRS (3.3V area),X,0,X,X,0,1,0,1,1,0,1,X,0,0,1,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+1K P+ HRS (5V/6V  area),X,0,X,X,1,1,0,1,1,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+2K P+ HRS (3.3V area),X,0,X,X,0,1,0,1,1,0,1,X,0,0,1,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+2K P+ HRS (5V/6V area),X,0,X,X,1,1,0,1,1,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+3K P+ HRS (3.3V area),X,0,X,X,0,1,0,1,1,0,1,X,0,0,1,0,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+3K P+ HRS (5V/6V area),X,0,X,X,1,1,0,1,1,0,1,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+Nwell (under STI),0,1,1,0,0,0,1,0,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+LVPWELL (under STI),1,1,0,1,0,0,0,1,0,0,0,X,0,0,1,X,X,0,0,0,0,0,0,X,0,0,0,0,0,0
+(5) Capacitors:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MIM capacitor,X,X,X,X,X,X,X,X,X,X,X,1,X,X,X,X,1,X,X,X,X,X,X,X,0,0,X,X,X,X
+3.3V NMOS Cap (Outside DNWELL),0,1,0,X,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+3.3V NMOS Cap (Inside DNWELL),1,1,0,1,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+3.3V PMOS Cap (Outside DNWELL),0,1,1,0,0,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+3.3V PMOS Cap (Inside DNWELL),1,1,X,0,0,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"3.3V NMOS Cap_b  (Inside NWELL, Outside DNWELL)",0,1,1,0,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"3.3V NMOS Cap_b  (Inside NWELL, Inside DNWELL)",1,1,X,0,0,1,1,0,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"3.3V PMOS Cap_b (Inside LVPWELL, Outside DNWELL)",0,1,0,X,0,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"3.3V PMOS Cap_b (Inside LVPWELL, Inside DNWELL)",1,1,0,1,0,1,0,1,0,0,0,X,0,0,0,0,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+5V/6V  NMOS Cap (Outside DNWELL),0,1,0,X,1,1,1,0,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+5V/6V  NMOS Cap (Inside DNWELL),1,1,0,1,1,1,1,0,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+5V/6V  PMOS Cap (Outside DNWELL),0,1,1,0,1,1,0,1,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+5V/6V  PMOS Cap (Inside DNWELL),1,1,X,0,1,1,0,1,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"5V/6V  NMOS Cap_b  (Inside NWELL, Outside DNWELL)",0,1,1,0,1,1,1,0,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"5V/6V  NMOS Cap_b  (Inside NWELL, Inside DNWELL)",1,1,X,0,1,1,1,0,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"5V/6V  PMOS Cap_b (Inside LVPWELL, Outside DNWELL)",0,1,0,X,1,1,0,1,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+"5V/6V  PMOS Cap_b (Inside LVPWELL, Inside DNWELL)",1,1,0,1,1,1,0,1,0,0,0,X,0,0,0,X,X,0,0,0,1,0,0,X,0,0,0,0,0,0
+(6) Well Taps,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nwell tap (Outside DNWELL),0,1,1,0,X,0,1,0,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
+DNWELL/Nwell tap (Inside DNWELL),1,1,X,0,X,0,1,0,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
+LVPWELL tap (Outside DNWELL),0,1,0,1,X,0,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
+LVPWELL tap (Inside DNWELL),1,1,0,1,X,0,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
+(7) N+ Poly Fuse (Optional):,X,0,X,X,X,1,1,0,0,X,1,X,0,1,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
+(8) Metal Fuse (Optional):,X,0,X,X,X,0,X,X,X,X,X,X,1,0,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
+(9) ESD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nmos_3p3_dw_sab (SAB 3.3V NMOS inside DNWELL),1,1,0,1,0,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nmos_3p3_sab (SAB 3.3V NMOS outside DNWELL),0,1,0,X,0,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nmos_5p0_dw_sab (SAB 5V NMOS inside DNWELL),1,1,0,1,1,1,1,0,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nmos_5p0_sab (SAB 5V NMOS outside DNWELL),0,1,0,X,1,1,1,0,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nmos_6p0_dw_sab (SAB 6V NMOS inside DNWELL),1,1,0,1,1,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nmos_6p0_sab (SAB 6V NMOS outside DNWELL),0,1,0,X,1,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pmos_3p3_dw_sab (SAB 3.3V PMOS inside DNWELL),1,1,X,0,0,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pmos_3p3_sab (SAB 3.3V PMOS outside DNWELL),0,1,1,0,0,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pmos_5p0_dw_sab (SAB 5V PMOS inside DNWELL),1,1,X,0,1,1,0,1,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pmos_5p0_sab (SAB 5V PMOS outside DNWELL),0,1,1,0,1,1,0,1,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pmos_6p0_dw_sab (SAB 6V PMOS inside DNWELL),1,1,X,0,1,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pmos_6p0_sab (SAB 6V PMOS outside DNWELL),0,1,1,0,1,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+(10) eFuse,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eFuse,X,0,0,X,X,1,0,1,0,0,0,0,0,0,0,X,0,0,0,0,0,0,1,0,1,1,0,0,0,0

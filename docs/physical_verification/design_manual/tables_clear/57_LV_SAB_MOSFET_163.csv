@@ -1,0 +1,46 @@
+RULE NO.,DESCRIPTION,RULE
+LVESD.1,"LV MOSFET used for ESD protection should be enclosured
+
+by ESD_MK, ESD_MK must enclose well pick-up implant",0
+LVESD.2*,"Poly Channel-length for each finger in multi-finger transistors
+
+must be same",
+LVESD.3 (a),Min. channel length for each finger (Recommended),0.3
+LVESD.3 (b),Max. channel length for each finger,0.5
+G.LVESD.4 (a)**,Recommended finger width for each finger,25
+LVESD.4 (b),Min. finger width for each finger,20
+LVESD.4 (c),Max. finger width for each finger,60
+G.LVESD.5 (a)**,"Recommended number of fingers share one pick-up ring in
+
+multi-finger transistors.",8
+LVESD.5 (b),"Max. number of fingers share one pick-up ring in multi-finger
+
+Transistors",16
+G.LVESD.6 (a)**,Recommended total finger width,200
+LVESD.6 (b),Min. total finger width,160
+LVESD.6 (c),Max. total finger width,720
+LVESD.7,"SAB should cover drain and source and overlap gate or cover
+
+drain only with rule LVESD.7(a) partly overlap poly gate",
+LVESD.7 (a),Min/max SAB overlap Poly gate,0.05
+G.LVESD.8 (a)**,"Recommeded at least one or nearest drain contact to gate edge space (DCGS)",2
+LVESD.8 (b),Min. drain contact to gate edge space (DCGS),1
+LVESD.8 (c),"Max. of at least one or nearest drain contact to gate edge space (DCGS)",4
+G_LVESD.10,"Recommended well tap COMP to active COMP space in
+
+channel length direction.",2
+LVESD.11,Source COMP must enclose by LVS_Source,0
+LVESD.12,LVS_Source must butt to Poly edge,0
+G.LVESD.13**,"Recommended at least one or nearest source contact to gate
+
+edge space (SCGS) when SAB cover drain-source over poly gate",0.7
+LVESD.13(a),"Min. source contact to gate edge space (SCGS) when SAB
+
+cover drain-source over poly gate",0.15
+LVESD.13(b),"Max. of at least one or nearest source contact to gate edge
+
+space (SCGS) when SAB cover drain-source over poly gate",1
+COLVESD.7,"Recommended/max. salicided block edge to at least one
+
+or nearest contact (CA)",0.22
+COLVESD.7(a),Min. salicided block edge to contact (CA),0.15

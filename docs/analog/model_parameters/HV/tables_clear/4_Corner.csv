@@ -1,0 +1,24 @@
+"Corner/Library
+
+Name",Definition Purpose
+typical,Nominal process/Estimate typical performance
+ff,"Bound EP specifications extreme Idsat,  Vt & Idlin (LDNMOS only) for wide
+
+and narrow short channel FETs. Verify circuit robustness under extreme
+
+process condition with fast NFET and fast PFET"
+ss,"Bound EP specifications extreme Idsat,  Vt & Idlin (LDNMOS only) for wide
+
+and narrow short channel FETs. Verify circuit robustness under extreme
+
+process condition with slow NFET and slow PFET"
+fs,"Match Idsat,  Vt & Idlin (LDNMOS only) skew between NFETs and PFETs
+
+based on line data and EP specifications. Circuit operation under N to P
+
+mismatch, for fast NFET and slow PFET"
+sf,"Match Idsat,  Vt & Idlin (LDNMOS only) skew between NFETs and PFETs
+
+based on line data and EP specifications. Circuit operation under N to P
+
+mismatch, for slow NFET and fast PFET"

@@ -1,0 +1,105 @@
+RULE NO.,DESCRIPTION,LV,MV,Comment
+LU.1,"FOR LV and MV inside DNWELL
+
+This rule is to check Max. Nwell/DNWELL tap space to every
+
+point on the boundary of PCOMP inside Nwell/DNWELL.
+
+For within 50um from (the PCOMP inside NWELL or DNWELL),
+
+minimum LVPWELL to (PCOMP outside LVPWELL) space is
+
+defined as (x):",,,
+,"a\) If x >= 2.0um, then max Nwell/DNWELL tap space to every
+
+Point on the boundary of PCOMP inside NWELL/DNWELL",50,15,Rule
+,"b\) If x >= 1.0um and < 2um, then max Nwell/DNWELL tap space to
+
+every point on the boundary of PCOMP inside NWELL/DNWELL",30,15,Rule
+,"c\) If x < 1.0um, then max Nwell/DNWELL tap space to every
+
+point on the boundary of PCOMP inside NWELL/DNWELL",15,15,Rule
+LU.2,"FOR LV and MV inside DNWELL
+
+This rule is to check Max. LVPWELL tap space to every point on
+
+the boundary of NCOMP inside LVPWELL.
+
+For within 50um from (the NCOMP inside LVPWELL), minimum
+
+LVPWELL to (PCOMP outside LVPWELL) space is defined as x:",,,
+,"a\) If x >= 2.0um, then Max. LVPWELL tap space to every point on
+
+the boundary of NCOMP inside LVPWELL.",50,15,Rule
+,"b\) If x >= 1.0um and < 2um, then Max. LVPWELL tap space to
+
+every point on the boundary of NCOMP inside LVPWELL.",30,15,Rule
+,"c\) If x <1.0um, then Max. LVPWELL tap space to every point on
+
+the boundary of NCOMP inside LVPWELL.",15,15,Rule
+LU.3,"FOR LV and MV outside DNWELL
+
+This rule is to check Max. LVPWELL (Psub) tap outside
+
+DNWELL space to every point on the boundary of NCOMP
+
+outside NWELL/DNWELL.
+
+For within 50um from the (NCOMP in LVPWELL or Psub),
+
+Minimum NWELL to (NCOMP outside Nwell) space is defined as y.",,,
+,"a\) If y >= 2.0um, then Max. LVPWELL (Psub) tap outside
+
+DNWELL space to every point on the boundary of NCOMP
+
+outside NWELL/DNWELL.",50,15,Rule
+,"b\) If y >= 1.0um and < 2.0um, then Max. LVPWELL (Psub) tap
+
+outside DNWELL space to every point on the boundary of
+
+NCOMP outside NWELL/DNWELL.",30,15,Rule
+,"c\) If y <1.0um, then Max. LVPWELL (Psub) tap outside
+
+DNWELL space to every point on the boundary of NCOMP
+
+outside NWELL/DNWELL.",15,15,Rule
+LU.4,"FOR LV and MV outside DNWELL
+
+This rule is to check Max. Nwell tap space to every point on the
+
+boundary of PCOMP inside Nwell.
+
+For within 50um from (the PCOMP inside NWELL), minimum
+
+NWELL to (NCOMP outside Nwell) space is defined as y:",,,
+,"a\) If y >= 2.0um, then Max. Nwell tap space to every point on the
+
+boundary of PCOMP inside Nwell",50,15,Rule
+,"b\) If y >= 1.0um and < 2um, then Max. Nwell tap space to every
+
+point on the boundary of PCOMP inside Nwell",30,15,Rule
+,"c\) If y < 1.0um, then Max. Nwell tap space to every point on the
+
+boundary of PCOMP inside Nwell",15,15,Rule
+,For Native Vt  NMOS (check for NAT marking),,,
+LU.5,"For within 50um from NAT layer, If there is NWELL present, then
+
+NAT layer shall be directly surrounded by PCOMP substrate guard
+
+ring. (No other NCOMP, NWELL in between the NAT and
+
+PCOMP guard ring)",,,Rule
+,Common Guidelines,,,
+LU.7*,Maximize the number of contacts in the substrate and well taps.,--,--,Guideline
+,"Total equivalent contact area to the channel area generating
+
+substrate current (Poly2 intersecting COMP) should be more than
+
+3%.  This is a guideline only.",,,
+LU.8*,"Butted substrate contact to source is always the best for latch-up
+
+immunity wherever possible",--,--,Guideline
+LU.9*,"All Nwell taps shall be connected to respective most highest
+
+Potential",--,--,Guideline
+LU.10*,All Psub shall be connected to their respective lowest potential,--,--,Guideline

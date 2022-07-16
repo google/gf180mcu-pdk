@@ -1,0 +1,13 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Linear Threshold Voltage,,,,,,
+,"VT0 (@Vds=0.1V,Vgs at Ids maximum
+
+Slope, Vt0=Vgs_intercept-0.5*Vds)",NCH (NE2),W/L= 10/1.8,-0.32,-0.12,0.08,V
+2,Saturation Current,,,,,,
+,Idsat ( | Vds | = | Vgs | = 6V),NCH (NE2),W/L= 10/1.8,430,535,640,μA/um
+3,Subthreshold Current,,,,,,
+,"Ioff ( | Vds | = 6.6V, Vgs=Vt0-0.5 @ 25°C)",NCH (NE2),W/L= 10/1.8,\-,1,50,uA/μm
+4,Punch-Through Voltage,,,,,,
+,"BVDSS (Vgs=Vt0-0.5 measure
+
+VD@ID=100uA*W@ 25°C)",NCH (NE2),W/L= 10/1.8,8,12,\-,V

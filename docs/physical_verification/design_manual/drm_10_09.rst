@@ -1,0 +1,15 @@
+10.9 LVS_BJT Mark Layer
+=======================
+
+This layer is used in LVS tool to identify Emitter, Base, and Collector of NPN and PNP transistor.
+
+.. csv-table:: LVS_BJT
+    :file: tables_clear/40_LVS_BJT_105.csv
+    :widths: 100, 800, 100
+    :align: center
+
+.. image:: images/LVS_BJT.png
+    :width: 800
+    :align: center
+    :alt: LVS_BJT
+

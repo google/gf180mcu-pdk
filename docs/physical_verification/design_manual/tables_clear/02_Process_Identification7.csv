@@ -1,0 +1,3 @@
+Process,Operating Voltages,PID in Fab3E
+0.18um 3.3V/(5V) 6V (No MIM),"LV=3.3V, HV=5V or 6V",TH18*0019A
+0.18um 3.3V/(5V) 6V (with MIM),"LV=3.3V, HV=5V or 6V",TH18*0020A

@@ -1,0 +1,15 @@
+Pad Cell Name,Height (est.),Width (est.),Unit
+gf180mcu_fd_io__bi_t,350,75,μm
+gf180mcu_fd_io__bi_24t,350,75,μm
+gf180mcu_fd_io__in_c,350,75,μm
+gf180mcu_fd_io__in_s,350,75,μm
+gf180mcu_fd_io__asig_5p0,350,75,μm
+gf180mcu_fd_io__dvdd,350,75,μm
+gf180mcu_fd_io__dvss,350,75,μm
+gf180mcu_fd_io__cor,355,355,μm
+gf180mcu_fd_io__fillnc,350,0.1,μm
+gf180mcu_fd_io__fill1,350,1,μm
+gf180mcu_fd_io__fill5,350,5,μm
+gf180mcu_fd_io__fill10,350,10,μm
+gf180mcu_fd_io__brk2,350,2,μm
+gf180mcu_fd_io__brk5,350,5,μm

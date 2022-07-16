@@ -1,0 +1,7 @@
+14.6.1 Rules for Location of Metal Line to be slotted
+======================================================
+
+1. Metal slots should be used on any metal line that is wider than 30µm
+
+2. Slots for metal lines wider than 30µm should be placed parallel to the direction of current flow.
+

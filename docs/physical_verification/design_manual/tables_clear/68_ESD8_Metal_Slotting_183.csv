@@ -1,0 +1,23 @@
+RULE NO.,DESCRIPTION ,"LAYOUT 
+RULE"
+MSLOT.1,Maximum metal width without slotting,30
+MSLOT.2,Minimum slot width (slot mark layers),2
+MSLOT.3,Slot length (slot mark layers),
+,a. Minimum,10
+,b. Maximum,250
+MSLOT.4,Slot space (slot mark layers),
+,a. Minimum,10
+,b. Maximum,30
+MSLOT.5,Minimum slot (slot mark layers) to metal edge spacing,10
+MSLOT.6,"For multiple slots that spans the metal width, slots should be staggered.",
+MSLOT.7,Minimum space from via-n to metal-n slot,0.2
+MSLOT.8,Minimum space from via-(n-1) / contact to  metal-n slot,0.2
+,(a) MetalTop area directly under the Pad,
+,(b) MIM bottom plate directly under FuseTop,
+,(c) MetalTop directly under FuseWindow_D,
+,(d) Metal3 area (for MIM top plate connection) directly enclosed by FuseTop,
+,(e) MetalTop area directly under UBM layers,
+,Minimum distance to these layers,5
+MSLOT.10,"Slot mark layer on the metal hole (same metal level,
+
+e.g. Metal1_Slot on the Metal1 hole) are not allowed",

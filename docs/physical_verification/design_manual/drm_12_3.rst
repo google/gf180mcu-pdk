@@ -1,0 +1,19 @@
+12.3 Placement and Electrical Connection of Guard Ring
+======================================================
+
+12.3.1 Guard ring spacing to any other circuits
+...............................................
+
+The minimum spacing from guard ring Metal1, 2, 3, 4, 5 to any other unrelated Nwell, COMP, Poly2, Metal1, 2, 3, 4, 5 is 10µm.
+
+12.3.2 Guard ring and Vss bus
+.............................
+
+Scribe line guard ring and Metal1, 2, 3, 4,5 and/or 6 must be connected directly to Vss pad(s). The guard ring metal may be butted with the Vss bus. Then the width of the Metal1, 2, 3, 4, 5 Vss bus before merging with the guarding metal has to meet the current density
+requirements and the rest if the related Nwell, COMP, poly and metal should be at least 10µm away from the original guard ring.
+
+12.3.3 Used with Down Bond Chip
+...............................
+
+If a scribe line guard ring is used to connect down bond chip to Vss pad, the shortest section of the guarding in between Vss pad and the down bond chip should guarantee minimum 30µm Metal1 and 25µm Metal2 width.
+

@@ -1,0 +1,25 @@
+RULE NO.,DESCRIPTION,LAYOUT,
+,,3.3V ,5V/6V
+Y. NW.2b,"Min. Nwell Space (Outside DNWELL, Inside YMTP_MK) [Different potential]",1,1
+Y.DF.4d,(Nwell overlap of NCOMP) outside DNWELL (inside YMTP_MK) is allowed,,
+Y.DF.6,"Min. COMP extend beyond gate (it also means source/drain overhang) inside
+YMTP_MK",NA ,0.15
+Y.DF.16,"Min. space from (Nwell outside DNWELL) to (unrelated NCOMP outside
+Nwell and DNWELL) (inside YMTP_MK)",0.27,0.23
+Y.PL.1,Interconnect Width (inside YMTP_MK),0.13,NA
+Y.PL.2,Gate Width  (Channel Length) (inside YMTP_MK),0.13,0.47
+Y.PL.4,Poly2 extension beyond COMP to form Poly2 end cap (inside YMTP_MK),NA ,0.16
+Y.PL.5a,"Space from field Poly2 to unrelated COMP  (inside YMTP_MK)
+
+Spacer from field Poly2 to Guard-ring (inside YMTP_MK)",0.04,0.2
+Y.PL.5b,Space from field Poly2 to related COMP (inside YMTP_MK),0.04,0.2
+Y.PL.6,90 deg bends on the COMP are not allowed (except YMTP_MK),,
+Y.LU.3,"This rule is to check: 
+(a) Max. Psub tap space to every point on the boundary of
+NCOMP outside NWELL.
+
+(b) For within 50um from the (NCOMP in Psub), Minimum NWELL to 
+(NCOMP outside Nwell) space is defined as y,
+
+(c) If y <1.0um, then Max. Psub tap space to every point on the boundary of
+NCOMP outside NWELL. (inside YMTP_MK)",20, NA

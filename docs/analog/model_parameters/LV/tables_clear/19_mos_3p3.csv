@@ -1,0 +1,12 @@
+EP Specification,,,,Measurement,
+Device (W/L) ,Model,Idsat (uA/um),Vth0 (V),Idsat (uA/um),Vth0  (V)
+"nmos_3p3
+
+(10/0.28)",slow ,430,0.73,\-,\-
+,typical,510,0.63,508,0.644
+,fast ,590,0.53,\-,\-
+"pmos_3p3
+
+(10/0.28)",slow,-210,-0.85,\-,\-
+,typical,-250,-0.73,-254.1,-0.733
+,fast ,-290,-0.61,\-,\-

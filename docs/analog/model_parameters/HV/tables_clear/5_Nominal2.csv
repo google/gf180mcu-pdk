@@ -1,0 +1,3 @@
+Conditions,Idsat,Vtlin
+10V LDNMOS,"Vds = 10V, Vgs = 6V",Vds = 0.05V @Id=0.1\*(W/L) uA
+10V LDPMOS,"Vds = -10V, Vgs = -6V",Vds = -0.05V @Id=-0.1\*(W/L) uA

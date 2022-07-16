@@ -1,0 +1,55 @@
+Model Name,Description,Scalable,"Corner
+
+Model","Global
+
+Statistical","Local
+
+Statistical"
+npolyf_u,"3-T Model for unsalicided
+
+N+ poly resistor",Y,Y,Y,Y
+ppolyf_u,"3-T Model for unsalicided
+
+P+ poly resistor",Y,Y,Y,Y
+ppolyf_u_1k,"3-T Model for 1k ohm hi
+
+sheet rho P poly resistor (3.3V)",Y,Y,Y,N
+ppolyf_u_2k,"3-T Model for 2k ohm hi
+
+sheet rho P poly resistor (3.3V)",Y,Y,Y,N
+ppolyf_u_1k_6p0,"3-T Model for 1k ohm hi 
+
+Sheet rho P poly resistor (6.0V)",Y,Y,Y,N
+ppolyf_u_2k_6p0,"3-T Model for 2k ohm hi
+
+sheet rho P poly resistor (6.0V)",Y,Y,Y,N
+ppolyf_u_3k,"3-T Model for 3k ohm hi
+
+sheet rho P poly resistor (3.3V)",Y,Y,Y,N
+nplus_u,"3-T Model for unsalicided
+
+N+ diffusion resistor",Y,Y,Y,Y
+pplus_u,"3-T Model for unsalicided
+
+P+ diffusion resistor",Y,Y,Y,Y
+npolyf_s,"3-T Model for salicided
+
+N+ poly resistor",Y,Y,Y,N
+ppolyf_s,"3-T Model for salicided
+
+P+ poly resistor",Y,Y,Y,N
+nplus_s,"3-T Model for salicided
+
+N+ diffusion resistor",Y,Y,Y,N
+pplus_s,"3-T Model for salicided
+
+P+ diffusion resistor",Y,Y,Y,N
+nwell,3-T Model for Nwell resistor,Y,Y,N,N
+rm1,2-T Model for metal 1 resistor,Y,Y,N,N
+rm2,2-T Model for metal 2 resistor,Y,Y,N,N
+rm3,2-T Model for metal 3 resistor,Y,Y,N,N
+tm6k,2-T Model for top metal 6k resistor,Y,Y,N,N
+tm9k,2-T Model for top metal 9k resistor,Y,Y,N,N
+tm11k,2-T Model for top metal 11k resistor,Y,Y,N,N
+tm30k,2-T Model for top metal 30k resistor,Y,Y,N,N
+efuse,model for 6V(5V) efuse,N,N,N,N

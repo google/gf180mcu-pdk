@@ -1,0 +1,42 @@
+RULE NO.,DESCRIPTION,"LAYOUT
+GUIDELINE"
+Layer,DMF – Dummy Metal Fill,
+,"Use PMNDMY mark layer to exclude dummy metal generation in
+
+certain critical analog/RF areas.",
+DM.1,Min/Max Dummy metal line width/length,2.0 um
+DM.2a*,Min Dummy metal line space (for Layout),1.2 um
+DM.2b,Min Dummy metal line space (for DRC),0.98um
+DM.2c,Min Dummy metal line space for thick top metal (3um Top metal),2.0um
+DM.3,Minimum space between dummy metal and circuit Metal line,2.0um
+DM.4,"Dummy Metal space to Subsequent Metal layer (E.g. Dummy M1
+
+space to M2)",1um
+DM.5,"Dummy Metal space to Previous Metal layer (E.g. Dummy M2
+
+space to M1;  Dummy M1 space to Poly2)",1um
+DM.6,No overlap of Dummy Metal with the Subsequent Metal layers,
+DM.7,No overlap of Dummy Metal with the Previous layers,
+DM.8,"There should not be any dummy metal pattern fill in the following areas
+
+(i) MIM CAP area (recognized by Fuse Top)
+
+(ii) Poly fuse area (recognized by POLYFUSE)
+
+(iii) Metal fuse area (recognized by FUSEWINDOW_D)
+
+(iv) Dummy metal exclusion area (recognized by PMNDMY)
+
+(v) MTP mark area (recognized by MTPMK)
+
+(vi) OTP mark area ( recognized by OTP_MK)
+
+Space from these Structures",6um
+DM.9*,"Do not use exact replicates of dummy metal fill patterns for
+
+consecutive metal layers to avoid dielectric and metal stress
+
+problems? E.g. the Metal4 dummy metal fill patterns should not be
+
+an exact copy of the Metal3 dummy fill pattern. (Offsets value:)",0.5um
+DM.10*,Offset between the Dummy metal of the same layers,0.5um

@@ -1,0 +1,19 @@
+9.4.2 General Information
+============================================
+
+1. All dimensions in this document are minimum specifications unless otherwise stated.
+
+2. Bump pitch is defined as the centre-to-centre distance between passivation openings.
+
+3. Bump height is the distance from the bump centre top to the passivation surface. It provides sufficient solder volume to obtain the required standoff for under filling the flip chip die mounted onto substrate or PCB board and also for solder joint reliability. The solder bump height is a function of bump pitch and UBM diameter.
+
+4. Under bump metallurgy (UBM) is the bump base adjacent to the solder bump and provides:
+
+   - Control size of solder bump
+   - Electrical contact to the pad metal/aluminum pad
+   - Adhesion layer to the passivation and pad metal/aluminum pad
+   - Wetting layer for the solder
+   - COMP barrier to the pad metal/aluminum pad
+
+It is recommended a minimum overlap of UBM to passivation of 10um to provide a robust and reliable bump structure during package or board reliability.
+

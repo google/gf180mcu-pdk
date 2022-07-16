@@ -1,0 +1,25 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Linear Threshold Voltage,,,,,,
+,VT0,NCH (NE2),W/L= 10/0.7,0.61,0.73,0.85,V
+,VT0,PCH (PE2),W/L= 10/0.55,-0.98,-0.85,-0.72,V
+2,Saturation Current,,,,,,
+,Idsat ( | Vds | = | Vgs | = 6V),NCH (NE2),W/L= 10/0.7,480,570,660,μA/um
+,Idsat ( | Vds | = | Vgs | = 6V),PCH (PE2),W/L= 10/0.55,-340,-290,-240,μA/um
+3,Subthreshold Current,,,,,,
+,Ioff ( | Vds | = 6.6V @ 25°C),NCH (NE2),W/L= 10/0.7,--,1,10,pA/μm
+,Ioff ( | Vds | = 6.6V @ 25°C),PCH (PE2),W/L= 10/0.55,-10,-1,--,pA/μm
+4,Sub threshold Slope,,,,,,
+,SubVt Slope,NCH (NE2),W/L= 10/0.7,--,--,150,mV/dec
+,SubVt Slope,PCH (PE2),W/L= 10/0.55,--,--,150,mV/dec
+5,Punch-Through Voltage,,,,,,
+,BVDSS,NCH (NE2),W/L= 10/0.7,8.5,11,--,V
+,BVDSS,PCH (PE2),W/L= 10/0.55,--,-10.5,-8.5,V
+6,Field Assisted Breakdown,,,,,,
+,Voltage,,,,,,
+,BVDSF,NCH (NE2),W/L= 200/0.36 (For 6V),8.5,11,--,V
+,BVDSF,PCH (PE2),W/L= 200/0.36 (For 6V),--,-10.5,-8.5,V
+7,"Field Transistor Threshold
+
+Voltage",,,,,,
+,Vtsat FN-M1,NCH (NE2),W/L= 200/0.36 (For 6V),8.5,11,--,V
+,Vtsat FP-M1,PCH (PE2),W/L= 200/0.36 (For 6V),--,-10.5,-8.5,V

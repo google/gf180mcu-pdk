@@ -1,0 +1,27 @@
+10.6.2 Matched pair layout guidelines
+=======================================
+
+
+.. csv-table:: Matched pair layout guidelines
+    :file: tables_clear/37_Matched_pair_layout_guidelines_97.csv
+    :widths: 100, 800, 100
+    :align: center
+
+.. note::
+    10.6.2 Matched pair layout guidelines :ref:`Rules not coded`
+
+.. image:: images/match_pair1.png
+    :width: 600
+    :align: center
+    :alt: Matched pair
+
+.. image:: images/match_pair2.png
+    :width: 600
+    :align: center
+    :alt: Matched pair
+
+.. image:: images/match_pair3.png
+    :width: 600
+    :align: center
+    :alt: Matched pair
+

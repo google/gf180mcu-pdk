@@ -1,0 +1,28 @@
+RULE NO.,DESCRIPTION,LV,MV,Comment
+,FOR LV and MV,,,
+IO.3,"a1\) PCOMP in Nwell directly connected to I/O pad must be
+
+surrounded by Nwell tap inside the Nwell (Exclude the case when
+
+each PMOS transistor have full width butting to well tap).",,,
+,"a2\) It should also be directly surrounded by PCOMP guard ring
+
+outside Nwell. PCOMP guard ring shall be connected to the lowest
+
+potential.  Max space of guard ring PCOMP to the PCOMP in
+
+Nwell directly connected to the I/O pad.
+",15,15,Rule
+,"b\) Within 10um from the edge of the PCOMP connected to I/O
+
+Pad (marked by Latchup_MK): Max P substrate tap distance to
+
+NCOMP outside Nwell (irrespective of its direct connection to Pad)",5,5,Rule
+IO.4,"Minimum recommended PCOMP guard ring width:
+
+(Maximize contact to guard uniformly.  As a guideline, ratio of
+
+total contact area to the active area of the guard ring should be
+
+more than 5%).
+",2,2,Rule

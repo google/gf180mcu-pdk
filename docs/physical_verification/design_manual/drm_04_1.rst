@@ -1,0 +1,37 @@
+4.1 Drawn layer definition and abbreviation
+===========================================
+
+The following layers are drawn directly on the layout system.
+
+ .. csv-table:: Drawn layers
+    :file: tables_clear/06_Drawn_layer10.csv
+    :widths: 100, 200, 400, 100, 100
+
+.. note::
+
+    1. Used in the dummy COMP, dummy poly2 & dummy metal generation algorithm (refer to dummy fill rules and guideline).
+
+    2. ESD is optional mask to provide ESD implant for 3.3V or 5V/6V devices.
+
+    3. Refer to analog rule section for complete list of analog-specific layers and masks.
+
+    4. Metal1_Dummy and Metal2_Dummy are dummy fills for Metal1 and Metal2. Data type is used to differentiate between circuits and dummy Metal1 and Metal2. This separation is to facilitate generation of dummy poly2. Dummy poly2 needs to be generated when prime die poly2 density falls below poly2 density requirement. Circuit and metal dummy fill will be “OR” after dummy poly2 is generated (where applicable).
+
+    5. Metal3_Dummy, Metal4_Dummy, Metal5_Dummy and MetalTop_Dummy are metal dummy fills. These are separated from circuit metal by using different data type.
+
+    6. These layers are only for label drawing and not supposed to be part of the active circuits. Also these layers will be used in DRC and LVS for any wrong placement of label check.
+
+    7. V5_XTOR is used as a marking layer to define 5V devices.
+
+    8. CAP_MK is used to define the bottom plate of the MIM Capacitor for DRC purpose. It will also be used for LVS purposes. Refer to EDA-CAD-000-GS003 (LVS Recognition and Extraction Guideline) for more information and guidelines on LVS marking layers.
+
+    9.  DRC_BJT is used to mark BJT devices. BJT should follow LV design rule, unless state in special rules.
+
+    10. SRAM Mark layer to mark SRAM cells for SRAM rules
+
+    11. Metal resistor should draw Metal1_Res to Metal5_Res for LVS purpose.
+
+    12. 3.3V OTP cell must be covered by OTP_MK marking for specific rules check.
+
+    13. MCELL_FEOL_MK and YMTP_MK are dedicated for MTP cell implant, which is drawn by IP vendor. These layers are not supported in PDK of this version update.
+

@@ -1,0 +1,10 @@
+9.5 Mismatch Resistor Modeling Results
+======================================
+
+The number of runs for each model type is 1000 runs. Current density used for measurement is 100uA/um.
+
+.. image:: images/5_Mismatch3.png
+   :width: 600
+   :align: center
+   :alt: Mismatch Resistor Modeling Results
+

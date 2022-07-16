@@ -1,0 +1,29 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,"Poly2, Metal1 to MetalTop",
+ANT.1,Maximum ratio of Poly2 perimeter area to related gate oxide area,200
+ANT.2 (1),Maximum ratio of Metal1 perimeter area to related gate oxide area,400
+ANT.3 (1),Maximum ratio of Metal2 perimeter area to related gate oxide area,400
+ANT.4 (1),Maximum ratio of Metal3 perimeter area to related gate oxide area,400
+ANT.5 (1),Maximum ratio of Metal4 perimeter area to related gate oxide area,400
+ANT.6 (1),Maximum ratio of Metal5 perimeter area to related gate oxide area,400
+ANT.7 (1),Maximum ratio of MetalTop perimeter area to related gate oxide area,400
+ANT.8,Maximum ratio of contact area to related gate oxide area,10
+ANT.9  (1),Maximum ratio of Via1 area to related gate oxide area,20
+ANT.10 (1),Maximum ratio of Via2 area to related gate oxide area,20
+ANT.11 (1),Maximum ratio of Via3 area to related gate oxide area,20
+ANT.12 (1),Maximum ratio of Via4 area to related gate oxide area,20
+ANT.13 (1),Maximum ratio of Via5 area to related gate oxide area,20
+ANT.14,"If MIM is between Metaln and Metal (n+1), Then:
+
+Maximum ratio of each of the metal layer (Metal (n+1) to MetalTop) perimeter
+
+area to related MIM area (For example, If MIM is between Metal2 and
+
+Metal3, then need to check ANT.14 for M3, M4, ... MetalTop to its related MIM)",400
+ANT.15,"If MIM is between Metaln and Metal (n+1), then:
+
+Maximum ratio of each of Via (Vian to most top Via) area to related MIM
+
+area (For example, If MIM is between Metal2 and Metal3, then need to
+
+check ANT.15 for V2, V3, ... most top Via to its related MIM)",20

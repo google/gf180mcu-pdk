@@ -1,0 +1,22 @@
+9.2 Model Usage and Syntax
+==========================
+
+The general model syntax is described below.
+
+To run Monte Carlo simulations, designers are required to include the following elements in their netlist.
+
+9.2.1 Library invocation
+.........................
+
+**To be added**
+
+9.2.2 Transistor declaration
+.............................
+
+**To be added**
+
+9.2.3 Switch definitions
+.........................
+
+**To be added**
+

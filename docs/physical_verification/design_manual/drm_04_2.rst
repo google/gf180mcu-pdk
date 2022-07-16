@@ -1,0 +1,5 @@
+4.2. Generated Layer and Generation rules
+=========================================
+
+Please refer to the generation algorithm spec: YI-141-GR065 or GR-000179
+

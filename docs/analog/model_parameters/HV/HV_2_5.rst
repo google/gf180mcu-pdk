@@ -1,0 +1,16 @@
+2.5 Model vs. EP Nominal Target
+-------------------------------
+
+In the following sections, the comparison of the key device parameters between the models and EP targets are listed for each device. The values are for temperature at 25 C unless specified otherwise.
+
+2.5.1 10V LDNMOS & LDPMOS
+.........................
+
+.. csv-table::
+   :file: tables_clear/5_Nominal1.csv
+
+**Conditions:**
+
+.. csv-table::
+   :file: tables_clear/5_Nominal2.csv
+

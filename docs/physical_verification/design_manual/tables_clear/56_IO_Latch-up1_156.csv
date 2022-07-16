@@ -1,0 +1,38 @@
+RULE NO.,DESCRIPTION,LV,MV,Comment
+IO.0,"To flag I/O latch-up related violation:
+
+
+i. Non well tap COMP directly connected to PAD is
+
+recommended to be marked by “Latchup_MK” layer.",-,-,Guidelines
+,"(b) Min/max Latchup_MK layer overlap of COMP (directly
+
+connected to Pad)",0,0,Guidelines
+,FOR LV and MV,,,
+IO.1,"(a1) NCOMP in PSub directly connected to I/O pad must be
+
+surrounded by Psub tap inside the Psub without any PCOMP in
+
+NWELL in between (Exclude the case when each NMOS
+
+transistor have full width butting to well tap).",,,
+,"(a2) It should also be directly surrounded by an Nwell guard ring
+
+(Non broken NCOMP ring inside Nwelll). Nwell guard ring shall
+
+be connected to the most positive supply.  Max space of Nwell
+
+guard ring to the NCOMP in Psub directly connected to I/O pad.",15,15,Rule
+,"(b) Within 15um from the edge of the NCOMP connected to I/O
+
+pad (marked by Latchup_MK): Max Nwell tap distance to
+
+PCOMP inside Nwell (irrespective of its direct connection to Pad)",2,2,Rule
+
+IO.2,"Minimum recommended Nwell guard ring width:
+
+(Maximize contact to guard uniformly.  As a guideline, ratio of
+
+total contact area to the active area of the guard ring should be
+
+more than 5%).",2,2,Rule

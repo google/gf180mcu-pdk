@@ -1,0 +1,21 @@
+1.5.1 MOSFET Instance parameters
+================================
+
+The MOSFET instance parameters shall be used in the netlist are described below with their default values: -
+
+.. csv-table::
+   :file: tables_clear/09_MOSFET_Instance.csv
+
+1.5.1.1 LV NMOS (3.3V) and LV PMOS (3.3V) & NMOS SAB (3.3V) and PMOS SAB (3.3V)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. csv-table::
+   :file: tables_clear/10_LV_NMOS.csv
+
+
+1.5.1.2 MV NMOS (5V/6V), MV PMOS (5V/6V), NMOS SAB (5V/6V), PMOS SAB (5V/6V) and native NMOS (6V)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. csv-table::
+   :file: tables_clear/11_MV_NMOS.csv
+

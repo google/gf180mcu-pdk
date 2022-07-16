@@ -1,0 +1,14 @@
+14.6 Stress Relief Guidelines
+=============================
+
+The following rules and guidelines apply to wide metal lines normally used for power supply routing.
+
+Reliability problems associated with these wide metal lines normally manifest it as dielectric film cracks and/or metal smeared as a results of stress induced due to thermal mismatch between different films in integrated circuits like metal, dielectrics & molding compounds.
+
+
+.. toctree::
+    :glob:
+
+    drm_14_6_1
+    drm_14_6_2
+    drm_14_6_3

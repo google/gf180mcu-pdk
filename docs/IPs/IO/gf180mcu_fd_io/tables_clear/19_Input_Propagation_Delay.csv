@@ -1,0 +1,5 @@
+Configuration,Input, Output, Transition,Cload,Min,Typ,Max,Unit
+Input (CMOS),PAD,Y,L to H,0.5pF,\-,\-,3,ns
+,PAD,Y,H to L,0.5pF,\-,\-,3,ns
+Input (Schmitt),PAD,Y,L to H,0.5pF,\-,\-,3,ns
+,PAD,Y,H to L,0.5pF,\-,\-,3,ns

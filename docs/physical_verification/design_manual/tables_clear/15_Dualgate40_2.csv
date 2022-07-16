@@ -1,0 +1,6 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+DV.5,Min. Dualgate width,0.7
+DV.6,Min. Dualgate enclose COMP  (except substrate tap),0.24
+DV.7 ,COMP (except substrate tap) can not be partially overlapped by Dualgate,
+DV.8 ,Min Dualgate enclose Poly2,0.4
+DV.9 ,3.3V and 5V/6V PMOS cannot be sitting inside same NWELL,

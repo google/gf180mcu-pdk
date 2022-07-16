@@ -1,0 +1,14 @@
+14.3 Latch-up Rules and Guidelines
+==================================
+
+Latch-up is caused by triggering of parasitic bipolar inherent in the CMOS architecture. Latchup can be triggered by overshoot at the positive supply line, undershoot at the negative (ground) supply line or hot carrier induced current in the substrate. By following the layout rules given below, robust latch-up can be obtained for the process.
+
+It is to be noted that core latch-up rules only addresses the latchup immunity from the internal substrate current generation of MOS devices under normal operation. If circuit situations are such that it expects certain device source/drain junctions to be forward biased under any circuit operation situations then those diffusions must be marked by the “Latchup_MK” layer with zero overlap to that diffusion and follow the I/O latchup rules.
+
+.. toctree::
+    :glob:
+
+    drm_14_3_1
+    drm_14_3_2
+    drm_14_3_3
+    drm_14_3_4

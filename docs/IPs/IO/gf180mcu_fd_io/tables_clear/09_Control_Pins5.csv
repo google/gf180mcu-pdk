@@ -1,0 +1,5 @@
+PDRV1,PDRV0,Output drive strength
+0,0,4mA
+0,1,8mA
+1,0,12mA
+1,1,16mA

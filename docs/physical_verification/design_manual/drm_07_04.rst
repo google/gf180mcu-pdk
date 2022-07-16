@@ -1,0 +1,34 @@
+7.3 Lvpwell
+-----------
+
+This drawn layer is defined for 3.3V and 5V/6V NMOS body . If this layer is used without DNWELL (outside DNWELL), the body of all those transistors will by default be connected to P-substrate potential. If LVPWELL is designed as a resistor, it is not allowed to be placed outside DNWELL.
+
+**(A) LVPWELL Inside DNWELL**
+
+.. csv-table:: LVPWELL RULES (Inside DNWELL)
+    :file: tables_clear/12_LVPWELL29_1.csv
+    :widths: 200, 700, 100, 100
+    :align: center
+
+.. note::
+    \* :ref:`Rules not coded`
+
+    \*\* This note is a layout guide for customer and this rule can be detected by ERC, not by DRC
+
+.. image:: images/lvpwell1.png
+    :width: 800
+    :align: center
+    :alt: LVPWELL
+
+**(B) LVPWELL Outside DNWELL**
+
+.. csv-table:: LVPWELL RULES (Outside DNWELL)
+    :file: tables_clear/12_LVPWELL29_2.csv
+    :widths: 200, 700 , 100
+    :align: center
+
+.. image:: images/lvpwell2.png
+    :width: 800
+    :align: center
+    :alt: LVPWELL
+

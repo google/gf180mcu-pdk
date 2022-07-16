@@ -1,0 +1,27 @@
+7.6 Dualgate
+------------
+
+This layer defines the 5V/6V area. All 5V/6V device area should be covered by this layer.
+
+.. csv-table:: Dualgate RULES
+    :file: tables_clear/15_Dualgate40_1.csv
+    :widths: 200, 700, 100
+    :align: center
+
+**Rules specific to 3.3V/(5V)6V Dualgate outside DNWELL:**
+
+.. csv-table::
+    :file: tables_clear/15_Dualgate40_2.csv
+    :widths: 200, 700, 100
+    :align: center
+
+.. note::
+    \* :ref:`Rules not coded`
+
+    \* This rule can be detected by ERC, not by DRC
+
+.. image:: images/dualgate.png
+    :width: 800
+    :align: center
+    :alt: Dualgate
+

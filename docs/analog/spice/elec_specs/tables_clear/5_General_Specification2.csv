@@ -1,0 +1,10 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+2,Contact Resistance,,,,,,
+,M1-Poly (salicided),,0.22 x0.22,--,5.9,15,Ω/cont
+,M1-N+ (salicided),,0.22 x0.22,--,6.3,15,Ω/cont
+,M1-P+ (salicided),,0.22 x0.22,--,5.2,15,Ω/cont
+,Via 1,,0.26 x 0.26,--,4.5,15,Ω/via
+,Via 2,,0.26 x 0.26,--,4.5,15,Ω/via
+,Via 3,,0.26 x 0.26,--,4.5,15,Ω/via
+,Via 4,,0.26 x 0.26,--,4.5,15,Ω/via
+,Via 5 (Top Via),,0.26 x 0.26,--,4.5,15,Ω/via

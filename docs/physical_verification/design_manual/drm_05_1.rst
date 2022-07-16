@@ -1,0 +1,68 @@
+5.1 Guidelines for polygon shapes to be avoided
+===============================================
+
+This section describes the shapes or the patterns, which shall be avoided for, better manufacturability and yield.
+
+**SH.1**: Avoid any COMP, POLY and metal circular or arch shapes with exception only for pre-tested metal inductors with IND_MK mark layer.
+
+.. image:: images/sh1.png
+    :width: 600
+    :align: center
+    :alt: SH.1
+
+**SH.2**: Avoid any COMP, poly and metal shapes with acute angles (angles <90 deg). Exceptions are only for pre-tested metal inductors with IND_MK mark layers and lettering (non circuit elements).
+
+.. image:: images/sh2.png
+    :width: 600
+    :align: center
+    :alt: SH.2
+
+**SH.3**: Avoid COMP and poly intercepting with one side COMP wider and other side (as shown below)
+
+.. image:: images/sh3.png
+    :width: 600
+    :align: center
+    :alt: SH.3
+
+**SH.4**: Neither COMP nor poly can be tapered within in the intersect area. (Exceptions only for pre-tested SRAM and other memory cells with mark layer).
+
+.. image:: images/sh4.png
+    :width: 600
+    :align: center
+    :alt: SH.4
+
+**SH.5**: Poly bends in active shall be avoided if accuracy of transistor width is important and also in analog blocks. (Exceptions only for pre-tested SRAM and other memory cells with mark layer). This case the accuracy of circuit speed /timing will degraded.
+
+.. image:: images/sh5.png
+    :width: 600
+    :align: center
+    :alt: SH.5
+
+**SH.6**: Following “U” shape shall be avoided for COMP layer: Especially when X <1.0um and/or Y<0.5um. Exceptions are only for proven memory cells with SRAM bit cell marking layer (Gmcell).
+
+.. image:: images/sh6.png
+    :width: 600
+    :align: center
+    :alt: SH.6
+
+**SH.7**: Following shape of COMP forming transistors shall be avoided in general and more importantly when X and /or Y dimensions are less than 5um. (Exceptions are only for proven memory cells with SRAM bit cell marking layer (Gmcell).
+
+.. image:: images/sh7.png
+    :width: 600
+    :align: center
+    :alt: SH.7
+
+**SH.8**: Contact on COMP in following manner with minimum rules shall be avoided. (Exceptions are only for proven memory cells with SRAM bit cell marking layer (Gmcell).
+
+.. image:: images/sh8.png
+    :width: 600
+    :align: center
+    :alt: SH.8
+
+**SH.9**: Following type-a, type-b and type-c kind of resistor layout shall be avoided: (for matched pair resistors, please refer to matched pair design guidelines in the design rule document).
+
+.. image:: images/sh9.png
+    :width: 800
+    :align: center
+    :alt: SH.9
+

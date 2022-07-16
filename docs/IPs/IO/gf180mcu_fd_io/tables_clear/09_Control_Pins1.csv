@@ -1,0 +1,5 @@
+IE,OE,Input/Output Control
+0,0,Input & Output Disable
+0,1,Output Enabled
+1,0,Input Enabled
+1,1,Disallowed

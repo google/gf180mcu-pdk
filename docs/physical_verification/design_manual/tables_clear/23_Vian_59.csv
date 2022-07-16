@@ -1,0 +1,39 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,Vn --- Vian  (where n = 1 to 5),
+Vn.1,Min/max Vian size (1 <= n <= 5),0.26
+Vn.2a,Space (1 <= n <= 5),0.26
+Vn.2b,Vian Space in 4x4 or larger Vian array,0.36
+Vn.3,"Metaln (where n=1 to 5) overlap of Vian
+
+
+i. Metaln (< 0.34μm) end-of-line overlap (1)
+
+ii. If Metaln overlap Vian by < 0.04μm on one side, adjacent Metaln edges overlap
+
+iii. Minimum Metaln overlap of Vian on all sides for minimum Vian resistance
+
+variation (guideline)*","0.00 (n = 1)
+
+0.01 (2 <= n <= 5)
+
+0.06
+
+0.06
+
+0.12"
+Vn.4,"Metal [n+1] overlap of Vian
+
+i. Metal [n+1] (< 0.34μm) end-of-line overlap1
+
+ii. If Metal [n+1] overlap Vian by < 0.04μm on one side, adjacent Metal [n+1] edges overlap
+
+iii. Minimum Metal[n+1] overlap of Vian on all sides for minimum Vian resistance
+
+variation (guideline)*","0.01
+
+0.06
+
+0.06
+
+0.12"
+Vn.5*,Vian stack (2) over contact is permitted,

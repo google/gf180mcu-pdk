@@ -1,0 +1,17 @@
+1.5.4 MOSCAP Instance parameters
+================================
+
+The resistor instance parameters shall be used in the netlist are described below with their default values: -
+
+- w : Width of MOS Capacitor (meter)
+
+- l : Length of MOS Capacitor (meter)
+
+- m : Device multiplicity factor
+
+.. csv-table::
+   :file: tables_clear/14_MOSCAP_Instance.csv
+
+
+
+

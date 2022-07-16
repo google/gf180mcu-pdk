@@ -1,0 +1,17 @@
+8.3 Diodes
+==========
+
+8.3.1 Schottky Diode
+....................
+
+.. image:: images/3_Diodes1.png
+   :width: 600
+   :align: center
+   :alt: Schottky Diode
+
+.. image:: images/3_Diodes2.png
+   :width: 600
+   :align: center
+   :alt: Schottky Diode
+
+

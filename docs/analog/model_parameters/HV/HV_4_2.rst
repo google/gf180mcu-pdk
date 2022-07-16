@@ -1,0 +1,23 @@
+4.2 Global Statistical Modeling Results
+=======================================
+
+To verify the model, Monte Carlo simulations were run and the output was compared with the measured data.
+
+The verification plots below compare the NMOS data with the PMOS data (except for native devices). This plot captures 3 pieces of information: the variance of the NMOS data, the variance of the PMOS data, and the covariance of the NMOS data vs. the PMOS data.
+
+The number of runs for each model type is 500 runs. In normal usage though, such a large number of runs is not necessary. 100 to 200 runs would be a typical number. Certainly, for a large circuit, it may not be feasible to make a large number of Monte Carlo simulations. The following plots compare the measurement results and the simulation results. Results shown are for fet_mc_skew = 3.
+
+4.2.1 Isolated 10V LDMOS Process MC
+...................................
+
+.. image:: images/3_monte_carlo2.png
+   :width: 600
+   :align: center
+   :alt: 10V LDMOS Vtlin global distribution
+
+.. image:: images/3_monte_carlo3.png
+   :width: 600
+   :align: center
+   :alt: 10V LDMOS Idsat global distribution
+
+

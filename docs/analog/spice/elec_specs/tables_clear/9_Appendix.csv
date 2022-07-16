@@ -1,0 +1,39 @@
+Document Revision,Paragraph(s) of Changed,Description of Change(s)
+1A,New Creation,NA
+1B,4.1 Sheet Resistance,4.1.1. Change the target of  wide N+ DIF (salicided) from 8 to 6.3.
+,,4.1.2. Change the target of  wide P+ DIF (salicided) from 9 to 7.
+,,4.1.3. Change the target of  wide N+ Poly (salicided) from 8.2 to 6.8.
+,,4.1.4. Change the target of  wide P+ Poly (salicided) from 9 to 7.3.
+,4.7 Temperature Coefficient,4.7.1.  Add M4 and M5 TC specs.
+,,
+3,Add 6V native NMOS transistor,Add 6V NMOS native transistor.
+,,
+4,1.3 Sub threshold current,1.3.1 Change the high spec of Nch Ioff from 20pA/um to 100pA/um.
+,,
+5,5.0 Medium Voltage Devices (5V),Add 5V devices
+,,
+6,7 SAB Devices,Add SAB Devices paper model SPEC
+7,"5 General Specification (Resistor,
+
+ Capacitor,Oxide, Junction and
+
+Parasitic NPN/PNP)","Add Top metal (30kA) sheet resistance and temperature coefficient in table. Copy
+
+BCDLite spec YI-141-EP056"
+8,"6.1C 3000 ohm/sq High Poly
+
+ Resistor
+
+6.2 MIM Capacitor 
+
+5 General specification","Add 3000 ohm/sq High Poly Resistor
+
+Add 2fF MIM option.
+
+Add Top metal (30kA) sheet resistance in table. Copy BCDLite spec YI-141-EP056"
+9,8 High Voltage LDMOS Transistor,Add section.8 High Voltage LDMOS Transistor
+10,"5 General Specification (Resistor,
+
+ Capacitor,Oxide, Junction and
+
+Parasitic NPN/PNP)",Add Top metal (11kA) sheet resistance and temperature coefficient in table

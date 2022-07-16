@@ -1,0 +1,10 @@
+2.3 1/f Noise Measurement conditions
+====================================
+
+Flicker noise model in this release uses the unified flicker noise model provided in BSIM model. The 1/f noise measurement was taken from the typical DC chip by using Noise Analyzer with a frequency sweep of 10Hz to 100 KHz. Measurement was taken from several dies and the median noise data is used for model fitting. The BSIM flicker noise parameters are then extracted for linear-to-saturation and weak-to-strong inversion regions. The DC model parameters, which are used in noise model extraction, are the as-fit parameters tuned for the chip in order to reduce error in DC characteristics, drain current as well as transconductance.
+
+The bias conditions and the devices used for measuring 1/f noise are summarized in the following table.
+
+.. csv-table::
+   :file: tables_clear/17_Noise.csv
+

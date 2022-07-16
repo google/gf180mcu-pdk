@@ -1,0 +1,25 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Linear Threshold Voltage,,,,,,
+,VT0,NCH (NE2),W/L = 10/0.28 (THIN GATE),0.53,0.63,0.73,V
+,VT0,PCH (PE2),W/L = 10/0.28 (THIN GATE),-0.85,-0.73,-0.61,V
+2,Saturation Current,,,,,,
+,Idsat ( | Vds | = | Vgs | = 3.3V),NCH (NE2),W/L = 10/0.28 (THIN GATE),430,510,590,μA/um
+,Idsat ( | Vds | = | Vgs | = 3.3V),PCH (PE2),W/L = 10/0.28 (THIN GATE),-290,-250,-210,μA/um
+3,Subthreshold Current,,,,,,
+,Ioff ( | Vds | = 3.63V @ 25°C),NCH (NE2),W/L = 10/0.28 (THIN GATE),--,1,100,pA/μm
+,Ioff ( | Vds | = 3.63V @ 25°C),PCH (PE2),W/L = 10/0.28 (THIN GATE),-20,-1,--,pA/μm
+4,Subthreshold Slope,,,,,,
+,SubVt Slope,NCH (NE2),W/L = 10/0.28 (THIN GATE),--,--,150,mV/dec
+,SubVt Slope,PCH (PE2),W/L = 10/0.28 (THIN GATE),--,--,150,mV/dec
+5,Punch-Through Voltage,,,,,,
+,BVDSS,NCH (NE2),W/L = 10/0.28 (THIN GATE),7,9,--,V
+,BVDSS,PCH (PE2),W/L = 10/0.28 (THIN GATE),--,-8.5,-6.5,V
+6,Field Assisted Breakdown,,,,,,
+,Voltage,,,,,,
+,BVDSF,NCH (NE2),W/L = 210/0.28 (THIN GATE),6.5,8.5,--,V
+,BVDSF,PCH (PE2),W/L = 210/0.28 (THIN GATE),--,-8.5,-6.5,V
+7,"Field Transistor Threshold
+
+Voltage",,,,,,
+,Vtsat FN-Poly,NCH (NE2),W/L = 210/0.28 (THIN GATE),6.5,8.5,--,V
+,Vtsat FP-Poly,PCH (PE2),W/L = 210/0.28 (THIN GATE),--,-8.5,-6.5,V

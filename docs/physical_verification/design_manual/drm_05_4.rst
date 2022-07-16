@@ -1,0 +1,13 @@
+5.4 Essential Guidelines for Analog Design
+==========================================
+
+1. For all type of analog resistors follow relevant resistor rules rather than standard layer/routing rules.
+
+2. Wherever possible use small Nplus/Psub diode in LV/HV area to the top metal lines connected to MIM/Gate Oxide capacitors, for the protection of PID. While connecting the diode polarity of the signal coming have to be taken care so that diode does not get forward biased in normal operation. The details are available in PID rules.
+
+3. Do not allow any unrelated metal/poly2/salicided diffusion routing above or below the precision matching components (resistors, capacitors and transistors).
+
+4. For better resistor accuracy, it is better to use wider and longer resistors rather than narrow and short.
+
+5. For better resistor/capacitor/transistor matching, refer to the device mismatch guidelines in the design rule document and the device characterization report for mismatch data.
+

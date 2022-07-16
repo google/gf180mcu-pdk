@@ -1,0 +1,14 @@
+2.6 How to Use the Models
+-------------------------
+
+2.6.1 For NGSPICE Users
+.......................
+
+**To be added**
+
+2.6.2 For XYCE Users
+....................
+
+**To be added**
+
+

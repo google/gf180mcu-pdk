@@ -1,0 +1,11 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,MT --- MetalTop,
+MT.1,Width,0.36/0.44*
+MT.2a,Space,0.38/0.46*
+MT.2b,Space between wide (length & width > 10um) MetalTop,0.50/0.60*
+MT.3,"MetalTop coverage over the entire die shall be >30%
+
+(Refer to section 10.3 for Dummy Metal-fill guidelines. Customer needs
+
+to ensure enough dummy metal to satisfy Metaln coverage) ",
+MT.4,Minimum MetalTop area,0.5625μm2

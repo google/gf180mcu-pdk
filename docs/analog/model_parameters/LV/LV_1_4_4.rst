@@ -1,0 +1,7 @@
+1.4.4 Resistors
+===============
+
+.. csv-table::
+   :file: tables_clear/06_Resistors.csv
+
+

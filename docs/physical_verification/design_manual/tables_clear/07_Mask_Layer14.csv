@@ -1,0 +1,34 @@
+Mask#,Layer Name,Description,Drawn/Generated,Digitized Polarity,Output GDS II #,N-Value
+10,COMP,COMP,Drawn + Generated,Chrome,22,1
+11,AD,Planarization Aid,Generated,Clear,15,0
+5,Nwell,NWELL,Drawn + Generated,Clear,21,0.25
+6,DNWELL,Deep Nwell,Drawn,Clear,12,0.25
+18,LVPWELL,LVPWELL,Drawn + Generated,Chrome,204,0.25
+64,TP,3.3V PMOS Vt Implant,Generated,Clear,10,0.25
+61,TN,3.3V NMOS Vt Implant,Generated,Clear,47,0.25
+38,Dualgate,Dualgate,Drawn,Chrome,55,1
+60,Poly2,POLY2,Drawn,Chrome,30,1
+1L,MVNVT,5V or 6V NLDD,Generated,Clear,205,0.25
+2E,MVPVT,MTP Cell Implant,Generated,Clear,206,0.25
+65,Nplus,Nplus  Implant,Drawn,Clear,32,0.5
+67,ESD,ESD implant,Drawn,Clear,24,0.25
+70,Pplus,Pplus Implant,Drawn + Generated,Clear,31,0.5
+63,Resistor,Resistor,Drawn,Clear,62,0.25
+68,SAB,Salicide Block,Drawn,Chrome,49,0.25
+9Z,POLYFUSE,POLY FUSE Window,Drawn,Clear,220,0.25
+75,Contact,Contact,Drawn,Clear,33,1
+80,Metal1,Metal1,Drawn + Generated,Chrome,34,1
+85,Via1,Via1,Drawn,Clear,35,1
+88,Metal2,Metal2,Drawn + Generated,Chrome,36,1
+91,Via2,Via2,Drawn,Clear,38,1
+93,Metal3,Metal3,Drawn + Generated,Chrome,42,1
+94,Via3,Via3,Drawn,Clear,40,1
+96,Metal4,Metal4,Drawn + Generated,Chrome,46,1
+92,FuseTop,FuseTop (MIM top),Drawn,Chrome,75,0.5
+97,Via4,Via4,Drawn,Clear,41,1
+9E,Metal5,Metal5,Drawn + Generated,Chrome,81,1
+9D,Via5,Via5,Drawn,Clear,82,1
+98,MetalTop,TopMetal,Drawn + Generated,Chrome,53,0.5
+95,Pad,Pad,Drawn + Generated,Clear,37,0
+99,PIB,Bond opening and Passivation opening,Generated,Clear,50,0
+9A,FuseWindow,Metal FuseWindow (Optional),Drawn + Generated,Clear,96,0.5

@@ -1,0 +1,123 @@
+Document Revision,Paragraph(s) Of Changed, Description of Change(s)
+1,New Release,New Release
+2,Section 7.3,Change  DF.1a Min. COMP Width : from 0.30(6V) to 0.22(6V)
+ ,           ,Change  DF.4b Min. Nwell enclose NCOMP: from 0.16(6V) to 0.12(6V)
+ ,           ,Change  DF.5b Min. space from Nwell to (PCOMP outside Nwell): from 0.16(6V) to 0.12(6V)
+ ,Section 7.5,Change  PL.3a Space on COMP: from 0.4(6V) to 0.24(6V)
+ ,Section 7.12,Change Vn.2 index from Vn.2 to Vn.2a
+ ,            ,Add    Vn.2b Vian Space in 4x4 or larger Vian array:0.36
+3,Section 10.7,Change BJT.1 index from BJT.1 to DRC_BJT.1
+ ,            ,Add  DRC_BJT.2  Minimum space of DRC_BJT layer to unrelated COMP: 0.1
+ ,Section 10.9,Add  LVS_BJT Mark Layer
+ ,            ,Add  LVS_BJT.1 Minimum LVS_BJT enclosure of  NPN or PNP Emitter COMP layers: 0
+ ,Appendix A  ,Add  Below devices to the device list:
+ ,            ,nmos_6p0_nat 6V Native NMOS
+ ,            ,nmoscap_3p3_b 3.3V NMOS capacitor (inside Nwell)
+ ,            ,pmoscap_3p3_b 3.3V PMOS capacitor (inside Psub)
+ ,            ,nmoscap_6p0_b 6V NMOS capacitor (inside NWell)
+ ,            ,pmoscap_6p0_b 6V PMOS capacitor (inside Psub)
+ ,Section 13.4 and 13.5, Add  ESD related design rules.
+4,Section 4   ,Add MCU SONOS related layer information
+,Section 4    ,Define OTP_MK in the notes of drawn layer table.
+,Section 7    ,Add MCU SONOS related design rules
+,Section 7.9  ,Delete OTP related O.PL.2b and integrate it to OTP design rule.
+,Section 10.7 and 10.9,Add MCU SONOS NPN related DRC and LVS
+,Section 12.1 and 12.2,Add MCU SONOS related dummy rules
+,Appendix A           ,Add DNWell related device list for model and LVS deck
+,Section 10.10        ,Add OTP related design rules
+,Section 12.3         ,Add OTP_MK layer to the dummy metal pattern forbidden list in DM. 8
+5,Section 4.3         ,Insert L9A FuseWindow mask layer
+6,Section 10.10       ,Update OTP related design rules.
+,Section 4.4,Update truth table for item “MIM capacitor”
+,Section 7.9,Add 5V devices
+,"Section 4, 7, 10, 12",Delete all SONOS related items.
+,Section 13.4.4,13.4.4 update ESD guideline  for HVPMOS Device
+,Change Title,Title change from “0.18UM 3.3V/6V MCU Technology TOPOLOGICAL
+,            ,AND RELIABILITY Design Rules” to “0.18UM 3.3V/(5V)6V MCU
+,            ,Technology Topological And Reliability Design Rules”
+7,Section 4.1,"Add marking layer of ESD_MK, LVS_Source and WELL_DIODE_MK"
+ ,Section 4.4,Add ESD devices and SramCore marking layer  in Truth Table
+ ,           ,"Update column Nwell, LVPWELL, FuseTop, MIM_L_MK in Truth Table"
+ ,           ,Separate Diff Res and MOS CAP by inside and outside DNW
+ ,Appendix.A ,Add ESD (SAB MOSFET)
+ ,           ,Separate 5V and 6V MOSFET
+ ,Section 14.4.1,Update design guidelines for 3.3V LV SAB MOSFET
+ ,Section 14.4.3,Update design guidelines for 5V/6V HV SAB NMOS
+ ,Section 14.4.4,Update design guidelines for 5V/6V HV SAB PMOS
+ ,Section 11.0,Add SRAM Core rule. Remark:
+ ,            ,1. SRAM devices are allowed inside/out side of DNWELL
+ ,            ,2. SRAM devices follow the Logic 5V/6V SPICE Models.
+ ,Section 7.10,Rule SAB.12 from 'Overlap with Poly2' to 'Overlap with Poly2 outside ESD_MK'
+ ,            ,Rule SAB.16 is also  excluded by ESD_MK layer
+ ,Section 14.2.1,Remove 30kA MetalTop thickness from table 14.3
+ ,All           ,Re-brand “Green” Technology to 180nm MCU Platform per 
+ ,              ,Marketing request. Change all “Green” to “MCU” when it is
+,,referring to technology platform.
+,Document Title,Change document title from “0.18UM 3.3V/(5V)6V Green
+,,Technology Topological And Reliability Design Rules” 
+,,To “0.18UM 3.3V/(5V)6V MCU Technology TOPOLOGICAL
+,,AND RELIABILITY Design Rules”
+,Section 13.3,Add dummy rule DM.2b_Min Dummy metal line space (for DRC) 0.99um
+8,Section 7.15,Specify this section is for 6K/9KA meal thickness
+,Section 7.16,Add 3um thick top metal option
+,Section 8.0,Add 3um TM in ANTENNA RATIO RULES
+,Appendix A,Add tm30k Top Metal resistor
+9,Section 4.4,Add 3K HRES in truth table
+,Appendix A,Add 3K HRES device
+,,Add 2fF MIM device
+10,Section 4.1,"Add  MVSD, MVPSD, LDMOS_XTOR, PLFUSE and"
+,,EFUSE_MK in Drawn layer definition and abbreviation
+,Section 4.4,"Add MVSD, MVPSD, LDMOS_XTOR, PLFUSE and"
+,,EFUSE_MK in Topological Truth Table for 3.3V/(5V)6VProcess
+,,Add devices 10V LDNMOS and LDPMOS
+,,Change all “0/1” and “Op” to “X” in truth table
+,Section 7.7,Redefine rule existing ground rule PL.1
+,Section 10.10,"Separate  rules for 3.3V and 5V OTP (O.SB.5b), add O.SB.13"
+,Section 10.11,Add 0.18um MCU eFuse Design Rules
+,Section 10.12,Add High Voltage LDMOS and related rules
+,Section 13.3,Change DM.2a from 0.99um to 0.98um
+,Appendix A,Add eFuse in Device List
+,,Add LD-NMOS and LD-PMOS in Device List
+,,Add column of “Spec” for SPICE model
+,Appendix B,Appendix: rules not coded
+11,Section 4.1,Drawn layer definition and abbreviation
+,,Add new marking layer MCELL_FEOL_MK and YMTP_MK
+,Section 4.3,Mask layer numbering
+,,Add new mask L2E
+,,Amend layer 1L name to “MVNVT” from “NLDD”
+12,Section 7.17,Mcell
+,,Add Mcell implant layer rules
+,Section 9.3,Circuit-Under-Pad (CUP) Rules
+,,Add rule CUP.7f
+,Section 10.10,OTP_MK Mark Layer
+,,Add Poly2 gate orientation restrict rule O.PL.ORT
+,Section 10.13,YMTP_MK Marking Layer Rules
+,,Add YMTP related design rules
+,Section 11.1,5V SRAM
+,,Change rule name “S.CO.4” to “S.CO.4_MV”
+,Section 11.2,3.3V SRAM
+,,Add 3.3V SramCore Layer Rules
+,Section 13.1,Design rules for Dummy COMP creation
+,,Add rule DCF.1d to trigger Max COMP density alert
+,Section 14.2,Electro-migration
+,,Add 30kA TM max current density
+13,Section 2.9,Update guard ring checker which is already running
+,,Background from Q3-2015
+,Section 2.10,Current 0.18 MCU PDK support following BEOL
+,Section 4.1,Add in  NEO_EE_MK
+,,Add in LVS marking layer - DEV_WF_MK for Fab special
+,,Purpose layout
+,Section 4.4,"Add Schottky_diode, device sc_diode,"
+,Section 7.15,Specify this section is for 6K/9KA/11KA meal thickness.
+,,remove  the baseline MetalTop thickness is 6K Å.
+,Section 8.0,Add 11um TM in ANTENNA RATIO RULES
+,Section 9.2,Not recommended to use 6k TM for cu wire bonding
+,Section 10.14,Add Schottky diode related design rules
+,Section 10.15,Drawn layer definition and abbreviation NEO_EE_MK
+,,And NEO_EE_MK related design rules
+,Section 14.2.1,Add 11kA TM max current density
+,Section 14.3.1,Modify LU.3 and LU.4 to define N/P tap by NWELL by adding in LU.1 & .U.2
+,Section 14.4.3,Design Guidelines for 5V/6V HV SAB NMOS Device
+,,Update rule G_HVNESD.10 from 2um to 1.5um
+,Appendix A,"Add tm11k Top Metal resistor,  Schottky diode  in Device List"
+,Section 4.3,"PIB layer polarity from ""Chrome"" to ""Clear"""

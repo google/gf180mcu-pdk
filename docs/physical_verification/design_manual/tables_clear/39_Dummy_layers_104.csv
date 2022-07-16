@@ -1,0 +1,13 @@
+RULE NO.,DESCRIPTION,"LAYOUT
+RULE"
+DE.1*,"Dummy COMP exclude and dummy poly/metal exclude layers shall be drawn only if
+
+necessary (for example for certain critical RF circuit area where RF coupling is critical).
+
+Other wise in normal analog and digital active circuits, the presence of “dummy COMP”
+
+Around it rather maintains the better Ioff performance of the transistors and junctions.",
+DE.2,Minimum NDMY or PMNDMY size (x or y dimension in um),0.8
+DE.3,(c) Maximum NDMY size  (um2),15000
+,(d) If size greater than 15000um2 then two sides should not be greater than (um).,80
+DE.4,Minimum NDMY to NDMY space (Merge if space is less).,20

@@ -1,0 +1,14 @@
+Levels of Metal,BEOL metal and via to be included
+6LM,"Metal1, Via1, Metal2, Via2, Metal3, Via3, Metal4, Via4, Metal5, Via5, MetalTop."
+5LM,"Metal1, Via1, Metal2, Via2, Metal3, Via3, Metal4, Via4, MetalTop.
+
+SKIP Metal5, Via5."
+4LM,"Metal1, Via1, Metal2, Via2, Metal3, Via3, MetalTop.
+
+SKIP Metal5, Via5, Metal4, Via4."
+3LM,"Metal1, Via1, Metal2, Via2, MetalTop.
+
+SKIP Metal5, Via5, Metal4, Via4, Metal3, Via3."
+2LM,"Metal1, Via1, MetalTop.
+
+SKIP Metal5, Via5, Metal4, Via4, Metal3, Via3, Metal2, Via2."

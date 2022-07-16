@@ -1,0 +1,11 @@
+Term,Definition
+NCOMP,COMP AND Nplus
+PCOMP,COMP AND Pplus
+Field,NOT COMP
+Transistor gate,Poly2 AND COMP
+N-channel gate,Nplus AND Poly2 AND COMP
+P-channel gate,Pplus AND Poly2 AND COMP
+Unsalicided Nplus Poly2,Poly2 AND Nplus AND SAB
+Unsalicided Pplus Poly2,Poly2 AND Pplus AND SAB
+Unsalicided COMP,COMP AND SAB
+Unsalicided Poly2,Poly2 AND SAB

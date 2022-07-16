@@ -1,0 +1,6 @@
+#,PARAMETERS,XTORS,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+3,Gate oxide capacitance,,,,,,
+,COX (Poly) 3.3V,,3.3V GATE P,3.4,4.4,5.4,fF/μm2
+,COX (Poly) 3.3V,,3.3V GATE N,3.4,4.4,5.4,fF/μm2
+,COX (Poly) 6V,,6V GATE P,1.8,2.3,2.8,fF/μm2
+,COX (Poly) 6V,,6V GATE N,1.8,2.3,2.8,fF/μm2

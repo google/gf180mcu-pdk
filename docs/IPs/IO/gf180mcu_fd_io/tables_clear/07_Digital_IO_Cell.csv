@@ -1,0 +1,16 @@
+PIN,Function
+DVDD,5V supply for output drivers
+VDD,5V supply for pre-drive in I/O pads
+DVSS,Ground for output drivers
+VSS,Ground for pre-drive in I/O pads
+IE,Input enable
+PD,Pull-down enable
+PU,Pull-up enable
+Y,Data output to core
+PAD,Data input from/output to bond pad
+OE,Output enable
+A,Data input from core
+CS,CMOS/Schmitt trigger input select
+SL,Fast/Slow slew rate select
+PDRV0,Output drive strength selector
+PDRV1,Output drive strength selector

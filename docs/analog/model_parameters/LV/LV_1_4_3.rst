@@ -1,0 +1,7 @@
+1.4.3 BJTs
+===============
+
+.. csv-table::
+   :file: tables_clear/05_BJTs.csv
+
+

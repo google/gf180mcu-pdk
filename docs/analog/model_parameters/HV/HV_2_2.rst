@@ -1,0 +1,18 @@
+2.2 Model Features and Limitations
+----------------------------------
+
+**Model Features:**
+
+1. BSIM4.6 is used for FET modeling.
+2. STI stress model was not used to fit the data.
+
+Device width and length in a FET call:
+
+During a FET netlist call, users should use design dimension for W and L, not effective width and length. In this release, the BSIM model parameter Lmin is set to the nominal drawn gate length. This may cause warnings to be generated during corner simulations when the biased gate length becomes less than Lmin. This warning has no effect on the simulation results.
+
+Model Limitations:
+
+1. All global statistical models are EP target based (not silicon verified).
+2. Drain side & source side diode of LDNMOS are leveraged from NWell/PSUB & N+/PSUB diode from 0.18um 3.3V/(6V) MCU HV Process respectively.
+3. Drain side & source side diode of LDPMOS are leveraged from PWell/DNWell & P+/NWell diode from 0.18um 3.3V/(6V) MCU HV Process respectively.
+

@@ -1,0 +1,6 @@
+NO.,DESCRIPTION,LAYOUT RULE
+PM.1,Min PROBE_MK overlap of probe pad passivation opening,0
+PM.2,Min probe pad passivation opening1,50
+PM.3,Min probe pad pitch1,80
+PM.4,Min Probe pad top layer metal overlap of pad opening,2
+PM.5,Min Probe pad passivation opening to solder bump UBM opening,13

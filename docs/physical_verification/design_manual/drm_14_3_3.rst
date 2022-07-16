@@ -1,0 +1,7 @@
+14.3.3 Special Cases in the circuit
+====================================
+
+An area for potential concern is forward-biased diode. Diode under dc forward bias should be avoided as a circuit component. In case such diode has to be used, it must be marked by Latchup_MK layer and it shall be surrounded by N+/Nwell guard rings and optionally by P+ guard rings. Such rules need to be followed if significant over voltage and under voltage conditions exist in any diffusion in the core.
+
+Floating Nwell without any injecting diffusion is generally not a latch-up concern. Reliability Group will be available to assess possibility of latch-up in special circuit cases.
+

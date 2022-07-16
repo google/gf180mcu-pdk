@@ -1,0 +1,27 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,MT30 = 3um Metal Top,
+MT30.1,"(a) Min. thick MetalTop width
+
+(b) Min width for >1000um long metal line (based on metal edge)","1.8
+
+2.2"
+MT30.2,Min. thick MetalTop space,1.8
+MT30.3,The separation of two corners should satisfy the minimum spacing,1.8
+MT30.4,The separation of single metal line from a any degree metal line should satisfy the minimum spacing,1.8
+MT30.5,Minimum thick MetalTop enclose underlying via (for example: via5 for 6LM case) [Outside Not Allowed],0.12
+MT30.6,Thick MetalTop end-of-line (width <2.5um) enclose underlying via (for example: via5 for 6LM case) [Outside Not Allowed],0.25
+MT30.7,"Thick MetalTop coverage over the entire die shall be >30%
+
+(Refer to section 13.0 for Dummy Metal-fill guidelines. Customer needs to
+
+Ensure enough dummy metal to satisfy Metaln coverage)",
+MT30.8a,"As via size compare to min thick-metal width is very small. Single top via
+
+(e.g Via3 for 4 layer metal process with 3.0um thick top metal option.
+
+in other words via connecting to thick metal) At one location cannot exit under the thick (3um thick) metal.", DRC check
+MT30.8b,"There shall be minimum 2X2 array of vias (top vias) at one location  connecting to 3um thick top metal.
+
+Note: This rule will not checked for seal ring area (identified by  GUARD_RING_MK
+
+As the via rules in this area are separately covered  under seal ring section)", DRC check

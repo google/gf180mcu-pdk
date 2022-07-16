@@ -1,0 +1,54 @@
+14.1 Chip Operating Conditions
+==============================
+
+14.1.1 Temperature Limits
+.........................
+
+Circuit designers typically design their circuit for operation between -40 deg C  to 125 deg C . For operation below 0 deg C, customer is requested to take note of HCI degradation effects by referring to the Reference Document R-QR-MI-008 APPLICATION NOTE: Guidelines for Circuit Design in GlobalFoundries 0.22/0.18 :math:`{\mu m}`  Baseline Process Technology to Guard Against Hot-Carrier-Induced Degradation.
+
+14.1.2 Power Supply Voltage Limits
+..................................
+
+The power supply voltage must satisfy both the hot carrier constraints on the drain voltage as well as the gate-oxide integrity constraints on the gate voltage.
+
+The nominal power supply voltage for this 0.18 :math:`{\mu m}` HV process is 3.3V for LV and 5V/6V for HV devices with a supply overshoot tolerance of 10%. Since most of the reliability degradation mechanisms are strongly voltage dependent, it is important to control the power supply voltage so that it does not exceed Vddmax.
+
+Similarly high voltage case drain and gate voltages shall not exceed more that 10% from the maximum operating voltages.
+
+14.1.3 Chip Burn-in Limits
+..........................
+
+The maximum burn-in junction temperature shall be 150 deg C . The maximum burn-in voltage shall be 1.1*VDD. For LV devices VDD=3.3V and for HV devices VDD = 5V/6V (depending upon the process option selected).
+
+14.1.4 Device Voltage Limits
+............................
+
+14.1.4.1 Voltage Limits Due to Hot Carrier Induced FET Degradation
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Hot carrier injection can cause current drive degradation in short channel length NMOS and PMOS transistors. This degradation rate is a function of the drain-to-source voltage and the fraction of time a FET conducts and generates hot carriers.
+
+For a constant source/drain configuration, more current drive degradation takes place in the linear region. When source and drain are exchanged, as in a pass gate, the degradation is more severe and occurs in the saturation region as well.
+
+The following guidelines will help to improve hot carrier reliability in circuit design. Power supply voltage must be controlled to within 10% over Vdd (Vddmax).
+
+Hot carrier effect increases strongly with voltage. In case of multiple power supplies on same chip, special attention must be paid to FETs connected to higher power supply so that voltage across them does not exceed Vddmax for any significant amount of time.
+
+a.  Use minimum-channel FETs only when necessary. Hot carrier effect is more pronounced for FETs with shorter channel lengths. Linear region FET parameters (such as linear drive current, maximum Tran conductance) are more severely affected by hot carriers than saturation region FET parameters (such as saturation drive current) in forward mode of operation.
+
+b.  For applications where stability of linear region drive current or Tran conductance of an NMOSFET is critical and the very same NMOSFET is subjected to high drain-to-source voltage during circuit operation, longer than minimum channel FETs must be used.
+
+c.  Review circuits with high capacitive load (e.g. pads driving off-chip load), fan out (e.g. clock tree), slow input ramp, high duty cycles for voltages over Vddmax because such circuits may have NMOSFETs that are spending a significant fraction of time in the worst-case stress bias condition. In the event of high fanout (>10), speed-critical circuits should preferably be partitioned so that each driver has smaller number of fanouts.
+
+d.  Minimize switching time and current in the circuits. Digital circuits degrade primarily during switching. Turn off switching in parts of the circuit whenever possible.
+
+e.  Longer than minimum channel length should be used in circuits where NMOSFETs are used in bi-directional mode. Because degradation is confined near the drain end of the MOSFETs, reverse drain current shows more degradation than forward drain current.
+
+
+14.1.4.2. Voltage Limits Due to Gate Oxide Breakdown
+''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+The maximum voltage, which can be applied across the gate oxide of a FET, is limited by oxide breakdown, which is strongly dependent on the gate oxide thickness. Maximum absolute value of DC voltage allowed between the gate and any other FET node (gate-node voltage) is 3.63V (for thin oxide), 6.5V/6V for 5V/6V process thick gate.
+
+The gate-node voltage is allowed to periodically exceed the maximum DC values, where the maximum value of the over voltage depends on a duty cycle which is defined as the percentage of the time that the circuit is operating above the maximum allowed DC gate-node voltage. Maximum allowable duty cycle will depend upon TDDB lifetime at that duty cycle.
+

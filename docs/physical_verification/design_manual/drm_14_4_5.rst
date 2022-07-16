@@ -1,0 +1,25 @@
+14.4.5 Design Guidelines for 5V/6V HV Diode
+============================================
+
+The following design guidelines are recommended for 5V/6V HV N+/PWELL diode for good ESD protection.
+
+14.4.5.1  Minimum cathode junction width (DL) is 0.9 um.
+
+14.4.5.2  Recommended maximum cathode finger width (DW) is 25um.
+
+.. image:: images/HV_SAB3.png
+    :width: 400
+    :align: center
+    :alt:  5V/6V HV SAB PMOS Device
+
+The following design guidelines are recommended for 5V/6V HV P+/NWELL diode for good ESD protection.
+
+14.4.5.3  Minimum anode junction width (DL) is 0.9 um.
+
+14.4.5.4  Recommended maximum anode finger width (DW) is 25um.
+
+.. image:: images/HV_SAB4.png
+    :width: 400
+    :align: center
+    :alt:  5V/6V HV SAB PMOS Device
+

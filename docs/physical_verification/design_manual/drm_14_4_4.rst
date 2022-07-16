@@ -1,0 +1,21 @@
+14.4.4 Design Guidelines for 5V/6V HV SAB PMOS Device
+=====================================================
+
+When using HV PMOSFET for ESD protection devices, it shall be marked by ESD_MK mark layer. The following layout guidelines are recommended.
+
+.. csv-table:: 5V/6V HV SAB PMOS Device Rules
+    :file: tables_clear/59_HV2_SAB_MOSFET_170.csv
+    :widths: 300, 800, 200
+    :align: center
+
+.. note::
+
+    \* :ref:`Rules not coded`
+
+    \*\* Recommended rules , default OFF.
+
+.. image:: images/HV_SAB2.png
+    :width: 400
+    :align: center
+    :alt:  5V/6V HV SAB PMOS Device
+

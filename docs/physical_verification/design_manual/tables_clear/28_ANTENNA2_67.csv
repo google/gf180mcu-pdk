@@ -1,0 +1,69 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+ANT.16,"If any of the above antenna ratio rules fails then the antenna diodes
+
+shall be connected in a reverse bias mode between the metal line 
+
+failing antenna ratio (connected to gate poly or MIM cap top plate)
+
+and the substrate underneath.
+
+
+For DRC check if Metaln or Vian fails antenna ratio then it shall
+
+check whether this Metaln or Vian is directly connected to COMP
+
+through lower level metals, vias and contacts or not?
+
+Case (a): Connection to COMP is not present: Flag error
+
+Case (b): Connection to COMP is present: Then:
+
+
+(i) For Thin gate case: (COMP AND Poly2 NOT DUALGATE):
+
+Treat Gate area = (thin gate area +
+
+MF* (COMP area directly connection that node))
+
+
+This comp area contained the protection diode and any other
+
+drain or source junction connected to this node.
+
+MF: stand for multiplying factor, for this case MF=2
+
+(ii) For Thick gate case (COMP AND Poly2 AND
+
+DUALGATE) Treat Gate area = (Thick gate area +
+
+MF* (COMP area directly connection that node))
+
+
+This comp area contained the protection diode and any other
+
+drain or source junction connected to this node.
+
+
+MF: stand for multiplying factor, for this case MF=15
+
+
+(iii) For MIM Cap case:
+
+Treat MIM area = (FuseTop area + MF* (COMP area directly
+
+connection that node))(For MIM option-A process)
+
+
+Treat MIM area = (FuseTop area + MF* (COMP area directly
+
+connection that node))(For MIM option-B process)
+
+This comp area contained the protection diode and any other
+
+drain or source junction connected to this node.
+
+MF: stand for multiplying factor, for this case MF=15
+
+And check back the validity of antenna ratios as specified in
+
+rules ANT.1 to ANT.15.",

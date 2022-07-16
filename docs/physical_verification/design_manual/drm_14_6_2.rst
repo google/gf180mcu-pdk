@@ -1,0 +1,14 @@
+14.6.2 Die Corners Guidelines
+=============================
+
+1. No active circuitry is allowed within 400 um of corner of die (see figure below for illustration).
+
+2. Within 400 um of the die corner must use 45-degree turn away direction for both metal line and slot.
+
+3. Minimum metal to die corner spacing is 300 um.
+
+.. image:: images/Stress.png
+    :width: 400
+    :align: center
+    :alt:  Die Corners Guidelines
+

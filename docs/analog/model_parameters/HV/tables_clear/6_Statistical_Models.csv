@@ -1,0 +1,5 @@
+MOSFET Model,"Both Local
+
+and Global",Description
+nmos_10p0_asym,global only,Statistical BSIM4 model for Asym 10 V LDNMOS
+pmos_10p0_asym,global only,Statistical BSIM4 model for Asym 10V LDPMOS

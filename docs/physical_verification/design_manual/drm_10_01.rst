@@ -1,0 +1,18 @@
+10.1 P+ Poly Resistor (PRES)
+============================
+
+This section defines the rules for Un-salicide P+ poly resistors. This uses P+ source drain implant to realize P+ poly resistor and does not require any additional processing step if SAB layer is present in the process. Here resistor width is determined by Poly2 width and the resistor length is determined by SAB layer.
+
+.. csv-table:: PRES
+    :file: tables_clear/33_ANALOG_DEVICE1_80.csv
+    :widths: 100, 700, 100
+    :align: center
+
+.. note::
+    \* :ref:`Rules not coded`
+
+.. image:: images/analog1.png
+    :width: 900
+    :align: center
+    :alt: PRES
+

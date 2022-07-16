@@ -1,0 +1,6 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer ,DV = Dual Voltage = Dualgate,
+DV.1  ,Min. Dualgate enclose DNWELL,0.5
+DV.2 ,Min. Dualgate Space. Merge if Space is less than this design rule.,0.44
+DV.3,Min. Dualgate to COMP space [unrelated],0.24
+DV.4*,Circuits covered by Dualgate layer will have 5V/6V gate oxide for 5V/6V operation.,

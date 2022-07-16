@@ -1,0 +1,18 @@
+Table 14.3Maximum Line Current Density per Drawn Width,,,
+,Maximum Current Density (mA/um),,
+,85 deg C ,110 deg C,125 deg C
+Metal 1-Top Metal - 1,,,
+• Unidirectional (CB),2.09,1,0.67
+• Bi-directional  (CB),3.14,1.5,1
+MetalTop (6kÅ thick),,,
+• Unidirectional (CB),3.3,1.6,1.07
+• Bi-directional  (CB),5.03,2.4,1.6
+MetalTop (9kÅ thick),,,
+• Unidirectional  (CB),3.77,1.8,1.21
+• Bi-directional (CB),5.66,2.7,1.82
+MetalTop (11kÅ thick),,,
+• Unidirectional  (CB),4.5,2.2,1.5
+• Bi-directional (CB),7,3,2.2
+MetalTop (30kÅ thick),,,
+• Unidirectional  (CB),16.52,8.01,5.37
+• Bi-directional (CB),24.78,12.02,8.06

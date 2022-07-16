@@ -1,0 +1,5 @@
+Circuit Simulator,Model File
+HSPICE,"sm141064.hspice, design.hspice."
+SPECTRE,"sm141064.scs, design.scs, diode.va, res.va,
+
+moscap.va"

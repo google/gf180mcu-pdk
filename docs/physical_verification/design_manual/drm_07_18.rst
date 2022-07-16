@@ -1,0 +1,15 @@
+7.17 Mcell
+----------
+
+Polarity is Clear
+
+.. csv-table:: Mcell RULES
+    :file: tables_clear/26_Mcell_64.csv
+    :widths: 200, 500, 100
+    :align: center
+
+.. image:: images/mcell.png
+    :width: 900
+    :align: center
+    :alt: Mcell
+

@@ -1,0 +1,69 @@
+10.6.3 Sample layout of matched pair devices
+================================================
+
+**Sample layout of matched pair transistors:**
+
+   - Transistor “A” expected to be matched with transistor “B”
+
+   - Total width of transistor A = 2*W
+
+   - “D” are the dummy transistors not connected to the circuit
+
+    **(a) Cross coupled connection layout**
+
+    .. image:: images/match_pair4.png
+        :width: 600
+        :align: center
+        :alt: Cross coupled connection layout
+
+    **(b) Interleave kind of transistor layout**
+
+    .. image:: images/match_pair5.png
+        :width: 600
+        :align: center
+        :alt:  Interleave kind of transistor layout
+
+**Sample layout of matched pair Capacitors:**
+
+   - Capacitor “A” expected to be matched with Capacitor “B”
+
+   - Total area of capacitor “A” = 2* unit cell area (for Cross couple layout below)
+
+   - “D” are the dummy capacitors not connected to the circuit
+
+    **(a) Cross coupled connection layout**
+
+    .. image:: images/match_pair6.png
+        :width: 600
+        :align: center
+        :alt: Cross coupled connection layout
+
+    **(b) Side by side layout**
+
+    .. image:: images/match_pair7.png
+        :width: 600
+        :align: center
+        :alt: Side by side layout
+
+**Sample layout of matched pair Resistors:**
+
+   - Resistor “A” expected to be matched with Resistor “B”
+
+   - Total length of resistor “A” = 4* L.
+
+   - “D” are the dummy resistors not connected to the circuit
+
+    **(a) Cross coupled type of layout**
+
+    .. image:: images/match_pair8.png
+        :width: 600
+        :align: center
+        :alt: Cross coupled type of layout
+
+    **(b) Non-Interleaved type of layout.**
+
+    .. image:: images/match_pair9.png
+        :width: 600
+        :align: center
+        :alt: Non-Interleaved type of layout
+

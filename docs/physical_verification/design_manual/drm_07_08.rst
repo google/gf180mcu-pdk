@@ -1,0 +1,24 @@
+7.7 Poly2
+---------
+
+Poly2 defines the Poly2-Gate on CMOS device. The min. channel length for both 3.3V NMOS and PMOS are 0.28um. The min. channel length for 6V NNMOS and PMOS are 0.7um and 0.55um; for 5V are 0.6um and 0.5um.
+
+.. csv-table:: Poly2 RULES
+    :file: tables_clear/16_Poly2_42.csv
+    :widths: 200, 700, 100, 100 , 100
+    :align: center
+
+.. note::
+    \* :ref:`Rules not coded`
+
+.. note::
+
+   1. The min. channel length for 6V NNMOS and PMOS are 0.7um and 0.55um; for 5V are 0.6um and 0.5um.
+
+   2. Parasitic capacitance needs to be considered when adding dummy poly2. Customer has the option to use GlobalFoundries's dummy poly2 generation rule. In this case, customer needs to mark out areas of circuit which are sensitive to parasitic capacitance and do not want dummy poly2 fill generated. Customer need to separate circuit Metal1 and Metal2 from dummy metal in order that dummy poly2 can be generated beneath dummy metal. Refer to 4.1 for layer name
+
+.. image:: images/poly2.png
+    :width: 800
+    :align: center
+    :alt: poly2
+

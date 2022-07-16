@@ -1,0 +1,30 @@
+Cell Type,Cell Name,Description
+Bidirectional,gf180mcu_fd_io__bi_t,"5V WR bidirectional pad with programmable drive
+
+strength of 4mA, 8mA, 12mA and 16mA tri-state
+
+output buffer, fast/slow slew rate control, pull-
+
+up/down and selectable CMOS/Schmitt input."
+,gf180mcu_fd_io__bi_24t,"5V WR bidirectional pad with 24mA drive strength tri-
+
+state output buffer, fast/slow slew rate control, pull-
+
+up/down and selectable CMOS/Schmitt input."
+Input,gf180mcu_fd_io__in_c,5V WR CMOS input only pad with pull-up/down
+,gf180mcu_fd_io__in_s,"5V WR Schmitt Trigger input only pad with pull-
+
+up/down"
+Analog,gf180mcu_fd_io__asig_5p0,"5V WR analogue signal pad with double diode
+
+protection (DC current carrying capability 10mA)"
+"Power
+Supply",gf180mcu_fd_io__dvdd,Power supply cell (DC current carrying capability 60mA)
+,gf180mcu_fd_io__dvss,Ground cell (DC current carrying capability 60mA)
+Corner,gf180mcu_fd_io__cor,Corner cell
+Filler,gf180mcu_fd_io__fillnc *,Filler for gap width less than 1μm
+,gf180mcu_fd_io__fill1,1μm filler
+,gf180mcu_fd_io__fill5,5μm filler
+,gf180mcu_fd_io__fill10,10μm filler
+Breaker,gf180mcu_fd_io__brk2,2μm Breaker with VSS
+,gf180mcu_fd_io__brk5,5μm Breaker with VSS

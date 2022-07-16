@@ -1,0 +1,5 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,DRC_BJT --- Marking for Vertical NPN and PNP BJT,
+BJT.1,Min. DRC_BJT overlap of DNWELL for NPN BJT,0
+BJT.2,Min. DRC_BJT overlap of PCOM in Psub,0
+BJT.3,Minimum space of DRC_BJT layer to unrelated COMP,0.1

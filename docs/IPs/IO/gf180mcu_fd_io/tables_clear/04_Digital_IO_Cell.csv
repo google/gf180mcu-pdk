@@ -1,0 +1,5 @@
+,Symbol,Description
+Cell Type,GF,GF pad cell
+I/O Type,_in,Input
+I/O Type,_bi,Bidirectional
+Output Type,_xt,Tristate with drive strength of x mA

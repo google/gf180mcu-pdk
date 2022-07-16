@@ -1,0 +1,6 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,MC = MTP Cell Implant,
+MC.1,Width,0.4
+MC.2,Space,0.4
+MC.3,Minimum Mcell area,0.35 μm2
+MC.4,Minimum area enclosed by Mcell,0.35 μm2

@@ -1,0 +1,7 @@
+1.4.5 MOSCAP
+===============
+
+.. csv-table::
+   :file: tables_clear/07_MOSCAP.csv
+
+

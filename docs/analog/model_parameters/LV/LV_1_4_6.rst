@@ -1,0 +1,6 @@
+1.4.6 MIM
+===============
+
+.. csv-table::
+   :file: tables_clear/08_MIM.csv
+

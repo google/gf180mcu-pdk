@@ -1,0 +1,54 @@
+ \* DN.Note1 ,- Both 3.3 and 6V transistors are not allowed in the same DNWELL
+ \* LPW.4 ,"- If LVPWELL is used as resistor, it must be coverd by RES_MK (for LVS purpose)"
+ \* NW.7 ,"- If Nwell is used as resistor, it must be covered by RES_MK (for LVS purpose)"
+ \* DF.1b,- Width with low sheet resistivity (guideline)
+ \* DF.15a ,"- NCOMP inside DNWELL and Dualgate, but outside LVPWELL can only be connected to 6V VDD"
+ \* DF.15b ,- NCOMP inside DNWELL but outside Dualgate and LVPWELL can only be connected to 3.3V VDD
+ \* DV.4 ,- Circuits covered by Dualgate layer will have 6V gate oxide for 6V operation
+ \* PL.3b,- Poly 2 space on active for low active sheet resistivity (guideline)
+ \* PL.10,- Maximum Poly2 current density
+ \* CO.6iii ,- Minimum metal 1 overlap of contact on all sides of min. contact resistance variation (guideline)
+ \* Vn.3iii ,- Minimum metal-n overlap of via-n on all sides for min. via-n resistance variation (guideline)
+ \* Vn.4iii ,- Minimum metal-(n+1) overlap of via-n on all sides for min. via-n resistance variation (guideline)
+ \* Vn.5, - Vian stack over contact is permitted (allowable rules)
+ \* CUP.4,- Omitted (Guidelines)
+ \* CUP.7a-b ,- Omitted (Guidelines)
+ \* PRES.8 ,- Maximum current density of poly resistor (mA/um)
+ \* HRES.11 ,- Maximum current density of poly resistor (mA/um)
+ \* LRES.8 ,- Maximum current density of poly resistor (mA/um)
+ \* MIM.12 ,"- Commented (not coded by default). Caught by LVS. If user wants to check, uncomment the section"
+ \* G.MIM, - There cannot be any sensitive matching analog circuitry underneath MIM (Guideline)
+ \* MIMTM.12 ,"- Commented (not coded by default). Caught by LVS. If user wants to check, uncomment the section"
+ \* G.MIMTM ,- There cannot be any sensitive matching analog circuitry underneath MIM (Guideline)
+ \* 10.6.2 ,- Matched pair layout guidelines
+ \* O.SB.13 ,- Min Salicide block overlap with poly2 = 0
+ \* O.SB.5b_MV ,- Min. space from salicide block to unrelated Poly2 on COMP = 0
+ \* O.SB.15b, - Min space from unsalicided Poly2 to unrelated Nplus/Pplus along Poly2 line = 0
+ \* 11.0,- SCRIBE LINE & GUARD RING GUIDELINES (Except Guard Ring design rule check)
+ \* GR.9,- GR.9 is partially coded. All Vias shall be put in a staggered row
+ \* GR.10,- There must be rows of contact in the seal ring area
+ \* 13.0,- RELIABILITY GUIDELINES (Except Latchup rules)
+ \* LU.7,- Guideline and not codeable
+ \* LU.8,- Guideline and not codeable
+ \* LU.9,- Guideline and not codeable
+ \* LU.10,- Guideline and not codeable
+ \* LVESD.2 ,- Poly Channel-length for each finger in multi-finger transistors must be same
+ \* HVNESD.2 ,- Poly Channel-length for each finger in multi-finger transistors must be same
+ \* HVPESD.2 ,- Poly Channel-length for each finger in multi-finger transistors must be same
+ \* 14.7.3.6 ,"- For multiple slots that spans the metal width, slots should be staggered"
+ \* DE.1,- Dummp COMP exclude and dummy poly/metal exclude layers shall be drawn only if necessary
+ \* DCF.2a, - Min/Max Adjustment placement Space between dummy COMP cells
+ \* DCF.3,- Stagger both X and Y direction = 1.6
+ \* DCF.7a ,- Space from dummy COMP in prime die including guard ring to scribe line = 8.0
+ \* DCF.7b ,- Space from dummy COMP in frame to edge of frame = 6
+ \* DCF.7c ,- Space from dummy COMP in frame to any frame cell except non-ET = 10.0
+ \* DCF.7d ,- Space from dummy COMP in SLM Etest pattens or SLM reliability test patterns to the boundary of test patterns = 6.0
+ \* DCF.9,- Space from dummp COMP to Pad (guideline)
+ \* DCF.10 ,- Remove truncated dummy squares
+ \* DPF.2a ,- Space between dummy Poly2
+ \* DPF.3,- Stagger both X and Y direction = 1.6
+ \* DPF.7,- Space from dummy Poly2 in prime die to scribe line = 25.7
+ \* DPF.10 ,- Remove truncated dummy squares
+ \* DM.2a ,- Min Dummy metal line space (for Layout) = 1.2
+ \* DM.9,- Do not use exact replicates of dummy metal fill patterns for consecutive metal layers to avoid dielectric and metal stress problems. (Offsets value: 0.5)
+ \* DM.10,- Offset between the Dummy metal of the same layers = 0.5

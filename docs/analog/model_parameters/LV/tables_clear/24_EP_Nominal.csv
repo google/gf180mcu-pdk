@@ -1,0 +1,7 @@
+EP Specification,,,,,,Measurement,
+Device (W/L/m),Model,BV (V),I_leak (nA/um^2),Von (V),BV,I_leak (V) (nA/um^2),Von (V)
+"sc_diode (W/L/m)
+
+=(0.62u/20u/4)",Min,-10,\-,0.22,\-,\-,\-
+,Typ ,-17,35,0.32,-17.6,31,0.32
+,Max ,\-,200,0.42,\-,\-,\-

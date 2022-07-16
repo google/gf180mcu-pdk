@@ -1,0 +1,36 @@
+"Dielectric
+
+Layer","Thickness (um)
+
+for Typical
+
+Capacitance","Thickness (um)
+
+for the Best
+
+Capacitance","Thickness (um) for
+
+the Worst
+
+Capacitance","Dielectric
+
+Constant"
+Nit_pasvn,0.3,0.27,0.33,7
+Oxd_pasvn (6KA),1.4025,1.5425,1.2625,4
+Oxd_pasvn (9KA),2.0025,1.8028,2.2022,4
+Oxd_pasvn (11KA),2.3,2,2.6,4
+Oxd_pasvn (30kA),3.3,3,3.6,4
+IMD5 (with MIM),1.45,1.537,1.363,4
+IMD5,1.15,1.219,1.081,4
+IMD4 (with MIM),1.45,1.537,1.363,4
+IMD4,1.15,1.219,1.081,4
+IMD3 (with MIM),1.45,1.537,1.363,4
+IMD3,1.15,1.219,1.081,4
+IMD2 (with MIM),1.45,1.537,1.363,4
+MIM_SIN (1.5fF),0.042,0.05,0.03,7
+MIM_SIN(1.0fF),0.062,0.07,0.05,7
+IMD2,1.15,1.219,1.081,4
+IMD1,1.15,1.219,1.081,4
+ILD,0.86,0.95,0.77,4
+Nitr liner,0.05,0.0525,0.0475,7
+STI,0.32,0.368,0.272,4

@@ -1,0 +1,39 @@
+Rule NO.,DESCRIPTION,Ball type Wire bond,Solder bump/Gold bump
+CUP.1,"All FEOL are allowed to be below Pad region
+
+(except the items stated in CUP.4). ",Per Design Manual,Per Design Manual
+CUP.1a,CUP is not allowed for Wedge-type Wire bond case.,,
+CUP.2,Minimum width of the metal line used for bond pads,1,NA
+CUP.3,Minimum space of the metal line used for bond pads (slots),1,NA
+CUP.4* (1),"Circuits currently not allowed under bond pad are:
+
+\- Devices sensitive to strain (eg: silicon band-gap references)
+
+\- Matched pair devices like transistors, resistors and
+
+capacitors For precision analog application.
+
+\- All RF components",Guideline,Guideline
+CUP.5,Top vias directly underneath the pad opening,Not Allowed,NA
+CUP.6,"However it is good to have a ring of top vias connected around the pad
+
+opening to MetalTop-1 with min top via space to pad opening:",0.5,NA
+CUP.7,"a\) Guideline: Metals underneath pad shall be in the form of stripes which
+
+Should be aligned parallel to the expected current flow during normal
+
+operation and ESD condition. Refer Fig.CUP7(a)",,
+,"b\) Guideline*: If orthogonal current flow is required crosshatched Metal
+
+grids with similar line and space may be used. Refer Fig.CUP7(b)",,
+,"c\) Vias shall be in the form of cluster or arrays (<=3x3). Sea of 
+
+Via (>3x3 array) is not allowed. Refer Fig.CUP7(c)",,
+,d\) Min via space in via arrays,0.3,NA
+,e\) Min space between via arrays,0.5,NA
+,"f\) Guideline: Individual top vias (Space = 1.3um) may be used
+
+under pad open area. Refer Fig.CUP7(f) ",,
+CUP.8,Top_Via-1 (2) directly underneath the Pad mask,Not Allowed,NA
+CUP.8a,Top_Via-1 (2) under the top metal with min top_Via-1 (2) space to pad opening,0.5,NA
+CUP.9,"1LM, 2LM and 3LM process with CUP.",Not Allowed,NA

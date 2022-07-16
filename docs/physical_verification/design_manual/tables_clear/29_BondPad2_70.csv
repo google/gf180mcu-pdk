@@ -1,0 +1,34 @@
+GUIDELINE NO.,DESCRIPTION,"Wedge type
+Wire bond
+(without CUP)","Ball type
+Wire bond
+(with CUP)",Gold bump
+Layer ,Pad,,,
+PAD.1 ,Pad opening1,40,40,4
+PAD.2 ,Pad opening to pad opening (1),9,9,9
+PAD.5 ,MetalTop (2) overlap of Top_Via (3),0.5,0.5,0.5
+PAD.6 ,MetalTop-1 (4) overlap of Top_Via (3),0.5,0.5,0.5
+PAD.7 ,Metal5 overlap of Via4,0.5,0.5,--
+PAD.8 ,Metal4 overlap of Via4,0.5,0.5,--
+PAD.9 ,Metal4 overlap of Via3,0.5,0.5,--
+PAD.10 ,Metal3 overlap of Via3,0.5,0.5,--
+PAD.11 ,Metal3 overlap of Via2,0.5,0.5,--
+PAD.12 ,Metal2 overlap of Via2,0.5,0.5,--
+PAD.13 ,Metal2 overlap of Via1,0.5,0.5,--
+PAD.14 ,Metal1 overlap of Via1,0.5,0.5,--
+PAD.15,"Min pad opening space to nearest S/L guard ring
+
+(Inner edge of GUARD_RING_MK marking)",30,30,30
+PAD.16 ,"Max pad opening space to nearest S/L guard ring
+
+(Inner edge of GUARD_RING_MK marking)",200,200,NA
+PAD.17 , Pad opening space to active circuit COMP,15, NA,NA
+PAD.18 , Pad opening space to active circuit Poly2,15, NA,NA
+PAD.19a,"Pad opening to non-pad circuit Metal1, 2, 3, 4,5
+
+Up to MetalTop-1",6,NA,NA
+PAD.19b ,Pad opening to non-pad circuit MetalTop,6,6,6
+PAD.20 ,Pad metal to pad metal space,5,5,5
+PAD.21,"FOR other rules specific to CUP (circuit under pad
+
+Case) refer to section 9.3",,,

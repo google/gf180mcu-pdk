@@ -1,0 +1,4 @@
+#,,PARAMETERS,SLM_ID,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Idsat,,\*Paper,W/L = 10 / 0.28um,426,505,586,uA/um
+2,Idlin,,\*Paper,DOP = 1.78um,52,57,63,uA/um
+3,VT0,,\*Paper,SOP = 0.48um,0.53,0.63,0.73,V

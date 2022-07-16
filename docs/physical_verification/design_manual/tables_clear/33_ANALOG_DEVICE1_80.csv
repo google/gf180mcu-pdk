@@ -1,0 +1,20 @@
+RULE NO.,DESCRIPTION,Rule
+PRES.1,Minimum width of Poly2 resistor,0.8
+PRES.2,Minimum space between Poly2 resistors,0.4
+PRES.3,Minimum space from Poly2 resistor to COMP,0.6
+PRES.4,Minimum space from Poly2 resistor to unrelated Poly2,0.6
+PRES.5,Minimum Plus implant overlap of Poly2 resistor,0.3
+PRES.6,Minimum salicide block overlap of Poly2 resistor in width direction,0.28
+PRES.7,Space from salicide block to contact on Poly2 resistor,0.22
+PRES.8*,Maximum current density of Poly2 resistor (mA/um),1
+PRES.9,"Pplus Poly2 resistor shall be covered by RES_MK marking. RES_MK
+
+length shall be coincide with resistor length (Defined by SAB length)
+
+and width covering the width of Poly2.
+
+If the size of single RES_MK mark layer is greater than 15000um2 and
+
+both side (X and Y) are greater than 80um. then the minimum spacing to
+
+adjacent RES_MK layer",20

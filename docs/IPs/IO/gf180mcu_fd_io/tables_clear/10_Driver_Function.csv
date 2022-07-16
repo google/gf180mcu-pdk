@@ -1,0 +1,8 @@
+Input,,,,Output
+OE,PU ,PD,A,PAD
+0,0,0,X,Hi-Z
+0,0,1,X,weak 0
+0,1,0,X,weak 1
+0,1,1,X,Hi-Z
+1,X,X,0,0
+1,X,X,1,1

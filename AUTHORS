@@ -1,0 +1,22 @@
+# This is the list of GlobalFoundries PDK's significant contributors.
+#
+# This does not necessarily list everyone who has contributed code,
+# especially since many employees of one corporation may be contributing.
+# To see the full list of contributors, see the revision history in
+# source control.
+
+# Companies
+Google LLC
+GlobalFoundries
+Efabless Corporation
+Mabrains LLC
+
+# Individuals
+tansell@google.com, me@mith.ro (Tim 'mithro' Ansell)
+proppy@google.com (Johan 'proppy' Euphrosine)
+tim@efabless.com (Tim Edwards)
+mkk@efabless.com (Mohamed Kassem)
+stefan.schippers@gmail.com (Stefan Schippers)
+amro_tork@mabrains.com (Amro Tork)
+farag_agoor@mabrains.com (Farag Agoor)
+mohanad_mohamed@mabrains.com (Mohanad Mohammed)

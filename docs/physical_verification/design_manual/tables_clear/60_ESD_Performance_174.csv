@@ -1,0 +1,5 @@
+ESD Parameter,Parameter Value (without ESD implant)
+Avalanche Breakdown Voltage (Vt1),~8.2V TLP Current (A)
+Snapback Holding voltage (Vsp),~4.4V
+Second Breakdown Current (It2),~9.25mA/um
+Second Breakdown Voltage (Vt2),~6.79V

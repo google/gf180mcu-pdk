@@ -1,0 +1,47 @@
+RULE NO.,DESCRIPTION,RULE
+HVNESD.1,"HV NMOSFET used for ESD protection should be enclosured 
+
+by ESD_MK, ESD_MK must enclose well pick-up implant",0
+HVNESD.2*,"Poly Channel-length for each finger in multi-finger
+
+transistors must be same",
+G_HVNESD.3,Min. channel length for each finger (Recommended),0.8
+G.HVNESD.4 (a)**,Recommended finger width for each finger,25
+HVNESD.4 (b),Min. finger width for each finger,20
+HVNESD.4 (c),Max. finger width for each finger,60
+G.HVNESD.5(a)**,"Recommended number of fingers share one pick-up ring in
+
+multi-finger transistors.",12
+HVNESD.5 (b),"Max. number of fingers share one pick-up ring in multi-
+
+finger transistors",18
+G.HVNESD.6 (a)**,Recommended total finger width,300
+HVNESD.6(b),Min. total finger width,200
+HVNESD.6(c),Max. total finger width,720
+HVNESD.7,"SAB should cover drain and source and overlap gate or
+
+cover drain only with rule HVNESD.7(a) partly overlap poly Gate",
+HVNESD.7(a),Min/max SAB overlap Poly gate,0.05
+G.HVNESD.8 (a)**,"Recommended at least one or nearest drain contact to gate
+
+edge space (DCGS)",4
+HVNESD.8 (b),Min. drain contact to gate edge space (DCGS),1
+HVNESD.8 (c),"Max. at least one or nearest drain contact to gate edge space (DCGS)",4
+G_HVNESD.10,"Recommended well tap COMP to active COMP space in
+
+channel length direction.",1.5
+HVNESD.11,Source COMP must enclose by LVS_Source,0
+HVNESD.12,LVS_Source must butt to Poly edge,0
+G.HVNESD.13**,"Recommended at least one or nearest source contact to
+
+gate edge space (SCGS) when SAB cover drain-source over poly gate",0.5
+HVNESD.13 (a),"Min. source contact to gate edge space (SCGS) when SAB
+
+cover drain-source over poly gate",0.15
+HVNESD.13(b),"Max. at least one or nearest source contact to gate edge
+
+space (SCGS) when SAB cover drain-source over poly gate",1
+COHVNESD.7,"Recommended/max. salicided block edge to at least one
+
+or nearest contact (CA)",0.22
+COHVNESD.7(a),Min. salicided block edge to contact (CA),0.15

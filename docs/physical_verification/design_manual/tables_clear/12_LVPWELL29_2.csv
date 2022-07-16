@@ -1,0 +1,4 @@
+RULE NO. ,DESCRIPTION ,LAYOUT 
+Layer,LPW = LVPWELL,
+LPW.11,Min (LVPWELL outside DNWELL) space to DNWELL,1.5
+LPW.12,LVPWELL cannot overlap with Nwell,

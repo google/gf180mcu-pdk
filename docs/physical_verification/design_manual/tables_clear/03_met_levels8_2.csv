@@ -1,0 +1,14 @@
+Levels of Metal,BEOL metal and via to be included
+6LM,"Metal1, Via1, Metal2, Via2, Metal3, Via3, Metal4, Via4, Metal5, Via5, MetalTop."
+5LM,"Metal1, Via1, Metal2, Via2, Metal3, Via3, Metal4, Via4, Metal5.
+
+Metal 5 must comply with MetalTop rule."
+4LM,"Metal1, Via1, Metal2, Via2, Metal3, Via3, Metal4.
+
+Metal 4 must comply with MetalTop rule."
+3LM,"Metal1, Via1, Metal2, Via2, Metal3.
+
+Metal 3 must comply with MetalTop rule."
+2LM,"Metal1, Via1, Metal2.
+
+Metal 2 must comply with MetalTop rule."

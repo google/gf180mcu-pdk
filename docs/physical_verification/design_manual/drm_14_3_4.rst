@@ -1,0 +1,15 @@
+14.3.4 other better layout practices (guidelines) for latch-up prevention
+============================================================================
+
+High voltage circuits are highly sensitive for latch-up and hence attention shall be paid for how various high voltage devices are placed adjacent to each other. As much spacing and guard rings shall be put as possible depending upon space availability within that part of the circuit layout. Some of the guidelines to increase latch-up immunity are as below.
+
+1. Place HVNMOS and HVPMOS as far apart as possible with double guard ring.
+
+2. Place double guard ring (substrate tap connected to VSS and Nwell connected to VDD) between High Voltage and low voltage (or medium voltage) devices.
+
+3. Use butted source and substrate contacts as much as possible. If because of required body bias reason they cannot be butted then keep minimum distance between source active region and the substrate-tap active regions.
+
+4. Maximize the number of contacts and metal width in all guard rings.
+
+5. Widen the widths of guard rings if found emptier space after the complete block layout.
+

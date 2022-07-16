@@ -1,0 +1,10 @@
+Parameter,Description
+w,Device width in meter
+l,Device length in meter
+m,Device multiplicity factor
+nf,Number of PC (gate) fingers
+as,Source diffusion area in meter^2
+ad,Drain diffusion area in meter^2
+ps,Source diffusion perimeter in meter
+pd,Drain diffusion perimeter in meter
+par,Device multiplicity factor used for mismatch simulation only

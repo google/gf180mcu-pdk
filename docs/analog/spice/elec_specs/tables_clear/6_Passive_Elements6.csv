@@ -1,0 +1,16 @@
+#,PARAMETERS,SLM_ID,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Capacitance,MIM2\*,"Zero bias capacitance from 350X50
+
+sq. um capacitor.",1.8,2,2.2,fF/um2
+2,Leakage current,MIM2\*,@ V=6V,--,--,1,pA/um2
+3,BVox,MIM2\*,(@10uA),10,24,,V
+4,"Voltage Coefficient, Vc1",\*Test Chip,@ V € (-6 – +6V),--,-28.8,--,ppm/V
+5,Temp Coefficient (TC1),\*Test Chip,,--,18.8,--,ppm/K
+6,Sheet res. bottom plate,\*Test Chip,,68,80,92,m./sq
+7,Sheet res. top plate,\*Test Chip,,--,--,--,m./sq
+8,Matching (adjacent capacitors),\*Test Chip,"C = 1pF (Laid out as per
+
+characterization report guideline)",--,--,1,%
+9,"Max Operating voltage across
+
+MIM Cap",,,--,--,6.6,V

@@ -1,0 +1,17 @@
+12.4 Guard Ring design rule check
+=================================
+
+Guard ring is to be covered by guard ring marking (GUARD_RING_MK) as stated below to facilitate the related design rule checking. Following rules shall be checked for the real ring area recognized by GUARD_RING_MK
+
+.. csv-table::
+    :file: tables_clear/50_GUARD_RING_MK_134.csv
+    :widths: 200, 700, 250 , 250
+    :align: center
+
+.. note::
+
+   1. Vias in staggered row is not checked by DRC deck
+
+   2. Rows of contact is not checked by DRC deck.
+
+   \* :ref:`Rules not coded`

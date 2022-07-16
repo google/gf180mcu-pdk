@@ -1,0 +1,6 @@
+RULE NO.,RULE NO. DESCRIPTION,"Wedge type Wire bond
+(without CUP) ","Ball type
+Wire bond
+(with CUP)",Gold bump
+LAYER , Pad,,,
+PAD.4, Top layer metal overlap of pad opening,,2,

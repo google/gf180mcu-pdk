@@ -1,0 +1,14 @@
+1.5.3 Resistor Instance parameters
+==================================
+
+The resistor instance parameters shall be used in the netlist are described below with their default values: -
+
+- w : Width of resistor (meter)
+
+- l : Length of resistor (meter)
+
+- m : Device multiplicity factor
+
+.. csv-table::
+   :file: tables_clear/13_Resistor_Instance.csv
+

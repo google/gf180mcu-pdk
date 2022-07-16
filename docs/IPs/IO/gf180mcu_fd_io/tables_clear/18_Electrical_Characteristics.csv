@@ -1,0 +1,70 @@
+Parameter,Condition,Symbol,Min,Max,Unit
+Input Low Voltage,,VIL,-0.3,0.8,V
+Input High Voltage,"Normal
+
+CMOS/TTL input",VIH,2,DVDD+0.3,V
+Input Low Voltage,Schmitt trigger Input,VIL,-0.3,0.8,V
+Input High Voltage,,V_IH,2,DVDD+0.3,V
+Hysteresis,,V_HYS,0.4,0.6,V
+Input High Leakage Current,Vin = DVDD,IIH,-5,5,μA
+Input Low Leakage Current,Vin = DVSS,IIL,-5,5,μA
+Input Resistance with Pull-Down,Vin = DVDD,RPD,80,210,kΩ
+Input Resistance with Pull-Up,Vin = DVSS,RPU,80,210,kΩ
+"Output Low Current
+
+( DC drive strength of 4,8,12,16 or
+
+24mA only @ DVDD 4.5-5.5V )",V_OL = 0.5V,IOL,"4
+
+8
+
+12
+
+16
+
+24","\-
+
+\-
+
+\-
+
+\-
+
+\-","mA
+
+mA
+
+mA
+
+mA
+
+mA"
+"Output High Current
+
+( DC drive strength of 4,8,12,16 or
+
+24mA only @ DVDD 4.5-5.5V)",V_OH = DVDD-0.8V,I_OH,"4
+
+8
+
+12
+
+16
+
+24","\-
+
+\-
+
+\-
+
+\-
+
+\-","mA
+
+mA
+
+mA
+
+mA
+
+mA"

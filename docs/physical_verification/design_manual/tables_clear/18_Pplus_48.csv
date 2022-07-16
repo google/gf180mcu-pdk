@@ -1,0 +1,57 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+Layer,PP = Nplus Implant,
+PP.1,Width,0.4
+PP.2,Space,0.4
+PP.3a,Space to NCOMP for NCOMP (1) inside LVPWELL (2) outside NWELL and DNWELL,0.16
+PP.3b,"Space to NCOMP: For Inside DNWELL.
+
+I\) NCOMP space to LVPWELL >= 0.43μm
+
+II\) NCOMP space to LVPWELL< 0.43μm","
+
+0.08
+
+0.16"
+PP.3c,"Space to NCOMP: For Outside DNWELL, inside Nwell:
+
+I\) NWELL Overlap of  NCOMP >= 0.43μm
+
+II\) NWELL Overlap of  NCOMP < 0.43μm","
+
+0.08
+
+0.16"
+PP.3d,Min/max space to a butted NCOMP,0
+PP.3e,Space to NCOMP edge adjacent to a butting edge,0
+PP.4a,Space related to N-channel gate at a butting edge parallel to gate,0.32
+PP.4b,"Within 0.32μm of channel, space to N-channel gate extension perpendicular to the direction of Poly2",0.22
+PP.5a,Overlap of P-channel gate,0.23
+PP.5b,Extension beyond COMP for COMP (1) Inside NWELL (2) outside LVPWELL but inside DNWELL.,0.16
+PP.5c,"Extension beyond COMP: For Inside DNWELL, inside LVPWELL:
+
+I\) For LVPWELL overlap of Pplus  >= 0.43μm for LVPWELL tap
+
+II\) For LVPWELL overlap of Pplus < 0.43um for the LVPWELL tap","
+
+0.02
+
+0.16"
+PP.5d,"Extension beyond COMP: For Outside DNWELL
+
+I\) For Pplus to NWELL space  >= 0.43μm for Pfield or LVPWELL tap
+
+II\) For Pplus to NWELL space  < 0.43μm for Pfield or LVPWELL tap","
+
+0.02
+
+0.16"
+PP.6,Overlap with PCOMP butted to NCOMP,0.22
+PP.7,Space to unrelated unsalicided Poly2,0.18
+PP.8a,Minimum Pplus area,0.35 μm2
+PP.8b,Minimum area enclosed by Pplus,0.35 μm2
+PP.9,Overlap of unsalicided Poly2,0.18
+PP.10,Overlap of unsalicided COMP,0.18
+PP.11,"Butting Pplus and NCOMP is forbidden within 0.43μm of  Nwell edge
+
+(for outside DNWELL) and of LVPWELL edge (for inside DNWELL case).",
+PP.12,Overlap with N-channel Poly2 gate extension is forbidden within 0.32μm of N-channel gate,

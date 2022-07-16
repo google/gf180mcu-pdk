@@ -1,0 +1,9 @@
+RULE NO.,DESCRIPTION,"LAYOUT RULE
+
+(3.3V)"
+S.DF.4c_LV,Min. (Nwell overlap of PCOMP) outside DNWELL,0.4
+S.DF.16_LV,"Min. space from (Nwell outside DNWELL) to (NCOMP outside Nwell and DNWELL).",0.4
+S.CO.3_LV,Poly2 overlap of contact,0.04
+S.CO.4_LV,COMP overlap of contact,0.03
+S.CO.6_ii_LV,"If Metal1 overlaps contact by < 0.04μm on one side, adjacent metal1 edges Overlap",0.02
+S.M1.1_LV,Width,0.22

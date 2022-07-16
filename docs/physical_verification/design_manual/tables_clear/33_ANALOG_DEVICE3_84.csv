@@ -1,0 +1,24 @@
+RULE NO.,DESCRIPTION,Rule
+HRES.1,"Minimum space
+Note : Merge if the spacing is less than 0.40 um",0.4
+HRES.2,Minimum width of Poly2 resistor,1
+HRES.3,Minimum space between Poly2 resistors,0.4
+HRES.4,Minimum RESISTOR overlap of Poly2 resistor,0.4
+HRES.5,Minimum RESISTOR space to unrelated Poly2,0.3
+HRES.6,Minimum RESISTOR space to COMP,0.3
+HRES.7,Minimum Pplus overlap of contact on Poly2 resistor,0.2
+HRES.8,Space from salicide block to contact on Poly2 resistor,0.22
+HRES.9,Minimum salicide block overlap of Poly2 resistor in width direction,0.28
+HRES.10,Minimum  & maximum Pplus overlap of SAB,0.1
+HRES.11*,Maximum current density of Poly2 resistor (mA/um),1
+HRES.12,"P type Poly2 resistor (high sheet rho) shall be covered by RES_MK
+
+marking. RES_MK length shall be coincide with resistor length (Defined
+
+by Pplus space) and width covering the width of Poly2.
+
+If the size of single RES_MK mark layer is greater than 15000um2 and
+
+both side (X and Y) are greater than 80um. Then the minimum spacing to
+
+adjacent RES_MK layer",20

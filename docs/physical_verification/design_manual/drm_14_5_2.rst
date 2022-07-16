@@ -1,0 +1,15 @@
+14.5.2 ESD Performance from 3.3V LV N+/PWELL diode
+=======================================================
+
+ESD Performance from 3.3V LV N+/PWELL diode is summarized in following table. The TLP data for 3.3V LV N+/PWELL diode is showed in below.
+
+.. csv-table::
+    :file: tables_clear/61_ESD2_Performance_175.csv
+    :widths: 400, 300
+    :align: center
+
+.. image:: images/ESD_Characterization2.png
+    :width: 600
+    :align: center
+    :alt:  3.3V LV N+/PWELL diode
+

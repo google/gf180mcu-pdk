@@ -1,0 +1,13 @@
+RULE NO.,DESCRIPTION,LAYOUT,
+Layer,LPW = LVPWELL,3.3V ,5V/6V
+LPW.1,Min. LVPWELL Width,0.6,0.74
+LPW.2a,Min. LVPWELL to LVPWELL Space (Inside DNWELL) [Different potential],1.4,1.7
+LPW.2b,Min. LVPWELL to LVPWELL Space [Equi potential],0.86,0.86
+LPW.3,Min. DNWELL enclose LVPWELL,2.5,2.5
+LPW.4*,"If LVPWELL is used as resistor, it must be covered by RES_MK (for LVS purpose).
+
+Width of the resistor determined by LVPWELL. Length by COMP-to-COMP space.
+
+RES_MK length shall be coinciding with resistor length (Touching COMP each side) and width covering the width of LVPWELL.",,
+LPW.5,LVPWELL resistors must be enclosed by DNWELL,,
+Note.1 **,Recommended Min. width to achieve stable LVPWELL resistor.,2,2

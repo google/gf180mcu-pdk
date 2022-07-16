@@ -1,0 +1,54 @@
+Sr.No,Guideline,Comment
+MP.1,"Matched pair device layout shall be exactly identical to each other (as
+shown in above diagrams)",
+MP.2a,"Matched pair devices shall be of the same dimension. If the matching is
+required to be 1:n ratio, then a unit cell of the same size shall be used.",
+MP.2b,"For matching requirement of 1:n ratio for transistors, following layout
+
+shall be avoided:
+
+Expecting 1 finger device to have “n X” ratio matching with “n” fingers
+(n>=2) devices.
+
+Expecting one of the fingers of n finger transistor to be have (1: “n-1”)
+ratio matched with its rest of (n-1) finger. (n >= 3)",
+MP.3,"Matched pair devices shall be placed as close as possible to each other (of
+
+course abiding by layout rules)",
+MP.4,"Matched pair devices shall preferably be surrounded by one row of
+
+identical dummy devices.",
+MP.5,"Matched pair devices shall see identical surrounding around it. For
+
+example if two NMOS in P-substrate are expected to be matched and one
+
+of them have Nwell adjacent to it and other have P-substrate tap their
+
+matching will not be good.",
+MP.6,"Metal connection width and lengths to each identical node of the matched
+pair shall be similar",
+MP.7,"Matched pair devices shall run in parallel and not in perpendicular or anti
+
+Parallel.",
+MP.8,"Use cross-coupled or interleave kind of layout to create as much symmetry
+
+in the devices as possible (see examples of matched pair layouts)",
+MP.9,"Do not use smallest design rule lines and widths. Minimum device
+
+dimensions (L and W) used for matched pair shall be 2 or 3X to the
+
+minimum design rules in that technology for those devices.",
+MP.10,"There shall not be any unrelated (not as a direct part of the device or its
+
+direct connection) conductors (metal, poly or salicided diffusion), over or
+
+under the matched pair devices.",
+MP.11,"Matched pair devices shall not be separated by unrelated devices in
+
+Between.",
+MP.12,"Matched pair devices shall see identical DC bias at all identical device
+
+Nodes.",
+MP.13,"Matched pair devices shall have same well (either both Nwell or both
+
+Pwell) underneath.",

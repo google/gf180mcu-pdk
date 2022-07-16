@@ -1,0 +1,3 @@
+PIN,Function
+ASIG5V,5V analogue signal input from/output to core
+PAD,Data input from/output to bond pad

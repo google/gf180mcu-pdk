@@ -1,0 +1,16 @@
+Rule NO,Description,"Solder
+Bump",Other Cases
+GR.1,Min/Max GUARD_RING_MK overlap of guard ring comp,0,0
+GR.2,"Min GUARD_RING_MK space to prime die COMP, NWELL, 
+Poly2, Metal 1, 2, 3, 4, 5 and metal Top",10,10
+GR.3,Minimum Pplus overlap of PCOMP inside guard ring,0,0
+GR.4,Minimum metal-n width (n= 1 to 6),12,12
+GR.5,"Minimum metal-n (n=1 to 6) outer edge space to die edge
+(Identified by the outer edge of GUARD_RING_MK).",3,\-
+GR.6,Min PCOMP width,16,16
+GR.7,Minimum Contact to Contact spacing,0.7,0.7
+GR.8,Minimum via to via spacing,0.7,0.7
+R.9 (1)*,"All Metal & Vias shall exist in the seal ring area
+All Vias shall put in a staggered row",\-,\-
+GR.10 (2)*,There must be rows of contact in the seal ring area,\-,\-
+GR.11,Pad opening on top of GUARD_RING_MK layer,Not allowed,Required

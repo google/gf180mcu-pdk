@@ -1,0 +1,5 @@
+1.3 Model Overview
+==================
+
+GlobalFoundries's models are physics-based, scalable compact models, in contrast to models based on fitting a discrete device. This allows the greatest amount of flexibility for designers and provides good model accuracy over a broad range of applications.
+

@@ -1,0 +1,4 @@
+#,PARAMETERS,SLM_ID,DIMENSIONS / COMMENTS,MIN,TYP,MAX,UNITS
+1,Rsheet (Sheet Resistance),SAB RES2,W = 10um (to monitor film Rs),2250,3000,3750,□/sq
+2,Temp. Coeff. TCR1,\*Test Chip,"W > 3um,",--,--,--,ppm/K
+3,"Voltage Coeff, VCR1",\*Test Chip,"W > 3um,",--,--,--,ppm/V

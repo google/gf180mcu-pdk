@@ -1,0 +1,25 @@
+5.3 Other miscellaneous DFM guidelines covered under Design rules
+=================================================================
+
+Following are the other miscellaneous guidelines also covered in the design rule document under section 5.0 of the design rules.
+
+(1) Relaxed design rules with dimensions increased from baseline ground-rule minimums will generally improve process and reliability yields. Minimum design dimensions should only be used to decrease chip size or improve device performance.
+
+(2) Minimum lines and spaces increase circuit density. When circuit density is not limited by these rules, increase the minimum line and space values by 10% to 20% as applicable during design layout. This practice improves the product manufacturability; yields and performance by reducing interconnect resistance and capacitance.
+
+(3) The minimum Metal overlap-of-contact and via rules are given to increase interconnect density. Where interconnect is not limited by these rules, relax the Metal overlap-of-contact and via by 10%-20% as applicable during design layout. This will improve both manufacturing margins and reliability.
+
+(4) Narrow polysilicon and diffusion lines are particularly susceptible to localized increases in sheet resistance in a salicide process. In applications where DC voltage drops are critical, avoid using narrow poly2 or diffusion lines.
+
+(5) Since thin-gate-oxide integrity is driven by random process defects, avoid using large gate oxide areas as decoupling capacitors. Follow the antenna ratio rules to ensure reliable gate oxides.
+
+(6) Avoid long parallel routing of intra-layer metal lines. This practice reduces coupling capacitance, improves circuit performance and suppresses cross-talk.
+
+(7) Use top-metal as power supply, ground, and bus signal and global interconnect since it has the lowest resistivity.
+
+(8) Use as many redundant contacts and vias as possible to provide design robustness against interconnect opens. In addition, refer to electro migration section in the design rule for electro migration susceptibility.
+
+(9) Implementing poly2 and metal dummy pattern fill by designer is highly recommended when GDS densities are below the minimum rules specified. Control of dummy fill and minimized impact to critical path circuitry are then assured in layout. Our DRC runsets implement GDS pattern density checks.
+
+(10) As product labels are placed in the chip area and not in the scribe line, labels and logos must obey the design rules in this manual so as to prevent impact to circuit functionality. GlobalFoundries does not provide logo block marking layer to suppress DRC on logos.
+

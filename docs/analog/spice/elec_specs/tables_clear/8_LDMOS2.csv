@@ -1,0 +1,13 @@
+#,PARAMETERS,XTORS,DIMENSIONS,MIN,TYP,MAX,UNITS
+1,THRESHOLD VOLTAGE,,,,,,
+,"Vtlin
+
+(Vds=-0.05V, @ID=0.1*(W/L) uA)",LDPMOS,W/L = 25/0.6,-1.16,-1.02,-0.88,V
+2,SATURATION CURRENT,,,,,,
+,"Idsat (| Vgs | = 6V, | Vds | = 10V)",LDPMOS,W/L = 25/0.6,-320,-260,-200,μA/um
+3,LINEAR CURRENT,,,,,,
+,"Idlin (| Vgs | = 6V, | Vds | = 0.1V)",LDPMOS,W/L = 25/0.6,-11.3,-9,-6.75,μA/um
+4,SUBTHRESHOLD CURRENT,,,,,,
+,Ioff (| Vds | = 11V @ 25°C),LDPMOS,W/L = 25/0.6,-20,-1,--,pA/μm
+5,PUNCH-THROUGH VOLTAGE,,,,,,
+,BVDSS,LDPMOS,W/L = 25/0.6,--,-14.5,-13.2,V

@@ -1,0 +1,31 @@
+RULE NO.,DESCRIPTION,"LAYOUT
+RULE"
+EF.01,Min. (Poly2 butt PLFUSE) within EFUSE_MK and Pplus,0
+EF.02,Min. Max. PLFUSE width,0.18
+EF.03,Min. Max. PLFUSE length,1.26
+EF.04a,"Min. Max. PLFUSE overlap Poly2 (coinciding permitted) and
+touch cathode and anode",0
+EF.04b,PLFUSE must be rectangular,
+EF.04c,Cathode Poly2 must be rectangular,
+EF.04d,Anode Poly2 must be rectangular,
+EF.05,Min. Max. LVS_Source overlap Poly2 (at Anode),0
+EF.06,Min. Max. Cathode Poly2 width,2.26
+EF.07,Min. Max. Cathode Poly2 length,1.84
+EF.08,Min. Max. Anode Poly2 width,1.06
+EF.09,Min. Max. Anode Poly2 length,2.43
+EF.10,Min. Cathode Poly2 to Poly2 space,0.26
+EF.11,Min. Anode Poly2 to Poly2 space,0.26
+EF.12,Min. Space of Cathode Contact to PLFUSE end,0.155
+EF.13,Min. Space of Anode Contact to PLFUSE end,0.14
+EF.14,Min. EFUSE_MK enclose LVS_Source,0
+EF.15,NO Contact is allowed to touch PLFUSE,
+EF.16a,Cathode must contain exact number of Contacts at each ends,4
+EF.16b,Anode must contain exact number of Contacts at each ends,4
+EF.17,Min. Space of EFUSE_MK to EFUSE_MK,0.26
+EF.18,"PLFUSE must sit on field oxide (NOT COMP), no cross with
+any COMP, Nplus, ESD, SAB, Resistor, Metal1, Metal2",
+EF.19,"Min. PLFUSE space to Metal1, Metal2",0
+EF.20,"Min. PLFUSE space to COMP, Nplus, ESD, SAB, Resistor",2.73
+EF.21,Min. Max. eFUSE Poly2 length,5.53
+EF.22a,"Min. Max. Cathode Poly2 overlap with PLFUSE in width Direction",1.04
+EF.22b,"Min. Max. Anode Poly2 overlap with PLFUSE in width Direction",0.44

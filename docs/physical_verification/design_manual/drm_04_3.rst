@@ -1,0 +1,17 @@
+4.3. Mask Layer Numbering
+=========================
+
+The following table matches the mask or reticle layer number to the drawn/generated layers.
+
+ .. csv-table:: Mask layers
+    :file: tables_clear/07_Mask_Layer14.csv
+    :widths: 100, 200, 300, 300, 200, 100, 100
+
+.. note::
+
+    1. L67, L63, L9Z, L92 , L9A and L99 are optional layers.
+
+    2. PIB data polarity is chrome for mask used in FAB2. PIB data polarity is clear for mask used in FAB6.
+
+    3. L9A for FAB3E MCU OTP metal fuse process only.
+

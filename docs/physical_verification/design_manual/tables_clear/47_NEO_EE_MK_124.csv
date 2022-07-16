@@ -1,0 +1,55 @@
+RULE NO.,DESCRIPTION,LAYOUT RULE
+,,3.3V
+"EE.DF.4d_LV
+\*LDMOS",Min Nwell overlap of NCOMP (Outside DNWELL only),0
+"EE.DF.16_LV
+\*LDMOS","Min space from NWELL (outside DNWELL) to NCOMP outside
+
+Nwell and DNWELL = 0",0
+EE.NP.5a, Nplus overlap of N-channel gate = 0,0
+EE.PP.5a, Pplus overlap of P-channel gate = 0,0
+EE.NP.6 ,Nplus overlap with NCOMP butted PCOMP = 0.14,0.14
+EE.PP.6, Pplus Implant overlap with PCOMP butted to NCOMP = 0.14,0.14
+EE.NP.7, Nplus space to unsalicided Poly2 = 0.17,0.17
+EE.PP.7 ,Pplus Implant space to unsalicided Poly2 = 0.08,0.08
+EE.NP.9, Nplus overlap of unsalicided Poly2  = NA,NA
+EE.PP.9, Pplus Implant overlap of unsalicided Poly2 = NA,NA
+EE.NP.10,Nplus overlap of unsalicided COMP = NA,NA
+EE.PP.10, Pplus Implant overlap of unsalicided COMP = NA,NA
+EE.NP.12,"Nplus overlap with P-channel poly gate extension is forbidden within
+
+0.32um of P-channel gate",NA
+EE.PP.12,"Pplus Implant overlap with N-channel poly gate extension is
+
+forbidden within 0.32um of N-channel gate",NA
+EE.PL.2_LV, Min gate width (Channel length) = NA,NA
+EE.PL.6, Poly2 90 degree bends on COMP are not allowed,NA
+EE.SB.10, Poly2 extension beyond related Salicide Block = 0.14,0.14
+EE.SB.11, Salicide Block overlap with COMP = 0.12,0.12
+EE.SB.12,Salicide Block overlap with Poly2 outside ESD_MK = 0.21,0.21
+EE.SB.14a,Space from unsalicided Nplus Poly2 to unsalicided Pplus Poly2 = NA,NA
+EE.SB.14b,Space from unsalicided Nplus Poly2 to P-channel gate = NA,NA
+EE.SB.16,"SAB layer cannot exist on 3.3V and 5V/6V CMOS transistor's Poly
+
+and COMP area of the core ciruit
+
+(Excluding the transistors used for ESD purpose).
+
+It can only exist on CMOS transistors marked by LVS_IO,
+
+OTP_MK, ESD_MK layers.",NA
+EE.LU.4b_LV,"Max. Nwell tap space to any point in the boundary of Pcomp inside
+
+Nwell = 30 (LV)
+
+For Nwell to (Ncomp outside Nwell) space >= 1.0um and < 2.0um",NA
+EE.LU.4c_LV,"Max. Nwell tap space to any point in the boundary of Pcomp inside
+
+Nwell = 15 (LV)
+
+For Nwell to (Ncomp outside Nwell) space < 1.0um",NA
+EE.LVESD.1_esd_mk,"LV MOSFET used for ESD protection should be enclosed by
+
+ESD_MK, ESD_MK must enclose well pick-up implant
+
+Debug1 : Mosfet with SAB but no LVS_IO, OTP_MK or ESD_MK",NA
