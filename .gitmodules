@@ -1,0 +1,34 @@
+# gf180mcu_fd_pr
+[submodule "libraries/gf180mcu_fd_pr/latest"]
+	path = libraries/gf180mcu_fd_pr/latest
+	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_pr.git
+	branch = main
+	shallow = true
+
+# gf180mcu_fd_sc_mcu7t5v0
+[submodule "libraries/gf180mcu_fd_sc_mcu7t5v0/latest"]
+	path = libraries/gf180mcu_fd_sc_mcu7t5v0/latest
+	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_sc_mcu7t5v0.git
+	branch = main
+	shallow = true
+
+# gf180mcu_fd_sc_mcu9t5v0
+[submodule "libraries/gf180mcu_fd_sc_mcu9t5v0/latest"]
+	path = libraries/gf180mcu_fd_sc_mcu9t5v0/latest
+	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_sc_mcu9t5v0.git
+	branch = main
+	shallow = true
+
+# gf180mcu_fd_io
+[submodule "libraries/gf180mcu_fd_io/latest"]
+	path = libraries/gf180mcu_fd_io/latest
+	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_io.git
+	branch = main
+	shallow = true
+
+# gf180mcu_fd_bd_sram
+[submodule "libraries/gf180mcu_fd_bd_sram/latest"]
+	path = libraries/gf180mcu_fd_bd_sram/latest
+	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_bd_sram.git
+	branch = main
+	shallow = true
