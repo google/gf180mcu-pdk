@@ -26,9 +26,9 @@
 	branch = main
 	shallow = true
 
-# gf180mcu_fd_bd_sram
-[submodule "libraries/gf180mcu_fd_bd_sram/latest"]
-	path = libraries/gf180mcu_fd_bd_sram/latest
-	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_bd_sram.git
+# gf180mcu_fd_ip_sram
+[submodule "macros/gf180mcu_fd_ip_sram/latest"]
+	path = macros/gf180mcu_fd_ip_sram/latest
+	url = https://github.com/google/globalfoundries-pdk-ip-gf180mcu_fd_ip_sram.git
 	branch = main
 	shallow = true
