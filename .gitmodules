@@ -19,6 +19,13 @@
 	branch = main
 	shallow = true
 
+# gf180mcu_fd_bd_sram
+[submodule "libraries/gf180mcu_fd_bd_sram/latest"]
+	path = libraries/gf180mcu_fd_bd_sram/latest
+	url = https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_bd_sram.git
+	branch = main
+	shallow = true
+
 # gf180mcu_fd_io
 [submodule "libraries/gf180mcu_fd_io/latest"]
 	path = libraries/gf180mcu_fd_io/latest
