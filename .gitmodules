@@ -39,3 +39,6 @@
 	url = https://github.com/google/globalfoundries-pdk-ip-gf180mcu_fd_ip_sram.git
 	branch = main
 	shallow = true
+[submodule "third_party/open-source-pdks"]
+	path = third_party/open-source-pdks
+	url = https://github.com/google/open-source-pdks.git
