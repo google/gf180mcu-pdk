@@ -12,7 +12,8 @@ Welcome to GlobalFoundries 0.18UM 3.3V/(5V)6V MCU PDK's documentation!
 
     digital/Digital
     analog/Analog
-    IPs/ips
+    IO/io
+    IP/ip
     physical_verification/design_man
 
 .. warning::
