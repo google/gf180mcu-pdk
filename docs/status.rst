@@ -1,7 +1,7 @@
-.. include:: common.inc
-
 Current Status -- |current-status|
 ==================================
+
+.. include:: common.inc
 
 .. current_status_text
 

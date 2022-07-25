@@ -53,7 +53,7 @@ release = ''
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosectionlabel',
+    #'sphinx.ext.autosectionlabel',
     'sphinx.ext.githubpages',
     'sphinx.ext.ifconfig',
     'sphinx.ext.mathjax',
@@ -120,6 +120,7 @@ exclude_patterns = [
     'venv',
     'Thumbs.db',
     '.DS_Store',
+    '.vscode',
 ]
 
 # The name of the Pygments (syntax highlighting) style to use.

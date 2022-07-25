@@ -47,7 +47,8 @@ docs: build display
 
 .ONESHELL:
 install-theme:
-	@cd docs/
+#	@cd docs/
+	@rm -rf docs/sphinx_f4pga_theme
 	@rm -rf sphinx_f4pga_theme
 	@git clone $(theme_link)
 	@cd sphinx_f4pga_theme 

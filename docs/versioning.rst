@@ -1,15 +1,9 @@
-.. include:: common.inc
-
 .. _Versioning Information:
 
 Versioning Information
 ======================
 
-Current Status
---------------
-
-.. include:: status
-    :start-after: current_status_text
+.. include:: status.rst
 
 Version Number Format
 ---------------------

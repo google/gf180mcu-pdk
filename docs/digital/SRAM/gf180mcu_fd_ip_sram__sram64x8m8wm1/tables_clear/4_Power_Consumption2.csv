@@ -1,6 +1,0 @@
-Condition,DC standby,AC Write,AC Read
-"TT corner, 3.3v, 25°c",0.00006,342.144,310.2
-"SS corner, 3.0v, -40°c",0.00005,273.045,249.09
-"SS corner, 3.6v, 125°c",0.00006,289.68,263.76
-"FF corner, 3.6v, 125°c",0.0037,441.252,395.91
-"FF corner, 3.6v, -40°c",0.00007,409.23,368.748

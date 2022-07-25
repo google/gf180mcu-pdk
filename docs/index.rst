@@ -3,8 +3,6 @@
 Welcome to GlobalFoundries 0.18UM 3.3V/(5V)6V MCU PDK's documentation!
 ****************************************************************************
 
-.. include:: common.inc
-
 .. toctree::
     :hidden:
 
@@ -12,8 +10,10 @@ Welcome to GlobalFoundries 0.18UM 3.3V/(5V)6V MCU PDK's documentation!
 
     digital/Digital
     analog/Analog
-    IPs/ips
+    IO/io
+    IP/ip
     physical_verification/design_man
+    contributing
 
 .. warning::
     This documentation is currently a **work in progress**.
@@ -23,10 +23,16 @@ Welcome to GlobalFoundries 0.18UM 3.3V/(5V)6V MCU PDK's documentation!
     :alt: GlobalFoundries PDK Logo Image.
 
 
-Current Status -- |current-status|
-==================================
+.. include:: status.rst
 
-.. include:: status
-    :start-after: current_status_text
+
+Resources
+=========
+
+The latest design resources can be viewed at the following locations:
+
+* `On Github @ google/gf180mcu-pdk <https://github.com/google/gf180mcu-pdk>`_
+* `Google CodeSearch interface @ https://cs.opensource.google/gf180mcu-pdk <https://cs.opensource.google/gf180mcu-pdk>`_
+* `foss-eda-tools.googlesource.com/gf180mcu-pdk <https://foss-eda-tools.googlesource.com/gf180mcu-pdk/>`_
 
 
