@@ -7,6 +7,6 @@ I/Os
     :glob:
 
     IO/io
-
+    SRAM/sram
 
 
