@@ -1,11 +1,11 @@
 EP Specification,,,,
 Device (W/L) ,Model,Idsat (uA/um),Vth0 (V),Idlin (uA/um)
-"nmos_6p0_sab
+"nfet_06v0_dss
 
 (10/0.6)",Slow,398,0.84,39
 ,typical ,498,0.72,46
 ,fast,598,0.58,53
-"pmos_6p0_sab
+"pfet_06v0_dss
 
 (10/0.5)",slow ,-187,-0.97,-12
 ,typical ,-233,-0.84,-14

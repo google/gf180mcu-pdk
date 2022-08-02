@@ -1,46 +1,46 @@
 No.,Device Name,Model Name,Description,Spec
 MOSFET,,,,
-,nmos_3p3,nmos_3p3,3.3V NMOS (Outside DNWELL),YI-141-SM064
-,nmos_3p3_dw,nmos_3p3,3.3V NMOS (Inside DNWELL),YI-141-SM064
-,pmos_3p3,pmos_3p3,3.3V PMOS (Outside DNWELL),YI-141-SM064
-,pmos_3p3_dw,pmos_3p3,3.3V PMOS (Inside DNWELL),YI-141-SM064
-,nmos_5p0,nmos_6p0,5V NMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,nmos_5p0_dw,nmos_6p0,5V NMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,pmos_5p0,pmos_6p0,5V PMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,pmos_5p0_dw,pmos_6p0,5V PMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,nmos_6p0,nmos_6p0,6V NMOS (Outside DNWELL),YI-141-SM064
-,nmos_6p0_dw,nmos_6p0,6V NMOS (Inside DNWELL),YI-141-SM064
-,pmos_6p0,pmos_6p0,6V PMOS (Outside DNWELL),YI-141-SM064
-,pmos_6p0_dw,pmos_6p0,6V PMOS (Inside DNWELL),YI-141-SM064
-,nmos_6p0_nat,nmos_6p0_nat,6V Native NMOS,YI-141-SM064
-,nmos_10p0_asym,nmos_10p0_asym,LD-NMOS (Asymmetrical),SM-BB-000149
-,pmos_10p0_asym,pmos_10p0_asym,LD-PMOS (Asymmetrical),SM-BB-000149
+,nfet_03v3,nfet_03v3,3.3V NMOS (Outside DNWELL),YI-141-SM064
+,nfet_03v3_dn,nfet_03v3,3.3V NMOS (Inside DNWELL),YI-141-SM064
+,pfet_03v3,pfet_03v3,3.3V PMOS (Outside DNWELL),YI-141-SM064
+,pfet_03v3_dn,pfet_03v3,3.3V PMOS (Inside DNWELL),YI-141-SM064
+,nfet_05v0,nfet_06v0,5V NMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,nfet_05v0_dn,nfet_06v0,5V NMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,pfet_05v0,pfet_06v0,5V PMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,pfet_05v0_dn,pfet_06v0,5V PMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,nfet_06v0,nfet_06v0,6V NMOS (Outside DNWELL),YI-141-SM064
+,nfet_06v0_dn,nfet_06v0,6V NMOS (Inside DNWELL),YI-141-SM064
+,pfet_06v0,pfet_06v0,6V PMOS (Outside DNWELL),YI-141-SM064
+,pfet_06v0_dn,pfet_06v0,6V PMOS (Inside DNWELL),YI-141-SM064
+,nfet_06v0_nvt,nfet_06v0_nvt,6V Native NMOS,YI-141-SM064
+,nfet_10v0_asym,nfet_10v0_asym,LD-NMOS (Asymmetrical),SM-BB-000149
+,pfet_10v0_asym,pfet_10v0_asym,LD-PMOS (Asymmetrical),SM-BB-000149
 BJT,,,,
-,vnpn_10x10,vnpn_10x10,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 10um x 10um",YI-141-SM064
-,vnpn_5x5,vnpn_5x5,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 5um x 5um",YI-141-SM064
-,vnpn_0p54x16,vnpn_0p54x16,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 16um",YI-141-SM064
-,vnpn_0p54x8,vnpn_0p54x8,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 8um",YI-141-SM064
-,vnpn_0p54x4,vnpn_0p54x4,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 4um",YI-141-SM064
-,vnpn_0p54x2,vnpn_0p54x2,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 2um",YI-141-SM064
-,vpnp_10x10,vpnp_10x10,"VPNP (Pplus-Nwell-Psub), emitter size 10um x 10um",YI-141-SM064
-,vpnp_5x5,vpnp_5x5,"VPNP (Pplus-Nwell-Psub), emitter size 5um x 5um",YI-141-SM064
-,vpnp_0p42x10,vpnp_0p42x10,"VPNP (Pplus-Nwell-Psub), emitter size 0p42um x 10um",YI-141-SM064
-,vpnp_0p42x5,vpnp_0p42x5,"VPNP (Pplus-Nwell-Psub), emitter size 0p42um x 5um",YI-141-SM064
+,npn_10p00x10p00,npn_10p00x10p00,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 10um x 10um",YI-141-SM064
+,npn_05p00x05p00,npn_05p00x05p00,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 5um x 5um",YI-141-SM064
+,npn_00p54x16p00,npn_00p54x16p00,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 16um",YI-141-SM064
+,npn_00p54x08p00,npn_00p54x08p00,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 8um",YI-141-SM064
+,npn_00p54x04p00,npn_00p54x04p00,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 4um",YI-141-SM064
+,npn_00p54x02p00,npn_00p54x02p00,"VNPN (Nplus-LVPWELL-DNWELL), emitter size 0p54um x 2um",YI-141-SM064
+,pnp_10p00x10p00,pnp_10p00x10p00,"VPNP (Pplus-Nwell-Psub), emitter size 10um x 10um",YI-141-SM064
+,pnp_05p00x05p00,pnp_05p00x05p00,"VPNP (Pplus-Nwell-Psub), emitter size 5um x 5um",YI-141-SM064
+,pnp_10p00x00p42,pnp_10p00x00p42,"VPNP (Pplus-Nwell-Psub), emitter size 0p42um x 10um",YI-141-SM064
+,pnp_05p00x00p42,pnp_05p00x00p42,"VPNP (Pplus-Nwell-Psub), emitter size 0p42um x 5um",YI-141-SM064
 DIODE,,,,
-,np_3p3,np_3p3,3.3V N+/LVPWELL diode (Outside DNWELL),YI-141-SM064
-,np_3p3_dw,np_3p3,3.3V N+/LVPWELL diode (Inside DNWELL),YI-141-SM064
-,np_6p0,np_6p0,5V/6V N+/LVPWELL Diode (Outside DNWELL),YI-141-SM064
-,np_6p0_dw,np_6p0,5V/6V N+/LVPWELL Diode (Inside DNWELL),YI-141-SM064
-,pn_3p3,pn_3p3,3.3V  P+/Nwell diode (Outside DNWELL),YI-141-SM064
-,pn_3p3_dw,pn_3p3,3.3V  P+/Nwell diode (Inside DNWELL),YI-141-SM064
-,pn_6p0,pn_6p0,5V/6V P+/Nwell diode (Outside DNWELL),YI-141-SM064
-,pn_6p0_dw,pn_6p0,5V/6V P+/Nwell diode (Inside DNWELL),YI-141-SM064
-,nwp_3p3,nwp_3p3,3.3V Nwell/Psub diode,YI-141-SM064
-,nwp_6p0,nwp_6p0,5V/6V Nwell/Psub diode,YI-141-SM064
-,dnwpw_3p3,dnwpw,3.3V LVPWELL/DNWELL diode,YI-141-SM064
-,dnwpw_6p0,dnwpw,5V/6V LVPWELL/DNWELL diode,YI-141-SM064
-,dnwps_3p3,dnwps,3.3V DWENLL/Psub diode,YI-141-SM064
-,dnwps_6p0,dnwps,5V/6V DWENLL/Psub diode,YI-141-SM064
+,diode_nd2ps_03v3,diode_nd2ps_03v3,3.3V N+/LVPWELL diode (Outside DNWELL),YI-141-SM064
+,diode_nd2ps_03v3_dn,diode_nd2ps_03v3,3.3V N+/LVPWELL diode (Inside DNWELL),YI-141-SM064
+,diode_nd2ps_06v0,diode_nd2ps_06v0,5V/6V N+/LVPWELL Diode (Outside DNWELL),YI-141-SM064
+,diode_nd2ps_06v0_dn,diode_nd2ps_06v0,5V/6V N+/LVPWELL Diode (Inside DNWELL),YI-141-SM064
+,diode_pd2nw_03v3,diode_pd2nw_03v3,3.3V  P+/Nwell diode (Outside DNWELL),YI-141-SM064
+,diode_pd2nw_03v3_dn,diode_pd2nw_03v3,3.3V  P+/Nwell diode (Inside DNWELL),YI-141-SM064
+,diode_pd2nw_06v0,diode_pd2nw_06v0,5V/6V P+/Nwell diode (Outside DNWELL),YI-141-SM064
+,diode_pd2nw_06v0_dn,diode_pd2nw_06v0,5V/6V P+/Nwell diode (Inside DNWELL),YI-141-SM064
+,diode_nw2ps_03v3,diode_nw2ps_03v3,3.3V Nwell/Psub diode,YI-141-SM064
+,diode_nw2ps_06v0,diode_nw2ps_06v0,5V/6V Nwell/Psub diode,YI-141-SM064
+,diode_pw2dw_03v3,diode_pw2dw,3.3V LVPWELL/DNWELL diode,YI-141-SM064
+,diode_pw2dw_06v0,diode_pw2dw,5V/6V LVPWELL/DNWELL diode,YI-141-SM064
+,diode_dw2ps_03v3,diode_dw2ps,3.3V DWENLL/Psub diode,YI-141-SM064
+,diode_dw2ps_06v0,diode_dw2ps,5V/6V DWENLL/Psub diode,YI-141-SM064
 ,sc_diode,sc_diode,Schottky diode,YI-141-SM064
 RESISTOR,,,,
 ,nplus_u,nplus_u,3-terminal unsalicided n+ diffusion resistor (Outside DNWELL),YI-141-SM064
@@ -81,35 +81,35 @@ RESISTOR,,,,
 ,tm11k,tm11k,2-terminal 11K Metal Top resistor,YI-141-SM064
 ,tm30k,tm30k,2-terminal 30K Top Metal resistor,YI-141-SM064
 CAPACITOR (MIM),,,,
-,mim_1p0fF,mim_1p0fF,1.0fF/um2 MIM capacitor,YI-141-SM064
-,mim_1p5fF,mim_1p5fF,1.5fF/um2 MIM capacitor,YI-141-SM064
-,mim_single_2p0fF,mim_2p0fF,2.0fF/um2 MIM capacitor,YI-141-SM064
+,cap_mim_1p0fF,cap_mim_1p0fF,1.0fF/um2 MIM capacitor,YI-141-SM064
+,cap_mim_1p5fF,cap_mim_1p5fF,1.5fF/um2 MIM capacitor,YI-141-SM064
+,cap_cap_mim_2p0fF,cap_mim_2p0fF,2.0fF/um2 MIM capacitor,YI-141-SM064
 CAPACITOR (MOS),,,,
-,nmoscap_3p3,nmoscap_3p3,3.3V NMOS capacitor (Outside DNWELL),YI-141-SM064
-,nmoscap_3p3_dw,nmoscap_3p3,3.3V NMOS capacitor (Inside DNWELL),YI-141-SM064
-,pmoscap_3p3,pmoscap_3p3,3.3V PMOS capacitor (Outside DNWELL),YI-141-SM064
-,pmoscap_3p3_dw,pmoscap_3p3,3.3V PMOS capacitor (Inside DNWELL),YI-141-SM064
-,nmoscap_6p0,nmoscap_6p0,5V/6V NMOS capacitor (Outside DNWELL),YI-141-SM064
-,nmoscap_6p0_dw,nmoscap_6p0,5V/6V NMOS capacitor (inside DNWELL),YI-141-SM064
-,pmoscap_6p0,pmoscap_6p0,5V/6V PMOS capacitor (Outside DNWELL),YI-141-SM064
-,pmoscap_6p0_dw,pmoscap_6p0,5V/6V PMOS capacitor (Outside DNWELL),YI-141-SM064
-,nmoscap_3p3_b,nmoscap_3p3_b,3.3V NMOS capacitor (inside NWell),YI-141-SM064
-,pmoscap_3p3_b,pmoscap_3p3_b,3.3V PMOS capacitor (inside Psub),YI-141-SM064
+,cap_nmos_03v3,cap_nmos_03v3,3.3V NMOS capacitor (Outside DNWELL),YI-141-SM064
+,cap_nmos_03v3_dn,cap_nmos_03v3,3.3V NMOS capacitor (Inside DNWELL),YI-141-SM064
+,cap_pmos_03v3,cap_pmos_03v3,3.3V PMOS capacitor (Outside DNWELL),YI-141-SM064
+,cap_pmos_03v3_dn,cap_pmos_03v3,3.3V PMOS capacitor (Inside DNWELL),YI-141-SM064
+,cap_nmos_06v0,cap_nmos_06v0,5V/6V NMOS capacitor (Outside DNWELL),YI-141-SM064
+,cap_nmos_06v0_dn,cap_nmos_06v0,5V/6V NMOS capacitor (inside DNWELL),YI-141-SM064
+,cap_pmos_06v0,cap_pmos_06v0,5V/6V PMOS capacitor (Outside DNWELL),YI-141-SM064
+,cap_pmos_06v0_dn,cap_pmos_06v0,5V/6V PMOS capacitor (Outside DNWELL),YI-141-SM064
+,cap_nmos_03v3_b,cap_nmos_03v3_b,3.3V NMOS capacitor (inside NWell),YI-141-SM064
+,cap_pmos_03v3_b,cap_pmos_03v3_b,3.3V PMOS capacitor (inside Psub),YI-141-SM064
 ,,,,
-,nmoscap_6p0_b,nmoscap_6p0_b,5V/6V NMOS capacitor (inside NWell),YI-141-SM064
-,pmoscap_6p0_b,pmoscap_6p0_b,5V/6V PMOS capacitor (inside Psub),YI-141-SM064
+,cap_nmos_06v0_b,cap_nmos_06v0_b,5V/6V NMOS capacitor (inside NWell),YI-141-SM064
+,cap_pmos_06v0_b,cap_pmos_06v0_b,5V/6V PMOS capacitor (inside Psub),YI-141-SM064
 ESD (SAB MOSFET),,,,
-,nmos_3p3_sab,nmos_3p3_sab,3.3V SAB NMOS (Outside DNWELL),YI-141-SM064
-,nmos_3p3_dw_sab,nmos_3p3_sab,3.3V SAB NMOS (Inside DNWELL),YI-141-SM064
-,nmos_5p0_sab,nmos_6p0_sab,5V SAB NMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,nmos_5p0_dw_sab,nmos_6p0_sab,5V SAB NMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,nmos_6p0_sab,nmos_6p0_sab,6V SAB NMOS (Outside DNWELL),YI-141-SM064
-,nmos_6p0_dw_sab,nmos_6p0_sab,6V SAB NMOS (Inside DNWELL),YI-141-SM064
-,pmos_3p3_sab,pmos_3p3_sab,3.3V SAB PMOS (Outside DNWELL),YI-141-SM064
-,pmos_3p3_dw_sab,pmos_3p3_sab,3.3V SAB PMOS (Inside DNWELL),YI-141-SM064
-,pmos_5p0_sab,pmos_6p0_sab,5V SAB PMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,pmos_5p0_dw_sab,pmos_6p0_sab,5V SAB PMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
-,pmos_6p0_sab,pmos_6p0_sab,6V SAB PMOS (Outside DNWELL),YI-141-SM064
-,pmos_6p0_dw_sab,pmos_6p0_sab,6V SAB PMOS (Inside DNWELL),YI-141-SM064
+,nfet_03v3_dss,nfet_03v3_dss,3.3V SAB NMOS (Outside DNWELL),YI-141-SM064
+,nfet_03v3_dn_dss,nfet_03v3_dss,3.3V SAB NMOS (Inside DNWELL),YI-141-SM064
+,nfet_05v0_dss,nfet_06v0_dss,5V SAB NMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,nfet_05v0_dn_dss,nfet_06v0_dss,5V SAB NMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,nfet_06v0_dss,nfet_06v0_dss,6V SAB NMOS (Outside DNWELL),YI-141-SM064
+,nfet_06v0_dn_dss,nfet_06v0_dss,6V SAB NMOS (Inside DNWELL),YI-141-SM064
+,pfet_03v3_dss,pfet_03v3_dss,3.3V SAB PMOS (Outside DNWELL),YI-141-SM064
+,pfet_03v3_dn_dss,pfet_03v3_dss,3.3V SAB PMOS (Inside DNWELL),YI-141-SM064
+,pfet_05v0_dss,pfet_06v0_dss,5V SAB PMOS (Outside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,pfet_05v0_dn_dss,pfet_06v0_dss,5V SAB PMOS (Inside DNWELL) (with V5_XTOR mark layer),YI-141-SM064
+,pfet_06v0_dss,pfet_06v0_dss,6V SAB PMOS (Outside DNWELL),YI-141-SM064
+,pfet_06v0_dn_dss,pfet_06v0_dss,6V SAB PMOS (Inside DNWELL),YI-141-SM064
 eFuse,,,,
 ,eFuse,efuse,Eletrically programmable fuse element,YI-141-SM064

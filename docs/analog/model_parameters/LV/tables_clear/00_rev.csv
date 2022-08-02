@@ -124,9 +124,9 @@ capacitance to correlate with the diode update
 
 1. Updated leakage current for 6V PMOS
 
-2. Added paper model SAB devices nmos_3p3_sab, pmos_3p3_sab, nmos_6p0_sab,
+2. Added paper model SAB devices nfet_03v3_dss, pfet_03v3_dss, nfet_06v0_dss,
 
-pmos_6p0_sab for 3.3V NMOS/PMOS and 6V NMOS/PMOS
+pfet_06v0_dss for 3.3V NMOS/PMOS and 6V NMOS/PMOS
 
 3. Added instance parameter ""s"" to allow defining resistors in series connection
 "
@@ -173,11 +173,11 @@ ppolyf_u_2k_6p0
 
 4. Added mismatch model for pplus_u/npolyf_u/ppolyf_u/nplus_u
 
-5. Added global statistical model for mim_1p0fF/mim_1p5fF/mim_2p0fF
+5. Added global statistical model for cap_mim_1p0fF/cap_mim_1p5fF/cap_mim_2p0fF
 
-6. Added global & mismatch model for vpnp_5x5/ vpnp_0p42x10/ vpnp_0p42x5/
+6. Added global & mismatch model for pnp_05p00x05p00/ pnp_10p00x00p42/ pnp_05p00x00p42/
 
-vpnp_10x10
+pnp_10p00x10p00
 
 7. Added global statistical model for VNPN
 "

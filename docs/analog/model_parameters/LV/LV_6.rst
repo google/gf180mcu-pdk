@@ -21,7 +21,7 @@ Xxx  node_1  node_2  moscap_model_name  w =  l=
 
 **Examples:**
 
-Xc1 1 2 nmoscap_3p3 w=50u l=50u
+Xc1 1 2 cap_nmos_03v3 w=50u l=50u
 
 6.2 How to use the Models
 -------------------------

@@ -3,12 +3,12 @@
 (BSIM Version)","Parameter
 
 Value",W,L,nf,as,ad,ps,pd,nrs,nrd,dtemp
-"nmos_3p3
+"nfet_03v3
 
 (BSIM 4.5)",Min,0.22,0.28,1,-,-,-,-,-,-,-
 ,Max,100,50,-,-,-,-,-,-,-,-
 ,Default,0,0,1,0,0,0,0,0,0,0
-"pmos_3p3
+"pfet_03v3
 
 (BSIM 4.5)",Min,0.22,0.28,1,-,-,-,-,-,-,-
 ,Max,50,100,-,-,-,-,-,-,-,-

@@ -81,17 +81,17 @@ LVPWELL tap (Inside DNWELL),1,1,0,1,X,0,0,1,0,0,0,X,0,0,0,0,X,0,0,0,0,0,0,0,0,0,
 (7) N+ Poly Fuse (Optional):,X,0,X,X,X,1,1,0,0,X,1,X,0,1,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
 (8) Metal Fuse (Optional):,X,0,X,X,X,0,X,X,X,X,X,X,1,0,0,0,X,0,0,0,0,0,0,0,0,0,0,0,0,0
 (9) ESD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-nmos_3p3_dw_sab (SAB 3.3V NMOS inside DNWELL),1,1,0,1,0,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-nmos_3p3_sab (SAB 3.3V NMOS outside DNWELL),0,1,0,X,0,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-nmos_5p0_dw_sab (SAB 5V NMOS inside DNWELL),1,1,0,1,1,1,1,0,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-nmos_5p0_sab (SAB 5V NMOS outside DNWELL),0,1,0,X,1,1,1,0,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-nmos_6p0_dw_sab (SAB 6V NMOS inside DNWELL),1,1,0,1,1,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-nmos_6p0_sab (SAB 6V NMOS outside DNWELL),0,1,0,X,1,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-pmos_3p3_dw_sab (SAB 3.3V PMOS inside DNWELL),1,1,X,0,0,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-pmos_3p3_sab (SAB 3.3V PMOS outside DNWELL),0,1,1,0,0,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-pmos_5p0_dw_sab (SAB 5V PMOS inside DNWELL),1,1,X,0,1,1,0,1,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-pmos_5p0_sab (SAB 5V PMOS outside DNWELL),0,1,1,0,1,1,0,1,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-pmos_6p0_dw_sab (SAB 6V PMOS inside DNWELL),1,1,X,0,1,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
-pmos_6p0_sab (SAB 6V PMOS outside DNWELL),0,1,1,0,1,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nfet_03v3_dn_dss (SAB 3.3V NMOS inside DNWELL),1,1,0,1,0,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nfet_03v3_dss (SAB 3.3V NMOS outside DNWELL),0,1,0,X,0,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nfet_05v0_dn_dss (SAB 5V NMOS inside DNWELL),1,1,0,1,1,1,1,0,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nfet_05v0_dss (SAB 5V NMOS outside DNWELL),0,1,0,X,1,1,1,0,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nfet_06v0_dn_dss (SAB 6V NMOS inside DNWELL),1,1,0,1,1,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+nfet_06v0_dss (SAB 6V NMOS outside DNWELL),0,1,0,X,1,1,1,0,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pfet_03v3_dn_dss (SAB 3.3V PMOS inside DNWELL),1,1,X,0,0,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pfet_03v3_dss (SAB 3.3V PMOS outside DNWELL),0,1,1,0,0,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pfet_05v0_dn_dss (SAB 5V PMOS inside DNWELL),1,1,X,0,1,1,0,1,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pfet_05v0_dss (SAB 5V PMOS outside DNWELL),0,1,1,0,1,1,0,1,0,X,1,X,0,0,0,1,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pfet_06v0_dn_dss (SAB 6V PMOS inside DNWELL),1,1,X,0,1,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
+pfet_06v0_dss (SAB 6V PMOS outside DNWELL),0,1,1,0,1,1,0,1,0,X,1,X,0,0,0,0,X,0,0,0,0,1,1,X,0,0,0,0,0,0
 (10) eFuse,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 eFuse,X,0,0,X,X,1,0,1,0,0,0,0,0,0,0,X,0,0,0,0,0,0,1,0,1,1,0,0,0,0
