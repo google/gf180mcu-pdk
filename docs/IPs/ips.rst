@@ -1,9 +1,10 @@
 
-****
-I/Os
-****
+************
+IPs / Macros
+************
+
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :glob:
 
     IO/io
