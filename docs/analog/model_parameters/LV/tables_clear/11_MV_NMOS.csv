@@ -3,17 +3,17 @@
 (BSIM Version)","Parameter
 
 Value",W,L,nf,as,ad,ps,pd,nrs,nrd,dtemp
-"nmos_6p0
+"nfet_06v0
 
 (BSIM 4.5)",Min,0.3,0.6,1,-,-,-,-,-,-,-
 ,Max,100,50,-,-,-,-,-,-,-,-
 ,Default,0,0,1,0,0,0,0,0,0,0
-"pmos_6p0
+"pfet_06v0
 
 (BSIM 4.5)",Min,0.3,0.5,1,-,-,-,-,-,-,-
 ,Max,100,50,-,-,-,-,-,-,-,-
 ,Default,0,0,1,0,0,0,0,0,0,0
-"nmos_6p0_nat
+"nfet_06v0_nvt
 
 (BSIM 4.6)",Min,0.8,1.8,1,-,-,-,-,-,-,-
 ,Max,100,50,-,-,-,-,-,-,-,-

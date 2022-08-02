@@ -11,11 +11,11 @@ Document Revision,Paragraph(s) Of Changed, Description of Change(s)
  ,Section 10.9,Add  LVS_BJT Mark Layer
  ,            ,Add  LVS_BJT.1 Minimum LVS_BJT enclosure of  NPN or PNP Emitter COMP layers: 0
  ,Appendix A  ,Add  Below devices to the device list:
- ,            ,nmos_6p0_nat 6V Native NMOS
- ,            ,nmoscap_3p3_b 3.3V NMOS capacitor (inside Nwell)
- ,            ,pmoscap_3p3_b 3.3V PMOS capacitor (inside Psub)
- ,            ,nmoscap_6p0_b 6V NMOS capacitor (inside NWell)
- ,            ,pmoscap_6p0_b 6V PMOS capacitor (inside Psub)
+ ,            ,nfet_06v0_nvt 6V Native NMOS
+ ,            ,cap_nmos_03v3_b 3.3V NMOS capacitor (inside Nwell)
+ ,            ,cap_pmos_03v3_b 3.3V PMOS capacitor (inside Psub)
+ ,            ,cap_nmos_06v0_b 6V NMOS capacitor (inside NWell)
+ ,            ,cap_pmos_06v0_b 6V PMOS capacitor (inside Psub)
  ,Section 13.4 and 13.5, Add  ESD related design rules.
 4,Section 4   ,Add MCU SONOS related layer information
 ,Section 4    ,Define OTP_MK in the notes of drawn layer table.

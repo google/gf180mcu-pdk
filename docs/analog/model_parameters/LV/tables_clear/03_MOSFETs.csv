@@ -5,12 +5,12 @@ Model","Global
 Statistical","Local
 
 Statistical"
-nmos_3p3,BSIM4 model for 0.18um 3.3V NMOS,Y,Y,Y,Y
-pmos_3p3,BSIM4 model for 0.18um 3.3V PMOS,Y,Y,Y,Y
-nmos_6p0,BSIM4 model for 0.18um 6V NMOS,Y,Y,Y,Y
-pmos_6p0,BSIM4 model for 0.18um 6V PMOS,Y,Y,Y,Y
-nmos_3p3_sab,Subcircuit model for 3.3V NMOS with SAB,Y,Y,Y,Y
-pmos_3p3_sab,Subcircuit model for 3.3V PMOS with SAB,Y,Y,Y,Y
-nmos_6p0_sab,Subcircuit model for 6.0V NMOS with SAB,Y,Y,Y,Y
-pmos_6p0_sab,Subcircuit model for 6.0V PMOS with SAB,Y,Y,Y,Y
-nmos_6p0_nat,BSIM4 model for 0.18um 6V native NMOS,Y,Y,Y,N
+nfet_03v3,BSIM4 model for 0.18um 3.3V NMOS,Y,Y,Y,Y
+pfet_03v3,BSIM4 model for 0.18um 3.3V PMOS,Y,Y,Y,Y
+nfet_06v0,BSIM4 model for 0.18um 6V NMOS,Y,Y,Y,Y
+pfet_06v0,BSIM4 model for 0.18um 6V PMOS,Y,Y,Y,Y
+nfet_03v3_dss,Subcircuit model for 3.3V NMOS with SAB,Y,Y,Y,Y
+pfet_03v3_dss,Subcircuit model for 3.3V PMOS with SAB,Y,Y,Y,Y
+nfet_06v0_dss,Subcircuit model for 6.0V NMOS with SAB,Y,Y,Y,Y
+pfet_06v0_dss,Subcircuit model for 6.0V PMOS with SAB,Y,Y,Y,Y
+nfet_06v0_nvt,BSIM4 model for 0.18um 6V native NMOS,Y,Y,Y,N

@@ -7,20 +7,20 @@ The measured and simulated results are obtained using the following bias conditi
 
 where
 
-- Vdd = 3.3V for nmos_3p3
+- Vdd = 3.3V for nfet_03v3
 
-- Vdd =-3.3V for pmos_3p3
+- Vdd =-3.3V for pfet_03v3
 
-- Vdd = 6V for nmos_6p0
+- Vdd = 6V for nfet_06v0
 
-- Vdd =-6V for pmos_6p0
+- Vdd =-6V for pfet_06v0
 
-- Vdd = 6V for nmos_6p0_nat
+- Vdd = 6V for nfet_06v0_nvt
 
 .. note::
    Vth0 is the measured or simulated threshold voltage obtained using the max Gm method at Vd = 0.05V. For 6.0V native NMOS, Vth0 is measured and simulated at Vd=0.1V. Vth1 is the simulated threshold voltage obtained using the BSIM equation. These two values may have a difference.
 
-2.5.1 nmos_3p3 and pmos_3p3 (3.3V)
+2.5.1 nfet_03v3 and pfet_03v3 (3.3V)
 ..................................
 
 .. csv-table::
@@ -35,11 +35,11 @@ where
 
 .. note::
 
-   - nmos_3p3_sab SAB Length on Drain side SAB DOP: 1.78um , Source Side SAB SOP: 0.48um
+   - nfet_03v3_dss SAB Length on Drain side SAB DOP: 1.78um , Source Side SAB SOP: 0.48um
 
-   - pmos_3p3_sab SAB Length on Drain side SAB DOP: 1.78um, Source Side SAB SOP: 0.48um
+   - pfet_03v3_dss SAB Length on Drain side SAB DOP: 1.78um, Source Side SAB SOP: 0.48um
 
-2.5.3 nmos_6p0 and pmos_6p0 (6V)
+2.5.3 nfet_06v0 and pfet_06v0 (6V)
 ................................
 
 .. csv-table::
@@ -47,11 +47,11 @@ where
 
 .. note::
 
-   - nmos_6p0_sab Length of SAB on Drain side : 3.78um, Length of SAB on Source side: 0.28um
+   - nfet_06v0_dss Length of SAB on Drain side : 3.78um, Length of SAB on Source side: 0.28um
 
-   - pmos_6p0_sab Length of SAB on Drain side : 2.78um, Length of SAB on Source side: 0.28um
+   - pfet_06v0_dss Length of SAB on Drain side : 2.78um, Length of SAB on Source side: 0.28um
 
-2.5.4 nmos_6p0 and pmos_6p0 (5V)
+2.5.4 nfet_06v0 and pfet_06v0 (5V)
 ................................
 
 .. csv-table::

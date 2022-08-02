@@ -17,7 +17,7 @@ This document serves as the data sheet for **GlobalFoundries 0.18µm Green (5.0V
 1.2 Device List
 ---------------
 
-nmos_6p0, pmos_6p0, pn_6p0, np_6p0, ppolyf_u, nmoscap_6p0, nmos_6p0_sab, pmos_6p0_sab.
+nfet_06v0, pfet_06v0, diode_pd2nw_06v0, diode_nd2ps_06v0, ppolyf_u, cap_nmos_06v0, nfet_06v0_dss, pfet_06v0_dss.
 
 1.3 Design Manual
 -----------------

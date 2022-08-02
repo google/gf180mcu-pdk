@@ -1,11 +1,11 @@
 EP Specification,,,,Measurement,
 Device (W/L), Model,Idsat (uA/um),Vtlin,Idsat (uA/um),Vtlin (V)
-"nmos_10p0_asym
+"nfet_10v0_asym
 
  (25/0.6),nf=1",slow,444,0.97,\-,\-
 ,typical ,535,0.84,543,0.83
 , fast ,626,0.71,\-,\-
-"pmos_10p0_asym
+"pfet_10v0_asym
 
  (25/0.6),nf=1",slow ,-200,-0.88,\-,\-
 ,typical ,-260,-1.02,-268,-1.02

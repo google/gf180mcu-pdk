@@ -3,12 +3,12 @@ Model Name,Description,Scalable,"Corner
 Model","Global
 
 Statistical"
-np_3p3,Model for thin gate N+/Psub diode,Y,Y,N
-pn_3p3,Model for thin gate P+/Nwell diode,Y,Y,N
-np_6p0,Model for thin gate N+/Psub diode,Y,Y,N
-pn_6p0,Model for thin gate P+/Nwell diode,Y,Y,N
-nwp_3p3,Model for 3.3V Nwell/Psub diode,Y,Y,N
-nwp_6p0,Model for 6V Nwell/Psub diode,Y,Y,N
-dnwpw,Model for PWELL/DNWELL diode,Y,Y,N
-dnwps,Model for DNWELL/Psub diode,Y,Y,N
+diode_nd2ps_03v3,Model for thin gate N+/Psub diode,Y,Y,N
+diode_pd2nw_03v3,Model for thin gate P+/Nwell diode,Y,Y,N
+diode_nd2ps_06v0,Model for thin gate N+/Psub diode,Y,Y,N
+diode_pd2nw_06v0,Model for thin gate P+/Nwell diode,Y,Y,N
+diode_nw2ps_03v3,Model for 3.3V Nwell/Psub diode,Y,Y,N
+diode_nw2ps_06v0,Model for 6V Nwell/Psub diode,Y,Y,N
+diode_pw2dw,Model for PWELL/DNWELL diode,Y,Y,N
+diode_dw2ps,Model for DNWELL/Psub diode,Y,Y,N
 sc_diode,Model for Schottky diode,Y,Y,N

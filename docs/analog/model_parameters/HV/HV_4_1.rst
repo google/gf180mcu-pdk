@@ -40,7 +40,7 @@ The following plots show an example of the results when fet_mc_skew is set to di
 
 The value of the fet_mc_skew parameter can be any real number greater than 0. When simulating MC parallel device, in order to get consistent mismatch results, both “m” and “par” multiplicity factors parameters are needed. It must instantiated as follows:
 
-- Xm11 2 0 0nmos_10p0_asymw=10u l=10u m=10
+- Xm11 2 0 0nfet_10v0_asymw=10u l=10u m=10
 
-- Xm21 2 0 0pmos_10p0_asymw=10u l=10u m=10
+- Xm21 2 0 0pfet_10v0_asymw=10u l=10u m=10
 

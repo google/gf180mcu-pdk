@@ -5,17 +5,17 @@ Model","Global
 Statistical","Local
 
 Statistical"
-nmoscap_3p3,"Model for 1.5fF/um2 MIM
+cap_nmos_03v3,"Model for 1.5fF/um2 MIM
 
 (*)-usable for Volt <=6V
 
 across capacitor",Y,Y,Y,N
-pmoscap_3p3,"Model for 1.0fF/um2 MIM
+cap_pmos_03v3,"Model for 1.0fF/um2 MIM
 
 (*)-usable for Volt <=6V
 
 across capacitor",Y,Y,Y,N
-nmoscap_6p0,"Model for 2.0fF/um2 MIM
+cap_nmos_06v0,"Model for 2.0fF/um2 MIM
 
 (*)-usable for Volt <=6V
 
