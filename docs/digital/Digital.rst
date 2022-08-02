@@ -8,7 +8,5 @@ Digital Libraries
     :glob:
 
     standard_cells/standard_cells
-    SRAM/sram
-
 
 

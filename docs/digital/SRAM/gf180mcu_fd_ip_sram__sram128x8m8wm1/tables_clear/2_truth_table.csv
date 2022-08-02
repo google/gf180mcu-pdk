@@ -1,6 +1,0 @@
-CLK,CEN,GWEN,WEN,A,D,Q,status
-,H,X,X,X,X,Hold previous data,Standby mode
-,L,H,X,A,X,Q,Read mode
-,L,L,H,A,D,Hold previous data,Write mode
-,L,L,L,A,D,Hold previous data,Mask mode
-other,X,X,X,X,X,Hold previous data,Unchanged
