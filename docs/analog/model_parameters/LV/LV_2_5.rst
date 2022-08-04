@@ -24,14 +24,14 @@ where
 ..................................
 
 .. csv-table::
-   :file: tables_clear/19_mos_3p3.csv
+   :file: tables_clear/19_nfet_pfet_03v3.csv
 
 
-2.5.2 NMOS 3p3 SAB PMOS 3p3 SAB
-...............................
+2.5.2 nfet_03v3_dss and pfet_03v3_dss
+.......................................
 
 .. csv-table::
-   :file: tables_clear/20_MOS_3p3_SAB.csv
+   :file: tables_clear/20_nfet_pfet_03v3_dss.csv
 
 .. note::
 
@@ -43,7 +43,10 @@ where
 ................................
 
 .. csv-table::
-   :file: tables_clear/21_mos_6p0.csv
+   :file: tables_clear/21_nfet_pfet_06v0.csv
+
+.. csv-table::
+   :file: tables_clear/21_nfet_pfet_06v0_dss.csv
 
 .. note::
 
@@ -55,8 +58,8 @@ where
 ................................
 
 .. csv-table::
-   :file: tables_clear/22_mos_6p0_1.csv
+   :file: tables_clear/22_nfet_pfet_06v0.csv
 
 .. csv-table::
-   :file: tables_clear/22_mos_6p0_2.csv
+   :file: tables_clear/22_nfet_pfet_06v0_dss.csv
 
