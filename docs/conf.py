@@ -31,8 +31,9 @@
 import docutils
 import os
 import re
-# import sys
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath('open-source-pdks/docs'))
 
 
 # -- Project information -----------------------------------------------------
@@ -59,6 +60,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
     'sphinx.ext.todo',
+    'sphinx_pdk_roles'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -169,7 +171,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['_static','open-source-pdks/docs/_static']
 
 
 # -- Options for manual page output ------------------------------------------
