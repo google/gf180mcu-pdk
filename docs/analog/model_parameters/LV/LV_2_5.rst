@@ -21,14 +21,14 @@ where
    Vth0 is the measured or simulated threshold voltage obtained using the max Gm method at Vd = 0.05V. For 6.0V native NMOS, Vth0 is measured and simulated at Vd=0.1V. Vth1 is the simulated threshold voltage obtained using the BSIM equation. These two values may have a difference.
 
 2.5.1 nfet_03v3 and pfet_03v3 (3.3V)
-..................................
+........................................
 
 .. csv-table::
    :file: tables_clear/19_mos_3p3.csv
 
 
 2.5.2 NMOS 3p3 SAB PMOS 3p3 SAB
-...............................
+.....................................
 
 .. csv-table::
    :file: tables_clear/20_MOS_3p3_SAB.csv
@@ -40,7 +40,7 @@ where
    - pfet_03v3_dss SAB Length on Drain side SAB DOP: 1.78um, Source Side SAB SOP: 0.48um
 
 2.5.3 nfet_06v0 and pfet_06v0 (6V)
-................................
+......................................
 
 .. csv-table::
    :file: tables_clear/21_mos_6p0.csv
@@ -52,7 +52,7 @@ where
    - pfet_06v0_dss Length of SAB on Drain side : 2.78um, Length of SAB on Source side: 0.28um
 
 2.5.4 nfet_06v0 and pfet_06v0 (5V)
-................................
+......................................
 
 .. csv-table::
    :file: tables_clear/22_mos_6p0_1.csv
