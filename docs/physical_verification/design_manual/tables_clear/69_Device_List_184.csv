@@ -81,9 +81,18 @@ RESISTOR,,,,
 ,tm11k,tm11k,2-terminal 11K Metal Top resistor,YI-141-SM064
 ,tm30k,tm30k,2-terminal 30K Top Metal resistor,YI-141-SM064
 CAPACITOR (MIM),,,,
-,cap_mim_1p0fF,cap_mim_1p0fF,1.0fF/um2 MIM capacitor,YI-141-SM064
-,cap_mim_1p5fF,cap_mim_1p5fF,1.5fF/um2 MIM capacitor,YI-141-SM064
-,cap_cap_mim_2p0fF,cap_mim_2p0fF,2.0fF/um2 MIM capacitor,YI-141-SM064
+,cap_mim_1f0_m2m3_noshield,cap_mim_1f0_m2m3_noshield,1.0fF/um2 MIM-A capacitor,YI-141-SM064
+,cap_mim_1f5_m2m3_noshield,cap_mim_1f5_m2m3_noshield,1.5fF/um2 MIM-A capacitor,YI-141-SM064
+,cap_mim_2f0_m2m3_noshield,cap_mim_2f0_m2m3_noshield,2.0fF/um2 MIM-A capacitor,YI-141-SM064
+,cap_mim_1f0_m3m4_noshield,cap_mim_1f0_m3m4_noshield,1.0fF/um2 MIM-B capacitor & 4LM,YI-141-SM064
+,cap_mim_1f5_m3m4_noshield,cap_mim_1f5_m3m4_noshield,1.5fF/um2 MIM-B capacitor & 4LM,YI-141-SM064
+,cap_mim_2f0_m3m4_noshield,cap_mim_2f0_m3m4_noshield,2.0fF/um2 MIM-B capacitor & 4LM,YI-141-SM064
+,cap_mim_1f0_m4m5_noshield,cap_mim_1f0_m4m5_noshield,1.0fF/um2 MIM-B capacitor & 5LM,YI-141-SM064
+,cap_mim_1f5_m4m5_noshield,cap_mim_1f5_m4m5_noshield,1.5fF/um2 MIM-B capacitor & 5LM,YI-141-SM064
+,cap_mim_2f0_m4m5_noshield,cap_mim_2f0_m4m5_noshield,2.0fF/um2 MIM-B capacitor & 5LM,YI-141-SM064
+,cap_mim_1f0_m5m6_noshield,cap_mim_1f0_m5m6_noshield,1.0fF/um2 MIM-B capacitor & 6LM,YI-141-SM064
+,cap_mim_1f5_m5m6_noshield,cap_mim_1f5_m5m6_noshield,1.5fF/um2 MIM-B capacitor & 6LM,YI-141-SM064
+,cap_mim_2f0_m5m6_noshield,cap_mim_2f0_m5m6_noshield,2.0fF/um2 MIM-B capacitor & 6LM,YI-141-SM064
 CAPACITOR (MOS),,,,
 ,cap_nmos_03v3,cap_nmos_03v3,3.3V NMOS capacitor (Outside DNWELL),YI-141-SM064
 ,cap_nmos_03v3_dn,cap_nmos_03v3,3.3V NMOS capacitor (Inside DNWELL),YI-141-SM064

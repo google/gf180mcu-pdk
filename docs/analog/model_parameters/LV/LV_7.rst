@@ -17,11 +17,11 @@
 
 **General Syntax:**
 
-Xxx  node_1  node_2  mimcap_model_name  w =  l=
+Xxx  node_1  node_2  cap_mim_model_name  w =  l=
 
 **Examples:**
 
-Xc1 1 2 mimcap_1p0fF w=50u l=50u
+Xc1 1 2 cap_mim_1f0_m2m3_noshield w=50u l=50u
 
 7.2 How to use the Models
 -------------------------
