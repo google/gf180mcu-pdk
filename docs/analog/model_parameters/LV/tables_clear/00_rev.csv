@@ -173,7 +173,7 @@ ppolyf_u_2k_6p0
 
 4. Added mismatch model for pplus_u/npolyf_u/ppolyf_u/nplus_u
 
-5. Added global statistical model for cap_mim_1p0fF/cap_mim_1p5fF/cap_mim_2p0fF
+5. Added global statistical model for cap_mim_1f0/cap_mim_1f5/cap_mim_2f0
 
 6. Added global & mismatch model for pnp_05p00x05p00/ pnp_10p00x00p42/ pnp_05p00x00p42/
 

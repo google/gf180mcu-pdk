@@ -1,21 +1,66 @@
-Model Name,Description,Scalable,"Corner
+Model Name,Option,Description,Scalable,"Corner
 
 Model","Global
 
 Statistical","Local
 
 Statistical"
-cap_nmos_03v3,"Model for 1.5fF/um2 MIM
+cap_mim_1f5_m2m3_noshield,MIM-A & 3LM,"Model for 1.5fF/um2 MIM
 
 (*)-usable for Volt <=6V
 
 across capacitor",Y,Y,Y,N
-cap_pmos_03v3,"Model for 1.0fF/um2 MIM
+cap_mim_1f0_m2m3_noshield,MIM-A & 3LM,"Model for 1.0fF/um2 MIM
 
 (*)-usable for Volt <=6V
 
 across capacitor",Y,Y,Y,N
-cap_nmos_06v0,"Model for 2.0fF/um2 MIM
+cap_mim_2f0_m2m3_noshield,MIM-A & 3LM,"Model for 2.0fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_1f5_m3m4_noshield,MIM-B & 4LM,"Model for 1.5fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_1f0_m3m4_noshield,MIM-B & 4LM,"Model for 1.0fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_2f0_m3m4_noshield,MIM-B & 4LM,"Model for 2.0fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_1f5_m4m5_noshield,MIM-B & 5LM,"Model for 1.5fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_1f0_m4m5_noshield,MIM-B & 5LM,"Model for 1.0fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_2f0_m4m5_noshield,MIM-B & 5LM,"Model for 2.0fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_1f5_m5m6_noshield,MIM-B & 6LM,"Model for 1.5fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_1f0_m5m6_noshield,MIM-B & 6LM,"Model for 1.0fF/um2 MIM
+
+(*)-usable for Volt <=6V
+
+across capacitor",Y,Y,Y,N
+cap_mim_2f0_m5m6_noshield,MIM-B & 6LM,"Model for 2.0fF/um2 MIM
 
 (*)-usable for Volt <=6V
 
