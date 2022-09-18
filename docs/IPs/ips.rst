@@ -1,7 +1,7 @@
 
-************
-IPs / Macros
-************
+***************
+IPs and Macros
+***************
 
 .. toctree::
     :maxdepth: 3

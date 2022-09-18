@@ -1,9 +1,7 @@
-.. include:: common.inc
-
 Current Status -- |current-status|
 ==================================
 
-.. current_status_text
+.. include:: common.inc
 
 .. warning::
    Google and GlobalFoundries are currently treating the current content as an **experimental preview** / **alpha release**.
@@ -12,5 +10,5 @@ While the GF180 process node and the PDK from which this open source release was
 
 Google, GlobalFoundries and our partners are currently doing internal validation and test designs, including silicon validation or the released data and plan to publish these results.
 
-The PDK will be tagged with a production version when ready to do production design, see the ":ref:`Versioning Information`" section for a full description of the version numbering scheme.
+The PDK will be tagged with a production version when ready to do production design, see the ":ref:`Versioning`" section for a full description of the version numbering scheme.
 

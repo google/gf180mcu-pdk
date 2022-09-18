@@ -31,8 +31,9 @@
 import docutils
 import os
 import re
-# import sys
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath('open-source-pdks/docs'))
 
 
 # -- Project information -----------------------------------------------------
@@ -59,6 +60,11 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
     'sphinx.ext.todo',
+    'sphinx_pdk_roles',
+]
+
+suppress_warnings = [
+    'autosectionlabel.*',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -109,17 +115,17 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
-
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = [
     '_build',
     'env',
     'venv',
     'Thumbs.db',
     '.DS_Store',
+    '.vscode',
+    'IPs/**/code-of-conduct.rst',
+    'IPs/**/contributing.rst',
+    'digital/**/code-of-conduct.rst',
+    'digital/**/contributing.rst',
 ]
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -169,7 +175,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['_static','open-source-pdks/docs/_static']
 
 
 # -- Options for manual page output ------------------------------------------
@@ -177,7 +183,7 @@ html_static_path = ['_static']
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('gf180mcu-pdk', 'GlobalFoundries 0.18UM PDK Documentation',
+    ('gf180mcu-pdk', 'GlobalFoundries 180nm PDK Documentation',
      [author], 1)
 ]
 
