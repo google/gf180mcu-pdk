@@ -14,10 +14,19 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-name: gf180mu-pdk-docs
-channels:
-- defaults
-dependencies:
-- python>=3.8
-- pip:
-  - -r docs/requirements.txt
+version: 2
+
+sphinx:
+  configuration: docs/conf.py
+
+python:
+  install:
+  - requirements: docs/requirements.txt
+
+submodules:
+  include:
+  - third_party/open-source-pdks
+  recursive: false
+
+formats:
+  - pdf
