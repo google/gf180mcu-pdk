@@ -59,6 +59,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
     'sphinx.ext.todo',
+    'sphinx.ext.imgconverter',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -180,6 +181,20 @@ man_pages = [
     ('gf180mcu-pdk', 'GlobalFoundries 0.18UM PDK Documentation',
      [author], 1)
 ]
+
+latex_elements = {
+     'preamble': r'\DeclareUnicodeCharacter{03A9}{\ensuremath{\Omega}}' +
+                 r'\DeclareUnicodeCharacter{03BC}{\ensuremath{\mu}}' +
+                 r'\DeclareUnicodeCharacter{2184}{\ensuremath{\supset}}' +
+                 r'\DeclareUnicodeCharacter{2295}{\ensuremath{\oplus}}' +
+                 r'\DeclareUnicodeCharacter{2228}{\ensuremath{\vee}}' +
+                 r'\DeclareUnicodeCharacter{22BB}{\ensuremath{\veebar}}' +
+                 r'\DeclareUnicodeCharacter{01C1}{\ensuremath{\parallel}}' +
+                 r'\DeclareUnicodeCharacter{2220}{\ensuremath{\angle}}' +
+                 r'\DeclareUnicodeCharacter{2227}{\ensuremath{\wedge}}' +
+                 r'\DeclareUnicodeCharacter{25A1}{\ensuremath{\Box}}' +
+                 r'\DeclareUnicodeCharacter{F06D}{\ensuremath{\mu}}'
+}
 
 def setup(app):
     app.add_css_file('GF_theme.css')
