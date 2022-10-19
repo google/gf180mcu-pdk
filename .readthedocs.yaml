@@ -24,9 +24,7 @@ python:
   - requirements: docs/requirements.txt
 
 submodules:
-  include:
-  - third_party/open-source-pdks
-  recursive: false
+  include: all
 
 formats:
   - pdf
