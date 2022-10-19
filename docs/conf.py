@@ -193,8 +193,11 @@ latex_elements = {
                  r'\DeclareUnicodeCharacter{2220}{\ensuremath{\angle}}' +
                  r'\DeclareUnicodeCharacter{2227}{\ensuremath{\wedge}}' +
                  r'\DeclareUnicodeCharacter{25A1}{\ensuremath{\Box}}' +
-                 r'\DeclareUnicodeCharacter{F06D}{\ensuremath{\mu}}'
+                 r'\DeclareUnicodeCharacter{F06D}{\ensuremath{\Box}}' +
+                 r'\DeclareUnicodeCharacter{F057}{\ensuremath{\otimes}}'
 }
+
+image_converter_args=["-quiet"]
 
 def setup(app):
     app.add_css_file('GF_theme.css')
