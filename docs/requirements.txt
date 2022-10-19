@@ -4,4 +4,5 @@ docutils
 sphinx
 sphinx-autobuild
 sphinxcontrib-wavedrom
+sphinxcontrib-svg2pdfconverter
 

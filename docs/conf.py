@@ -197,7 +197,5 @@ latex_elements = {
                  r'\DeclareUnicodeCharacter{F057}{\ensuremath{\otimes}}'
 }
 
-image_converter_args=["-quiet"]
-
 def setup(app):
     app.add_css_file('GF_theme.css')
