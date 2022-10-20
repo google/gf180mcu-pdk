@@ -89,7 +89,7 @@ To build documentation locally, you could use the following commands:
 
    # Create a Python virtual environment and install requirements into it.
    virtualenv env --python=python3
-   . env/activate
+   . env/bin/activate
    pip install -r requirements.txt
 
    # Build the documentation
