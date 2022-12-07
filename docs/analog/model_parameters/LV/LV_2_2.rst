@@ -5,13 +5,13 @@
 
 During a FET netlist call, users should use design dimension for W and L, not effective width and length. In this release, the BSIM model parameter Lmin is set to the nominal drawn gate length. This may cause warnings to be generated during corner simulations when the biased gate length becomes less than Lmin. This warning has no effect on the simulation results.
 
-2.2.1 LV NMOS and LV PMOS (3.3V)
-................................
+2.2.1 nfet_03v3 and pfet_03v3 (3.3V)
+......................................
 
 Device size (unit - um)
 
 .. csv-table::
-   :file: tables_clear/16_LV_NPMOS.csv
+   :file: tables_clear/16_nfet_pfet_03v3_dimensions.csv
 
 .. note::
 
