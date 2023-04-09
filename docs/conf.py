@@ -159,8 +159,8 @@ html_theme_options = {
     'repo_name': 'gf180mcu-pdk',
     'repo_type': 'github',
 
-    'globaltoc_depth': 0,
-    'globaltoc_collapse': True,
+    'globaltoc_depth': 4,
+    'globaltoc_collapse': False,
 
     # Hide the symbiflow links
     'hide_symbiflow_links': True,

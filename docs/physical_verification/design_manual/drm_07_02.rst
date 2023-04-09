@@ -1,8 +1,0 @@
-7.1 Design Geometry Rules
--------------------------
-
-.. csv-table:: Design Geometry Rules
-    :file: tables_clear/10_Design_Geometry_Rules27.csv
-    :widths: 300, 700
-    :align: center
-
